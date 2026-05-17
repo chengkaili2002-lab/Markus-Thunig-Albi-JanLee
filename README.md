@@ -75,6 +75,14 @@ Task 3 uses its own dedicated input folder under `data/` so you can keep a separ
 python scripts/run_task4.py --model gemma4:e2b-it-q4_K_M
 ```
 
+### Task 5: Open-Ended Router
+
+```powershell
+python scripts/run_task5.py --model gemma4:e2b-it-q4_K_M
+```
+
+Task 5 is a lightweight pre-step. It checks which project-relevant triggers are visible and recommends whether Task 1, 2, 3, or 4 should run next.
+
 ## Model configuration
 
 The model name is configurable with `--model`.
@@ -89,12 +97,13 @@ If no model is passed on the command line, the scripts use `OLLAMA_MODEL`, and t
 
 ## Output files
 
-Task 1, Task 2, Task 3, and Task 4 now create a new timestamped run folder each time:
+Task 1, Task 2, Task 3, Task 4, and Task 5 create a new timestamped run folder each time:
 
 - `results/task1/runs/<timestamp>/`
 - `results/task2/runs/<timestamp>/`
 - `results/task3/runs/<timestamp>/`
 - `results/task4/runs/<timestamp>/`
+- `results/task5/runs/<timestamp>/`
 
 Each run folder contains:
 
@@ -116,4 +125,5 @@ Each JSON file includes:
 - The pipeline is intentionally simple and beginner-friendly.
 - The prompts are fixed and task-specific.
 - Task 1 reports all visible traffic signs, not just one, when multiple signs appear.
+- Task 5 is intended as a routing step to save compute before running more expensive downstream prompts.
 - This is a baseline framework, not a full evaluation system yet.

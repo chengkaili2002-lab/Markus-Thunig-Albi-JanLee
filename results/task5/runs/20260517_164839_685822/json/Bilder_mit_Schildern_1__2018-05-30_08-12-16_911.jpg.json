@@ -1,0 +1,41 @@
+{
+  "task": "task5",
+  "source_image_name": "2018-05-30_08-12-16_911.jpg",
+  "source_image_relative_path": "Bilder mit Schildern 1\\2018-05-30_08-12-16_911.jpg",
+  "source_image_absolute_path": "D:\\Automotive Systems\u8bfe\u4ef6\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\task5_test_12_20260517_164808\\Bilder mit Schildern 1\\2018-05-30_08-12-16_911.jpg",
+  "image_file": "2018-05-30_08-12-16_911.jpg",
+  "image_relative_path": "Bilder mit Schildern 1\\2018-05-30_08-12-16_911.jpg",
+  "image_path": "D:\\Automotive Systems\u8bfe\u4ef6\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\task5_test_12_20260517_164808\\Bilder mit Schildern 1\\2018-05-30_08-12-16_911.jpg",
+  "model": "gemma4:e2b-it-q4_K_M",
+  "runtime_seconds": 49.612,
+  "result": {
+    "scene_category": "highway",
+    "traffic_sign_visible": true,
+    "traffic_sign_condition_relevant": false,
+    "arrow_or_lane_direction_sign_visible": false,
+    "lane_detection_overlay_visible": false,
+    "gps_risk_infrastructure_visible": false,
+    "standard_information": {
+      "road_type": "highway",
+      "visible_traffic_signs": [
+        "speed limit 30"
+      ],
+      "visible_road_users": [
+        "vehicles"
+      ],
+      "visible_infrastructure": [
+        "guardrail"
+      ],
+      "image_quality_issues": []
+    },
+    "recommended_tasks": [
+      "task1_sign_condition"
+    ],
+    "priority": "medium",
+    "resource_strategy": "run_single_task",
+    "trigger_reason": "A clear speed limit sign is visible, triggering sign analysis.",
+    "confidence": 1.0
+  },
+  "raw_response": "{\n  \"scene_category\": \"highway\",\n  \"traffic_sign_visible\": true,\n  \"traffic_sign_condition_relevant\": false,\n  \"arrow_or_lane_direction_sign_visible\": false,\n  \"lane_detection_overlay_visible\": false,\n  \"gps_risk_infrastructure_visible\": false,\n  \"standard_information\": {\n    \"road_type\": \"highway\",\n    \"visible_traffic_signs\": [\n      \"speed limit 30\"\n    ],\n    \"visible_road_users\": [\n      \"vehicles\"\n    ],\n    \"visible_infrastructure\": [\n      \"guardrail\"\n    ],\n    \"image_quality_issues\": []\n  },\n  \"recommended_tasks\": [\n    \"task1_sign_condition\"\n  ],\n  \"priority\": \"medium\",\n  \"resource_strategy\": \"run_single_task\",\n  \"trigger_reason\": \"A clear speed limit sign is visible, triggering sign analysis.\",\n  \"confidence\": 1.0\n}",
+  "error": null
+}

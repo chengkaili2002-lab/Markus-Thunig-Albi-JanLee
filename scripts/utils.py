@@ -81,6 +81,50 @@ class Task4Result(BaseModel):
     explanation: str = Field(description="Short explanation")
 
 
+class Task5StandardInformation(BaseModel):
+    road_type: str = Field(description="Short road type description")
+    visible_traffic_signs: List[str] = Field(description="Visible traffic signs as short phrases")
+    visible_road_users: List[str] = Field(description="Visible road users as short phrases")
+    visible_infrastructure: List[str] = Field(description="Visible infrastructure as short phrases")
+    image_quality_issues: List[str] = Field(description="Image quality issues as short phrases")
+
+
+class Task5Result(BaseModel):
+    scene_category: Literal[
+        "urban_road",
+        "highway",
+        "intersection",
+        "tunnel_or_underpass",
+        "parking_or_private_area",
+        "unclear",
+    ]
+    traffic_sign_visible: bool
+    traffic_sign_condition_relevant: bool
+    arrow_or_lane_direction_sign_visible: bool
+    lane_detection_overlay_visible: bool
+    gps_risk_infrastructure_visible: bool
+    standard_information: Task5StandardInformation
+    recommended_tasks: List[
+        Literal[
+            "task1_sign_condition",
+            "task2_lane_semantics",
+            "task3_lane_failure_validation",
+            "task4_infrastructure",
+            "skip",
+        ]
+    ]
+    priority: Literal["low", "medium", "high", "unclear"]
+    resource_strategy: Literal[
+        "skip",
+        "run_single_task",
+        "run_multiple_tasks",
+        "send_to_smartphone_validation",
+        "unclear",
+    ]
+    trigger_reason: str = Field(description="Short reason for the recommended routing decision")
+    confidence: float = Field(ge=0.0, le=1.0, description="Confidence between 0.0 and 1.0")
+
+
 def load_text_file(path: Path) -> str:
     return path.read_text(encoding="utf-8").strip()
 
@@ -249,6 +293,70 @@ def build_task2_summary_row(
     return row
 
 
+def build_task5_summary_row(
+    image_path: Path,
+    sample_dir: Path,
+    output_path: Path,
+    model: str,
+    runtime_seconds: float,
+    result_data: Optional[Dict[str, Any]],
+    error_message: Optional[str],
+) -> Dict[str, Any]:
+    row: Dict[str, Any] = {
+        "source_image_name": image_path.name,
+        "source_image_relative_path": str(image_path.relative_to(sample_dir)),
+        "source_image_absolute_path": str(image_path.resolve()),
+        "model": model,
+        "runtime_seconds": runtime_seconds,
+        "output_json": str(output_path),
+        "scene_category": "",
+        "traffic_sign_visible": "",
+        "traffic_sign_condition_relevant": "",
+        "arrow_or_lane_direction_sign_visible": "",
+        "lane_detection_overlay_visible": "",
+        "gps_risk_infrastructure_visible": "",
+        "recommended_tasks": "",
+        "priority": "",
+        "resource_strategy": "",
+        "trigger_reason": "",
+        "confidence": "",
+        "error": error_message or "",
+    }
+
+    if not result_data:
+        return row
+
+    row.update(
+        {
+            "scene_category": result_data.get("scene_category", ""),
+            "traffic_sign_visible": result_data.get("traffic_sign_visible", ""),
+            "traffic_sign_condition_relevant": result_data.get("traffic_sign_condition_relevant", ""),
+            "arrow_or_lane_direction_sign_visible": result_data.get("arrow_or_lane_direction_sign_visible", ""),
+            "lane_detection_overlay_visible": result_data.get("lane_detection_overlay_visible", ""),
+            "gps_risk_infrastructure_visible": result_data.get("gps_risk_infrastructure_visible", ""),
+            "recommended_tasks": "; ".join(result_data.get("recommended_tasks") or []),
+            "priority": result_data.get("priority", ""),
+            "resource_strategy": result_data.get("resource_strategy", ""),
+            "trigger_reason": result_data.get("trigger_reason", ""),
+            "confidence": result_data.get("confidence", ""),
+        }
+    )
+
+    standard_info = result_data.get("standard_information") or {}
+    if isinstance(standard_info, dict):
+        row.update(
+            {
+                "road_type": standard_info.get("road_type", ""),
+                "visible_traffic_signs": "; ".join(standard_info.get("visible_traffic_signs") or []),
+                "visible_road_users": "; ".join(standard_info.get("visible_road_users") or []),
+                "visible_infrastructure": "; ".join(standard_info.get("visible_infrastructure") or []),
+                "image_quality_issues": "; ".join(standard_info.get("image_quality_issues") or []),
+            }
+        )
+
+    return row
+
+
 def serialize_cell(value: Any) -> str:
     if value is None:
         return ""
@@ -309,13 +417,12 @@ def run_task_batch(
     if max_images is not None:
         images = images[:max_images]
 
-    json_dir = ensure_directory(output_dir / "json")
-    ensure_directory(output_dir)
-
     if not images:
         print(f"[{task_name}] No images found in {sample_dir}")
-        write_csv_file(output_dir / f"{task_name}_summary.csv", [])
         return
+
+    json_dir = ensure_directory(output_dir / "json")
+    ensure_directory(output_dir)
 
     summary_rows: List[Dict[str, Any]] = []
 

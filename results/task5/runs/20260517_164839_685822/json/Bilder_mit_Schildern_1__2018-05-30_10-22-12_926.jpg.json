@@ -1,0 +1,44 @@
+{
+  "task": "task5",
+  "source_image_name": "2018-05-30_10-22-12_926.jpg",
+  "source_image_relative_path": "Bilder mit Schildern 1\\2018-05-30_10-22-12_926.jpg",
+  "source_image_absolute_path": "D:\\Automotive Systems\u8bfe\u4ef6\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\task5_test_12_20260517_164808\\Bilder mit Schildern 1\\2018-05-30_10-22-12_926.jpg",
+  "image_file": "2018-05-30_10-22-12_926.jpg",
+  "image_relative_path": "Bilder mit Schildern 1\\2018-05-30_10-22-12_926.jpg",
+  "image_path": "D:\\Automotive Systems\u8bfe\u4ef6\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\task5_test_12_20260517_164808\\Bilder mit Schildern 1\\2018-05-30_10-22-12_926.jpg",
+  "model": "gemma4:e2b-it-q4_K_M",
+  "runtime_seconds": 61.303,
+  "result": {
+    "scene_category": "urban_road",
+    "traffic_sign_visible": false,
+    "traffic_sign_condition_relevant": false,
+    "arrow_or_lane_direction_sign_visible": false,
+    "lane_detection_overlay_visible": false,
+    "gps_risk_infrastructure_visible": false,
+    "standard_information": {
+      "road_type": "street",
+      "visible_traffic_signs": [
+        "none"
+      ],
+      "visible_road_users": [
+        "vehicles"
+      ],
+      "visible_infrastructure": [
+        "trees",
+        "buildings"
+      ],
+      "image_quality_issues": [
+        "none"
+      ]
+    },
+    "recommended_tasks": [
+      "skip"
+    ],
+    "priority": "low",
+    "resource_strategy": "skip",
+    "trigger_reason": "No relevant traffic signs or lane markings were clearly visible for specific downstream tasks.",
+    "confidence": 1.0
+  },
+  "raw_response": "{\n  \"scene_category\": \"urban_road\",\n  \"traffic_sign_visible\": false,\n  \"traffic_sign_condition_relevant\": false,\n  \"arrow_or_lane_direction_sign_visible\": false,\n  \"lane_detection_overlay_visible\": false,\n  \"gps_risk_infrastructure_visible\": false,\n  \"standard_information\": {\n    \"road_type\": \"street\",\n    \"visible_traffic_signs\": [\n      \"none\"\n    ],\n    \"visible_road_users\": [\n      \"vehicles\"\n    ],\n    \"visible_infrastructure\": [\n      \"trees\",\n      \"buildings\"\n    ],\n    \"image_quality_issues\": [\n      \"none\"\n    ]\n  },\n  \"recommended_tasks\": [\n    \"skip\"\n  ],\n  \"priority\": \"low\",\n  \"resource_strategy\": \"skip\",\n  \"trigger_reason\": \"No relevant traffic signs or lane markings were clearly visible for specific downstream tasks.\",\n  \"confidence\": 1.0\n}",
+  "error": null
+}

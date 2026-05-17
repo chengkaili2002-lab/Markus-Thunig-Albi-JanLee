@@ -1,0 +1,35 @@
+{
+  "task": "task5",
+  "source_image_name": "kism-samsung-ennoo-probe-04-20240829-0556_1724935108833_0.png",
+  "source_image_relative_path": "Additional_Road_Course\\kism-samsung-ennoo-probe-04-20240829-0556_1724935108833_0.png",
+  "source_image_absolute_path": "D:\\Automotive Systems\u8bfe\u4ef6\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\task5_test_12_20260517_164808\\Additional_Road_Course\\kism-samsung-ennoo-probe-04-20240829-0556_1724935108833_0.png",
+  "image_file": "kism-samsung-ennoo-probe-04-20240829-0556_1724935108833_0.png",
+  "image_relative_path": "Additional_Road_Course\\kism-samsung-ennoo-probe-04-20240829-0556_1724935108833_0.png",
+  "image_path": "D:\\Automotive Systems\u8bfe\u4ef6\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\task5_test_12_20260517_164808\\Additional_Road_Course\\kism-samsung-ennoo-probe-04-20240829-0556_1724935108833_0.png",
+  "model": "gemma4:e2b-it-q4_K_M",
+  "runtime_seconds": 41.172,
+  "result": {
+    "scene_category": "unclear",
+    "traffic_sign_visible": false,
+    "traffic_sign_condition_relevant": false,
+    "arrow_or_lane_direction_sign_visible": false,
+    "lane_detection_overlay_visible": false,
+    "gps_risk_infrastructure_visible": false,
+    "standard_information": {
+      "road_type": "unclear",
+      "visible_traffic_signs": [],
+      "visible_road_users": [],
+      "visible_infrastructure": [],
+      "image_quality_issues": []
+    },
+    "recommended_tasks": [
+      "skip"
+    ],
+    "priority": "low",
+    "resource_strategy": "skip",
+    "trigger_reason": "Image contains directional arrows but no standard traffic signs or lane guidance signs for specific downstream tasks.",
+    "confidence": 1.0
+  },
+  "raw_response": "{\n  \"scene_category\": \"unclear\",\n  \"traffic_sign_visible\": false,\n  \"traffic_sign_condition_relevant\": false,\n  \"arrow_or_lane_direction_sign_visible\": false,\n  \"lane_detection_overlay_visible\": false,\n  \"gps_risk_infrastructure_visible\": false,\n  \"standard_information\": {\n    \"road_type\": \"unclear\",\n    \"visible_traffic_signs\": [],\n    \"visible_road_users\": [],\n    \"visible_infrastructure\": [],\n    \"image_quality_issues\": []\n  },\n  \"recommended_tasks\": [\n    \"skip\"\n  ],\n  \"priority\": \"low\",\n  \"resource_strategy\": \"skip\",\n  \"trigger_reason\": \"Image contains directional arrows but no standard traffic signs or lane guidance signs for specific downstream tasks.\",\n  \"confidence\": 1.0\n}",
+  "error": null
+}
