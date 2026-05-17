@@ -1,0 +1,42 @@
+{
+  "task": "task2",
+  "source_image_name": "kism-samsung-ennoo-probe-03-20241126-1207_1732621868678_0.png",
+  "source_image_relative_path": "Additional_Road_Course\\kism-samsung-ennoo-probe-03-20241126-1207_1732621868678_0.png",
+  "source_image_absolute_path": "D:\\Automotive Systems\u8bfe\u4ef6\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\task3_test_5_20260512_141827\\Additional_Road_Course\\kism-samsung-ennoo-probe-03-20241126-1207_1732621868678_0.png",
+  "image_file": "kism-samsung-ennoo-probe-03-20241126-1207_1732621868678_0.png",
+  "image_relative_path": "Additional_Road_Course\\kism-samsung-ennoo-probe-03-20241126-1207_1732621868678_0.png",
+  "image_path": "D:\\Automotive Systems\u8bfe\u4ef6\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\task3_test_5_20260512_141827\\Additional_Road_Course\\kism-samsung-ennoo-probe-03-20241126-1207_1732621868678_0.png",
+  "model": "gemma4:e2b-it-q4_K_M",
+  "runtime_seconds": 53.505,
+  "result": {
+    "arrow_sign_visible": true,
+    "lane_count": 2,
+    "lanes": [
+      {
+        "lane_index": 1,
+        "visible_arrow_type": "straight",
+        "allowed_movements": [
+          "straight"
+        ],
+        "special_regulation": "none",
+        "semantic_interpretation": "Lane can proceed straight ahead into the road segment indicated by the arrow shape (straight arrow). This lane appears to be the primary direction of travel for the first lane group, which is straight."
+      },
+      {
+        "lane_index": 2,
+        "visible_arrow_type": "right",
+        "allowed_movements": [
+          "right"
+        ],
+        "special_regulation": "none",
+        "semantic_interpretation": "Lane must turn right to proceed. This lane indicates a right turn movement."
+      }
+    ],
+    "opposing_directions": false,
+    "additional_lane_regulations": [],
+    "overall_lane_semantics": "The sign indicates that the first lane can go straight and the second lane must turn right.",
+    "confidence": 0.95,
+    "explanation": "The sign displays two distinct arrows, one pointing straight and one pointing right, indicating separate movement permissions for the lanes."
+  },
+  "raw_response": "{\n  \"arrow_sign_visible\": true,\n  \"lane_count\": 2,\n  \"lanes\": [\n    {\n      \"lane_index\": 1,\n      \"visible_arrow_type\": \"straight\",\n      \"allowed_movements\": [\n        \"straight\"\n      ],\n      \"special_regulation\": \"none\",\n      \"semantic_interpretation\": \"Lane can proceed straight ahead into the road segment indicated by the arrow shape (straight arrow). This lane appears to be the primary direction of travel for the first lane group, which is straight.\"\n    },\n    {\n      \"lane_index\": 2,\n      \"visible_arrow_type\": \"right\",\n      \"allowed_movements\": [\n        \"right\"\n      ],\n      \"special_regulation\": \"none\",\n      \"semantic_interpretation\": \"Lane must turn right to proceed. This lane indicates a right turn movement.\"\n    }\n  ],\n  \"opposing_directions\": false,\n  \"additional_lane_regulations\": [],\n  \"overall_lane_semantics\": \"The sign indicates that the first lane can go straight and the second lane must turn right.\",\n  \"confidence\": 0.95,\n  \"explanation\": \"The sign displays two distinct arrows, one pointing straight and one pointing right, indicating separate movement permissions for the lanes.\"\n}",
+  "error": null
+}

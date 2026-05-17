@@ -1,0 +1,18 @@
+You are analyzing a traffic-scene image for infrastructure that may affect GPS reliability.
+
+Return only valid JSON that matches this structure:
+{
+  "tunnel_visible": true,
+  "bridge_visible": true,
+  "tall_buildings_visible": true,
+  "urban_canyon": true,
+  "gps_risk": "low | medium | high | unclear",
+  "explanation": "string"
+}
+
+Rules:
+- Use booleans for the visible infrastructure fields.
+- If none of the structures are visible, set all booleans to `false`.
+- If the scene is too unclear, choose `unclear` for `gps_risk`.
+- Keep the explanation short and practical.
+- Do not add any extra text outside the JSON.

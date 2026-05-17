@@ -1,0 +1,35 @@
+{
+  "task": "task2",
+  "source_image_name": "2018-05-30_08-12-16_911.jpg",
+  "source_image_relative_path": "Bilder mit Schildern 1\\2018-05-30_08-12-16_911.jpg",
+  "source_image_absolute_path": "D:\\Automotive Systems\u8bfe\u4ef6\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\task3_test_5_20260512_141827\\Bilder mit Schildern 1\\2018-05-30_08-12-16_911.jpg",
+  "image_file": "2018-05-30_08-12-16_911.jpg",
+  "image_relative_path": "Bilder mit Schildern 1\\2018-05-30_08-12-16_911.jpg",
+  "image_path": "D:\\Automotive Systems\u8bfe\u4ef6\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\task3_test_5_20260512_141827\\Bilder mit Schildern 1\\2018-05-30_08-12-16_911.jpg",
+  "model": "gemma4:e2b-it-q4_K_M",
+  "runtime_seconds": 51.467,
+  "result": {
+    "arrow_sign_visible": true,
+    "lane_count": 1,
+    "lanes": [
+      {
+        "lane_index": 1,
+        "visible_arrow_type": "straight",
+        "allowed_movements": [
+          "straight"
+        ],
+        "special_regulation": "none",
+        "semantic_interpretation": "All lanes must proceed straight ahead onto the road segment indicated by the sign and the road ahead is restricted to 30 mph or km/h (implied by the circular sign). The sign itself is a speed limit sign, not a lane direction sign, but it governs the movement of the lanes shown."
+      }
+    ],
+    "opposing_directions": false,
+    "additional_lane_regulations": [
+      "Speed limit of 30"
+    ],
+    "overall_lane_semantics": "The visible lanes are restricted to moving straight ahead with a speed limit of 30.",
+    "confidence": 0.95,
+    "explanation": "The image contains a circular speed limit sign (30) placed next to a guardrail, which governs the movement of the visible lanes. No directional arrows are present."
+  },
+  "raw_response": "{\n  \"arrow_sign_visible\": true,\n  \"lane_count\": 1,\n  \"lanes\": [\n    {\n      \"lane_index\": 1,\n      \"visible_arrow_type\": \"straight\",\n      \"allowed_movements\": [\n        \"straight\"\n      ],\n      \"special_regulation\": \"none\",\n      \"semantic_interpretation\": \"All lanes must proceed straight ahead onto the road segment indicated by the sign and the road ahead is restricted to 30 mph or km/h (implied by the circular sign). The sign itself is a speed limit sign, not a lane direction sign, but it governs the movement of the lanes shown.\"\n    }\n  ],\n  \"opposing_directions\": false,\n  \"additional_lane_regulations\": [\n    \"Speed limit of 30\"\n  ],\n  \"overall_lane_semantics\": \"The visible lanes are restricted to moving straight ahead with a speed limit of 30.\",\n  \"confidence\": 0.95,\n  \"explanation\": \"The image contains a circular speed limit sign (30) placed next to a guardrail, which governs the movement of the visible lanes. No directional arrows are present.\"\n}",
+  "error": null
+}

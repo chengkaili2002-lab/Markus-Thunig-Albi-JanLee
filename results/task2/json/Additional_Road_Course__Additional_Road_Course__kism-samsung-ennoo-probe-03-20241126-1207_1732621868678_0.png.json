@@ -1,0 +1,44 @@
+{
+  "task": "task2",
+  "source_image_name": "kism-samsung-ennoo-probe-03-20241126-1207_1732621868678_0.png",
+  "source_image_relative_path": "Additional_Road_Course\\Additional_Road_Course\\kism-samsung-ennoo-probe-03-20241126-1207_1732621868678_0.png",
+  "source_image_absolute_path": "D:\\Automotive Systems\u8bfe\u4ef6\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\sample_images\\Additional_Road_Course\\Additional_Road_Course\\kism-samsung-ennoo-probe-03-20241126-1207_1732621868678_0.png",
+  "image_file": "kism-samsung-ennoo-probe-03-20241126-1207_1732621868678_0.png",
+  "image_relative_path": "Additional_Road_Course\\Additional_Road_Course\\kism-samsung-ennoo-probe-03-20241126-1207_1732621868678_0.png",
+  "image_path": "D:\\Automotive Systems\u8bfe\u4ef6\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\sample_images\\Additional_Road_Course\\Additional_Road_Course\\kism-samsung-ennoo-probe-03-20241126-1207_1732621868678_0.png",
+  "model": "gemma4:e2b-it-q4_K_M",
+  "runtime_seconds": 44.36,
+  "result": {
+    "arrow_sign_visible": true,
+    "lane_count": 2,
+    "lanes": [
+      {
+        "lane_index": 1,
+        "visible_arrow_type": "straight",
+        "allowed_movements": [
+          "straight"
+        ],
+        "special_regulation": "none",
+        "semantic_interpretation": "Lane can proceed straight ahead into the intersection or continuing path ahead of the sign's direction of travel (implied). This lane has a straight-ahead movement indicated by the arrow pointing straight up/forward relative to the lane's direction of travel on the sign face, which typically means straight through the intersection or continuing straight."
+      },
+      {
+        "lane_index": 2,
+        "visible_arrow_type": "right",
+        "allowed_movements": [
+          "right"
+        ],
+        "special_regulation": "none",
+        "semantic_interpretation": "Lane must turn right at the intersection or continuing path ahead. This lane has a right turn movement indicated by the arrow pointing to the right relative to the lane's direction of travel on the sign face."
+      }
+    ],
+    "opposing_directions": false,
+    "additional_lane_regulations": [
+      "Lane 1 proceeds straight; Lane 2 turns right."
+    ],
+    "overall_lane_semantics": "The sign indicates that the lane on the left proceeds straight while the lane on the right must turn right.",
+    "confidence": 0.95,
+    "explanation": "The sign displays two distinct arrows, one pointing straight and one pointing right, indicating separate movement instructions for the lanes."
+  },
+  "raw_response": "{\n  \"arrow_sign_visible\": true,\n  \"lane_count\": 2,\n  \"lanes\": [\n    {\n      \"lane_index\": 1,\n      \"visible_arrow_type\": \"straight\",\n      \"allowed_movements\": [\n        \"straight\"\n      ],\n      \"special_regulation\": \"none\",\n      \"semantic_interpretation\": \"Lane can proceed straight ahead into the intersection or continuing path ahead of the sign's direction of travel (implied). This lane has a straight-ahead movement indicated by the arrow pointing straight up/forward relative to the lane's direction of travel on the sign face, which typically means straight through the intersection or continuing straight.\"\n    },\n    {\n      \"lane_index\": 2,\n      \"visible_arrow_type\": \"right\",\n      \"allowed_movements\": [\n        \"right\"\n      ],\n      \"special_regulation\": \"none\",\n      \"semantic_interpretation\": \"Lane must turn right at the intersection or continuing path ahead. This lane has a right turn movement indicated by the arrow pointing to the right relative to the lane's direction of travel on the sign face.\"\n    }\n  ],\n  \"opposing_directions\": false,\n  \"additional_lane_regulations\": [\n    \"Lane 1 proceeds straight; Lane 2 turns right.\"\n  ],\n  \"overall_lane_semantics\": \"The sign indicates that the lane on the left proceeds straight while the lane on the right must turn right.\",\n  \"confidence\": 0.95,\n  \"explanation\": \"The sign displays two distinct arrows, one pointing straight and one pointing right, indicating separate movement instructions for the lanes.\"\n}",
+  "error": null
+}

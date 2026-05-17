@@ -1,0 +1,18 @@
+{
+  "task": "task4",
+  "image_file": "kism-samsung-ennoo-probe-05-20250401-1148_1743503632655_0.png",
+  "image_relative_path": "Additional_Road_Course\\Additional_Road_Course\\kism-samsung-ennoo-probe-05-20250401-1148_1743503632655_0.png",
+  "image_path": "D:\\Automotive Systems\u8bfe\u4ef6\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\sample_images\\Additional_Road_Course\\Additional_Road_Course\\kism-samsung-ennoo-probe-05-20250401-1148_1743503632655_0.png",
+  "model": "gemma4:e2b-it-q4_K_M",
+  "runtime_seconds": 32.632,
+  "result": {
+    "tunnel_visible": false,
+    "bridge_visible": false,
+    "tall_buildings_visible": false,
+    "urban_canyon": false,
+    "gps_risk": "low",
+    "explanation": "The image shows a road sign, which provides limited context for GPS risk assessment."
+  },
+  "raw_response": "{\n  \"tunnel_visible\": false,\n  \"bridge_visible\": false,\n  \"tall_buildings_visible\": false,\n  \"urban_canyon\": false,\n  \"gps_risk\": \"low\",\n  \"explanation\": \"The image shows a road sign, which provides limited context for GPS risk assessment.\"\n}",
+  "error": null
+}

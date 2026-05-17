@@ -1,0 +1,23 @@
+{
+  "task": "task1",
+  "source_image_name": "kism-samsung-ennoo-probe-03-20241126-1207_1732621868678_0.png",
+  "source_image_relative_path": "Additional_Road_Course\\kism-samsung-ennoo-probe-03-20241126-1207_1732621868678_0.png",
+  "source_image_absolute_path": "D:\\Automotive Systems\u8bfe\u4ef6\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\task3_test_5_20260512_141827\\Additional_Road_Course\\kism-samsung-ennoo-probe-03-20241126-1207_1732621868678_0.png",
+  "image_file": "kism-samsung-ennoo-probe-03-20241126-1207_1732621868678_0.png",
+  "image_relative_path": "Additional_Road_Course\\kism-samsung-ennoo-probe-03-20241126-1207_1732621868678_0.png",
+  "image_path": "D:\\Automotive Systems\u8bfe\u4ef6\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\task3_test_5_20260512_141827\\Additional_Road_Course\\kism-samsung-ennoo-probe-03-20241126-1207_1732621868678_0.png",
+  "model": "gemma4:e2b-it-q4_K_M",
+  "runtime_seconds": 10.465,
+  "result": {
+    "traffic_sign_visible": false,
+    "sign_type": "none",
+    "condition": "unclear",
+    "occlusion": "none",
+    "damage": "unclear",
+    "readability": "unreadable",
+    "confidence": 0.0,
+    "explanation": "The image contains road markings (arrows) but no standard traffic sign is visible."
+  },
+  "raw_response": "{\n  \"traffic_sign_visible\": false,\n  \"sign_type\": \"none\",\n  \"condition\": \"unclear\",\n  \"occlusion\": \"none\",\n  \"damage\": \"unclear\",\n  \"readability\": \"unreadable\",\n  \"confidence\": 0.0,\n  \"explanation\": \"The image contains road markings (arrows) but no standard traffic sign is visible.\"\n}",
+  "error": null
+}

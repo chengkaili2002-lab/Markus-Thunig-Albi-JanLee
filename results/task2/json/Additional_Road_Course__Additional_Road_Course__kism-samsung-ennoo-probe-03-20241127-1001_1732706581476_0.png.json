@@ -1,0 +1,53 @@
+{
+  "task": "task2",
+  "source_image_name": "kism-samsung-ennoo-probe-03-20241127-1001_1732706581476_0.png",
+  "source_image_relative_path": "Additional_Road_Course\\Additional_Road_Course\\kism-samsung-ennoo-probe-03-20241127-1001_1732706581476_0.png",
+  "source_image_absolute_path": "D:\\Automotive Systems\u8bfe\u4ef6\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\sample_images\\Additional_Road_Course\\Additional_Road_Course\\kism-samsung-ennoo-probe-03-20241127-1001_1732706581476_0.png",
+  "image_file": "kism-samsung-ennoo-probe-03-20241127-1001_1732706581476_0.png",
+  "image_relative_path": "Additional_Road_Course\\Additional_Road_Course\\kism-samsung-ennoo-probe-03-20241127-1001_1732706581476_0.png",
+  "image_path": "D:\\Automotive Systems\u8bfe\u4ef6\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\sample_images\\Additional_Road_Course\\Additional_Road_Course\\kism-samsung-ennoo-probe-03-20241127-1001_1732706581476_0.png",
+  "model": "gemma4:e2b-it-q4_K_M",
+  "runtime_seconds": 22.741,
+  "result": {
+    "arrow_sign_visible": true,
+    "lane_count": 3,
+    "lanes": [
+      {
+        "lane_index": 1,
+        "visible_arrow_type": "straight",
+        "allowed_movements": [
+          "straight"
+        ],
+        "special_regulation": "none",
+        "semantic_interpretation": "Lane can proceed straight ahead."
+      },
+      {
+        "lane_index": 2,
+        "visible_arrow_type": "straight",
+        "allowed_movements": [
+          "straight"
+        ],
+        "special_regulation": "none",
+        "semantic_interpretation": "Lane can proceed straight ahead."
+      },
+      {
+        "lane_index": 3,
+        "visible_arrow_type": "straight",
+        "allowed_movements": [
+          "straight"
+        ],
+        "special_regulation": "none",
+        "semantic_interpretation": "Lane can proceed straight ahead."
+      }
+    ],
+    "opposing_directions": false,
+    "additional_lane_regulations": [
+      "All visible lanes are permitted to proceed straight."
+    ],
+    "overall_lane_semantics": "All lanes are permitted to proceed straight ahead.",
+    "confidence": 1.0,
+    "explanation": "The sign shows three lanes, and all three lanes have arrows indicating they can proceed straight."
+  },
+  "raw_response": "{\n  \"arrow_sign_visible\": true,\n  \"lane_count\": 3,\n  \"lanes\": [\n    {\n      \"lane_index\": 1,\n      \"visible_arrow_type\": \"straight\",\n      \"allowed_movements\": [\n        \"straight\"\n      ],\n      \"special_regulation\": \"none\",\n      \"semantic_interpretation\": \"Lane can proceed straight ahead.\"\n    },\n    {\n      \"lane_index\": 2,\n      \"visible_arrow_type\": \"straight\",\n      \"allowed_movements\": [\n        \"straight\"\n      ],\n      \"special_regulation\": \"none\",\n      \"semantic_interpretation\": \"Lane can proceed straight ahead.\"\n    },\n    {\n      \"lane_index\": 3,\n      \"visible_arrow_type\": \"straight\",\n      \"allowed_movements\": [\n        \"straight\"\n      ],\n      \"special_regulation\": \"none\",\n      \"semantic_interpretation\": \"Lane can proceed straight ahead.\"\n    }\n  ],\n  \"opposing_directions\": false,\n  \"additional_lane_regulations\": [\n    \"All visible lanes are permitted to proceed straight.\"\n  ],\n  \"overall_lane_semantics\": \"All lanes are permitted to proceed straight ahead.\",\n  \"confidence\": 1.0,\n  \"explanation\": \"The sign shows three lanes, and all three lanes have arrows indicating they can proceed straight.\"\n}",
+  "error": null
+}

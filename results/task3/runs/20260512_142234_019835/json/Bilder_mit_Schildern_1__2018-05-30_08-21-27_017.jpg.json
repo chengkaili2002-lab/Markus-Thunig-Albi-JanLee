@@ -1,0 +1,23 @@
+{
+  "task": "task3",
+  "source_image_name": "2018-05-30_08-21-27_017.jpg",
+  "source_image_relative_path": "Bilder mit Schildern 1\\2018-05-30_08-21-27_017.jpg",
+  "source_image_absolute_path": "D:\\Automotive Systems\u8bfe\u4ef6\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\task3_test_5_20260512_141827\\Bilder mit Schildern 1\\2018-05-30_08-21-27_017.jpg",
+  "image_file": "2018-05-30_08-21-27_017.jpg",
+  "image_relative_path": "Bilder mit Schildern 1\\2018-05-30_08-21-27_017.jpg",
+  "image_path": "D:\\Automotive Systems\u8bfe\u4ef6\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\task3_test_5_20260512_141827\\Bilder mit Schildern 1\\2018-05-30_08-21-27_017.jpg",
+  "model": "gemma4:e2b-it-q4_K_M",
+  "runtime_seconds": 57.8,
+  "result": {
+    "lane_detection_assessment": "correct",
+    "lane_marking_continuity": "continuous",
+    "likely_reason": "unclear",
+    "supporting_signals": [
+      "visible road"
+    ],
+    "confidence": 0.95,
+    "explanation": "Lane markings are not visible in the frame, but the road structure suggests continuous lanes."
+  },
+  "raw_response": "{\n  \"lane_detection_assessment\": \"correct\",\n  \"lane_marking_continuity\": \"continuous\",\n  \"likely_reason\": \"unclear\",\n  \"supporting_signals\": [\n    \"visible road\"\n  ],\n  \"confidence\": 0.95,\n  \"explanation\": \"Lane markings are not visible in the frame, but the road structure suggests continuous lanes.\"\n}",
+  "error": null
+}

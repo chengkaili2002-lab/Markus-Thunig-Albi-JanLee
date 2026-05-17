@@ -1,0 +1,53 @@
+{
+  "task": "task2",
+  "source_image_name": "kism-samsung-ennoo-probe-03-20250321-1400_1742563832542_0.png",
+  "source_image_relative_path": "Additional_Road_Course\\Additional_Road_Course\\kism-samsung-ennoo-probe-03-20250321-1400_1742563832542_0.png",
+  "source_image_absolute_path": "D:\\Automotive Systems\u8bfe\u4ef6\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\sample_images\\Additional_Road_Course\\Additional_Road_Course\\kism-samsung-ennoo-probe-03-20250321-1400_1742563832542_0.png",
+  "image_file": "kism-samsung-ennoo-probe-03-20250321-1400_1742563832542_0.png",
+  "image_relative_path": "Additional_Road_Course\\Additional_Road_Course\\kism-samsung-ennoo-probe-03-20250321-1400_1742563832542_0.png",
+  "image_path": "D:\\Automotive Systems\u8bfe\u4ef6\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\sample_images\\Additional_Road_Course\\Additional_Road_Course\\kism-samsung-ennoo-probe-03-20250321-1400_1742563832542_0.png",
+  "model": "gemma4:e2b-it-q4_K_M",
+  "runtime_seconds": 31.188,
+  "result": {
+    "arrow_sign_visible": true,
+    "lane_count": 3,
+    "lanes": [
+      {
+        "lane_index": 1,
+        "visible_arrow_type": "straight",
+        "allowed_movements": [
+          "straight"
+        ],
+        "special_regulation": "none",
+        "semantic_interpretation": "Lane can proceed straight ahead into the intersection or continuing path ahead of the sign's direction of travel (implied). This is a standard straight arrow for the first lane."
+      },
+      {
+        "lane_index": 2,
+        "visible_arrow_type": "straight",
+        "allowed_movements": [
+          "straight"
+        ],
+        "special_regulation": "none",
+        "semantic_interpretation": "Lane can proceed straight ahead. This is a standard straight arrow for the middle lane."
+      },
+      {
+        "lane_index": 3,
+        "visible_arrow_type": "straight",
+        "allowed_movements": [
+          "straight"
+        ],
+        "special_regulation": "none",
+        "semantic_interpretation": "Lane can proceed straight ahead. This is a standard straight arrow for the rightmost lane."
+      }
+    ],
+    "opposing_directions": false,
+    "additional_lane_regulations": [
+      "all lanes are permitted to proceed straight"
+    ],
+    "overall_lane_semantics": "All visible lanes are permitted to proceed straight ahead.",
+    "confidence": 1.0,
+    "explanation": "The sign displays three parallel upward-pointing arrows, indicating that all lanes are permitted to proceed straight."
+  },
+  "raw_response": "{\n  \"arrow_sign_visible\": true,\n  \"lane_count\": 3,\n  \"lanes\": [\n    {\n      \"lane_index\": 1,\n      \"visible_arrow_type\": \"straight\",\n      \"allowed_movements\": [\n        \"straight\"\n      ],\n      \"special_regulation\": \"none\",\n      \"semantic_interpretation\": \"Lane can proceed straight ahead into the intersection or continuing path ahead of the sign's direction of travel (implied). This is a standard straight arrow for the first lane.\"\n    },\n    {\n      \"lane_index\": 2,\n      \"visible_arrow_type\": \"straight\",\n      \"allowed_movements\": [\n        \"straight\"\n      ],\n      \"special_regulation\": \"none\",\n      \"semantic_interpretation\": \"Lane can proceed straight ahead. This is a standard straight arrow for the middle lane.\"\n    },\n    {\n      \"lane_index\": 3,\n      \"visible_arrow_type\": \"straight\",\n      \"allowed_movements\": [\n        \"straight\"\n      ],\n      \"special_regulation\": \"none\",\n      \"semantic_interpretation\": \"Lane can proceed straight ahead. This is a standard straight arrow for the rightmost lane.\"\n    }\n  ],\n  \"opposing_directions\": false,\n  \"additional_lane_regulations\": [\n    \"all lanes are permitted to proceed straight\"\n  ],\n  \"overall_lane_semantics\": \"All visible lanes are permitted to proceed straight ahead.\",\n  \"confidence\": 1.0,\n  \"explanation\": \"The sign displays three parallel upward-pointing arrows, indicating that all lanes are permitted to proceed straight.\"\n}",
+  "error": null
+}

@@ -1,0 +1,24 @@
+{
+  "task": "task3",
+  "source_image_name": "kism-samsung-ennoo-probe-03-20241127-1001_1732706581476_0.png",
+  "source_image_relative_path": "Additional_Road_Course\\kism-samsung-ennoo-probe-03-20241127-1001_1732706581476_0.png",
+  "source_image_absolute_path": "D:\\Automotive Systems\u8bfe\u4ef6\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\task3_test_5_20260512_141827\\Additional_Road_Course\\kism-samsung-ennoo-probe-03-20241127-1001_1732706581476_0.png",
+  "image_file": "kism-samsung-ennoo-probe-03-20241127-1001_1732706581476_0.png",
+  "image_relative_path": "Additional_Road_Course\\kism-samsung-ennoo-probe-03-20241127-1001_1732706581476_0.png",
+  "image_path": "D:\\Automotive Systems\u8bfe\u4ef6\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\task3_test_5_20260512_141827\\Additional_Road_Course\\kism-samsung-ennoo-probe-03-20241127-1001_1732706581476_0.png",
+  "model": "gemma4:e2b-it-q4_K_M",
+  "runtime_seconds": 15.198,
+  "result": {
+    "lane_detection_assessment": "correct",
+    "lane_marking_continuity": "continuous",
+    "likely_reason": "road_topology",
+    "supporting_signals": [
+      "straight arrows",
+      "road layout"
+    ],
+    "confidence": 1.0,
+    "explanation": "Lane markings are continuous and follow the road topology."
+  },
+  "raw_response": "{\n  \"lane_detection_assessment\": \"correct\",\n  \"lane_marking_continuity\": \"continuous\",\n  \"likely_reason\": \"road_topology\",\n  \"supporting_signals\": [\n    \"straight arrows\",\n    \"road layout\"\n  ],\n  \"confidence\": 1.0,\n  \"explanation\": \"Lane markings are continuous and follow the road topology.\"\n}",
+  "error": null
+}

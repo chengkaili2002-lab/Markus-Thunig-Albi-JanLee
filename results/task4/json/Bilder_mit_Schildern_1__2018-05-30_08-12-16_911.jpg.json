@@ -1,0 +1,21 @@
+{
+  "task": "task4",
+  "source_image_name": "2018-05-30_08-12-16_911.jpg",
+  "source_image_relative_path": "Bilder mit Schildern 1\\2018-05-30_08-12-16_911.jpg",
+  "source_image_absolute_path": "D:\\Automotive Systems\u8bfe\u4ef6\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\task3_test_5_20260512_141827\\Bilder mit Schildern 1\\2018-05-30_08-12-16_911.jpg",
+  "image_file": "2018-05-30_08-12-16_911.jpg",
+  "image_relative_path": "Bilder mit Schildern 1\\2018-05-30_08-12-16_911.jpg",
+  "image_path": "D:\\Automotive Systems\u8bfe\u4ef6\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\task3_test_5_20260512_141827\\Bilder mit Schildern 1\\2018-05-30_08-12-16_911.jpg",
+  "model": "gemma4:e2b-it-q4_K_M",
+  "runtime_seconds": 52.003,
+  "result": {
+    "tunnel_visible": false,
+    "bridge_visible": true,
+    "tall_buildings_visible": false,
+    "urban_canyon": false,
+    "gps_risk": "low",
+    "explanation": "The scene shows an open road with a guardrail, indicating a bridge or elevated structure, but no dense urban features that typically degrade GPS reliability."
+  },
+  "raw_response": "{\n  \"tunnel_visible\": false,\n  \"bridge_visible\": true,\n  \"tall_buildings_visible\": false,\n  \"urban_canyon\": false,\n  \"gps_risk\": \"low\",\n  \"explanation\": \"The scene shows an open road with a guardrail, indicating a bridge or elevated structure, but no dense urban features that typically degrade GPS reliability.\"\n}",
+  "error": null
+}

@@ -1,0 +1,20 @@
+{
+  "task": "task1",
+  "image_file": "kism-samsung-ennoo-probe-05-20250401-1148_1743503632655_0.png",
+  "image_relative_path": "Additional_Road_Course\\Additional_Road_Course\\kism-samsung-ennoo-probe-05-20250401-1148_1743503632655_0.png",
+  "image_path": "D:\\Automotive Systems\u8bfe\u4ef6\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\sample_images\\Additional_Road_Course\\Additional_Road_Course\\kism-samsung-ennoo-probe-05-20250401-1148_1743503632655_0.png",
+  "model": "gemma4:e2b-it-q4_K_M",
+  "runtime_seconds": 8.755,
+  "result": {
+    "traffic_sign_visible": true,
+    "sign_type": "arrow",
+    "condition": "clean",
+    "occlusion": "none",
+    "damage": "none",
+    "readability": "readable",
+    "confidence": 1.0,
+    "explanation": "Three upward-pointing arrows are clearly visible and readable."
+  },
+  "raw_response": "{\n  \"traffic_sign_visible\": true,\n  \"sign_type\": \"arrow\",\n  \"condition\": \"clean\",\n  \"occlusion\": \"none\",\n  \"damage\": \"none\",\n  \"readability\": \"readable\",\n  \"confidence\": 1.0,\n  \"explanation\": \"Three upward-pointing arrows are clearly visible and readable.\"\n}",
+  "error": null
+}
