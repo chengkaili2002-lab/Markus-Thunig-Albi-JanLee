@@ -1,0 +1,10 @@
+{
+  "traffic_sign_visible": true,
+  "sign_type": "example_sign_type",
+  "condition": "unclear",
+  "occlusion": "unclear",
+  "damage": "unclear",
+  "readability": "unclear",
+  "confidence": 1.0,
+  "explanation": "example explanation"
+}

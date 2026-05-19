@@ -1,0 +1,9 @@
+{
+  "detection_quality": "unclear",
+  "lane_markings_in_scene": "unclear",
+  "detection_failure_visible": false,
+  "failure_reasons": [],
+  "problematic_regions": [],
+  "confidence": 1.0,
+  "explanation": "example explanation"
+}

@@ -1,0 +1,23 @@
+{
+  "arrow_sign_visible": true,
+  "visible_arrow_count": 1,
+  "lane_count": 1,
+  "lanes": [
+    {
+      "lane_index": 1,
+      "visible_arrow_type": "straight",
+      "allowed_movements": [
+        "straight"
+      ],
+      "merge_behavior": "none",
+      "special_regulation": "none",
+      "semantic_interpretation": "example interpretation",
+      "lane_confidence": 1.0
+    }
+  ],
+  "has_conflicting_or_opposite_movements": false,
+  "additional_lane_regulations": [],
+  "overall_lane_semantics": "example overall semantics",
+  "confidence": 1.0,
+  "explanation": "example explanation"
+}

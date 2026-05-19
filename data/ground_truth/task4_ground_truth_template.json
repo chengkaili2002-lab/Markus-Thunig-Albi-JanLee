@@ -1,0 +1,8 @@
+{
+  "tunnel_visible": false,
+  "bridge_visible": false,
+  "tall_buildings_visible": false,
+  "urban_canyon": false,
+  "gps_risk": "unclear",
+  "explanation": "example explanation"
+}

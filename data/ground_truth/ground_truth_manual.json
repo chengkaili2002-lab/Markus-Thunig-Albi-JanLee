@@ -1,0 +1,325 @@
+[
+  {
+    "task_id": "task1",
+    "image_id": "2018-05-30_08-12-16_911.jpg",
+    "image_path": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\task3_test_5_20260512_141827\\Bilder mit Schildern 1\\2018-05-30_08-12-16_911.jpg",
+    "model_output_json_path": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\results\\task1\\runs\\20260512_142109_132127\\json\\Bilder_mit_Schildern_1__2018-05-30_08-12-16_911.jpg.json",
+    "ground_truth": {
+      "traffic_sign_visible": true,
+      "sign_type": "speed_limit_30",
+      "condition": "clean",
+      "occlusion": "none",
+      "damage": "none",
+      "readability": "readable",
+      "confidence": 1.0,
+      "explanation": "One real traffic sign is clearly visible on the right side of the road. It is a speed limit 30 sign. The sign is readable, not occluded, and shows no relevant damage, dirt, sticker, or vandalism. Yellowish reflections or image artifacts near the bottom do not affect the sign."
+    }
+  },
+  {
+    "task_id": "task1",
+    "image_id": "2018-05-30_08-21-27_017.jpg",
+    "image_path": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\task3_test_5_20260512_141827\\Bilder mit Schildern 1\\2018-05-30_08-21-27_017.jpg",
+    "model_output_json_path": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\results\\task1\\runs\\20260512_142109_132127\\json\\Bilder_mit_Schildern_1__2018-05-30_08-21-27_017.jpg.json",
+    "ground_truth": {
+      "traffic_sign_visible": true,
+      "sign_type": "parking_or_stopping_restriction; no_stopping_or_no_parking",
+      "condition": "clean",
+      "occlusion": "none",
+      "damage": "none",
+      "readability": "readable",
+      "confidence": 0.95,
+      "explanation": "Two real parking or stopping restriction signs are visible on the right side of the road. The upper sign has a diagonal red slash and a left-pointing arrow, and the lower sign has a red cross. Both signs are readable and not occluded. Minor marks or reflections on the lower sign do not affect readability."
+    }
+  },
+  {
+    "task_id": "task1",
+    "image_id": "yaksamsungs23-20230703-0821__03_07_2023__09_11_19.png",
+    "image_path": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\sample_images\\Bilder mit Schildern 1\\Bilder mit Schildern\\yaksamsungs23-20230703-0821__03_07_2023__09_11_19.png",
+    "model_output_json_path": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\results\\task1\\runs\\20260519_182830_414516\\json\\yaksamsungs23-20230703-0821__03_07_2023__09_11_19.png.json",
+    "ground_truth": {
+      "traffic_sign_visible": true,
+      "sign_type": "multiple_regulatory_and_parking_signs; bicycle_restriction; parking; no_stopping_or_no_parking",
+      "condition": "clean",
+      "occlusion": "none",
+      "damage": "none",
+      "readability": "partly_readable",
+      "confidence": 0.9,
+      "explanation": "Multiple real traffic signs are visible on the right side of the road, including a bicycle restriction sign, a parking sign, and a no-stopping or no-parking restriction sign. The main signs are visible and not damaged or occluded. Some supplementary text signs are present but not clearly readable, so the overall readability is partly_readable."
+    }
+  },
+  {
+    "task_id": "task2",
+    "image_id": "kism-samsung-ennoo-probe-03-20241126-1207_1732621868678_0.png",
+    "image_path": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\sample_images\\Additional_Road_Course\\Additional_Road_Course\\kism-samsung-ennoo-probe-03-20241126-1207_1732621868678_0.png",
+    "model_output_json_path": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\results\\task2\\json\\Additional_Road_Course__kism-samsung-ennoo-probe-03-20241126-1207_1732621868678_0.png.json",
+    "ground_truth": {
+      "arrow_sign_visible": true,
+      "visible_arrow_count": 3,
+      "lane_count": 3,
+      "lanes": [
+        {
+          "lane_index": 1,
+          "visible_arrow_type": "straight",
+          "allowed_movements": ["straight"],
+          "merge_behavior": "none",
+          "special_regulation": "none",
+          "semantic_interpretation": "The left lane allows straight movement.",
+          "lane_confidence": 1.0
+        },
+        {
+          "lane_index": 2,
+          "visible_arrow_type": "straight+right",
+          "allowed_movements": ["straight", "right"],
+          "merge_behavior": "none",
+          "special_regulation": "none",
+          "semantic_interpretation": "The middle lane allows straight movement or right turn.",
+          "lane_confidence": 1.0
+        },
+        {
+          "lane_index": 3,
+          "visible_arrow_type": "merge_left",
+          "allowed_movements": ["merge_left"],
+          "merge_behavior": "merge_left",
+          "special_regulation": "none",
+          "semantic_interpretation": "The rightmost lane ends and merges left into the adjacent lane.",
+          "lane_confidence": 1.0
+        }
+      ],
+      "has_conflicting_or_opposite_movements": false,
+      "additional_lane_regulations": [],
+      "overall_lane_semantics": "Three lane-direction indications are visible: straight, straight/right, and a rightmost lane that merges left.",
+      "confidence": 1.0,
+      "explanation": "The cropped sign clearly shows three lane-direction arrows. The rightmost arrow indicates lane ending or merge-left, not a normal left-turn lane."
+    }
+  },
+  {
+    "task_id": "task2",
+    "image_id": "kism-samsung-ennoo-probe-03-20241127-1001_1732706581476_0.png",
+    "image_path": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\sample_images\\Additional_Road_Course\\Additional_Road_Course\\kism-samsung-ennoo-probe-03-20241127-1001_1732706581476_0.png",
+    "model_output_json_path": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\results\\task2\\json\\Additional_Road_Course__kism-samsung-ennoo-probe-03-20241127-1001_1732706581476_0.png.json",
+    "ground_truth": {
+      "arrow_sign_visible": true,
+      "visible_arrow_count": 5,
+      "lane_count": 5,
+      "lanes": [
+        {
+          "lane_index": 1,
+          "visible_arrow_type": "left",
+          "allowed_movements": ["left"],
+          "merge_behavior": "none",
+          "special_regulation": "none",
+          "semantic_interpretation": "The leftmost lane allows left turn.",
+          "lane_confidence": 1.0
+        },
+        {
+          "lane_index": 2,
+          "visible_arrow_type": "straight",
+          "allowed_movements": ["straight"],
+          "merge_behavior": "none",
+          "special_regulation": "none",
+          "semantic_interpretation": "The second lane allows straight movement.",
+          "lane_confidence": 1.0
+        },
+        {
+          "lane_index": 3,
+          "visible_arrow_type": "straight",
+          "allowed_movements": ["straight"],
+          "merge_behavior": "none",
+          "special_regulation": "none",
+          "semantic_interpretation": "The third lane allows straight movement.",
+          "lane_confidence": 1.0
+        },
+        {
+          "lane_index": 4,
+          "visible_arrow_type": "straight+right",
+          "allowed_movements": ["straight", "right"],
+          "merge_behavior": "none",
+          "special_regulation": "none",
+          "semantic_interpretation": "The fourth lane allows straight movement or right turn.",
+          "lane_confidence": 1.0
+        },
+        {
+          "lane_index": 5,
+          "visible_arrow_type": "merge_left",
+          "allowed_movements": ["merge_left"],
+          "merge_behavior": "merge_left",
+          "special_regulation": "none",
+          "semantic_interpretation": "The rightmost lane ends and merges left into lane 4.",
+          "lane_confidence": 1.0
+        }
+      ],
+      "has_conflicting_or_opposite_movements": false,
+      "additional_lane_regulations": [],
+      "overall_lane_semantics": "Five lane-direction indications are visible: left, straight, straight, straight/right, and a rightmost lane that merges left.",
+      "confidence": 1.0,
+      "explanation": "The cropped sign clearly shows five lane-direction arrows. The last arrow indicates lane ending or merge-left into the adjacent lane, not a normal left-turn lane."
+    }
+  },
+  {
+    "task_id": "task2",
+    "image_id": "kism-samsung-ennoo-probe-03-20250321-1400_1742563832542_0.png",
+    "image_path": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\sample_images\\Additional_Road_Course\\Additional_Road_Course\\kism-samsung-ennoo-probe-03-20250321-1400_1742563832542_0.png",
+    "model_output_json_path": "",
+    "ground_truth": {
+      "arrow_sign_visible": true,
+      "visible_arrow_count": 5,
+      "lane_count": 5,
+      "lanes": [
+        {
+          "lane_index": 1,
+          "visible_arrow_type": "left",
+          "allowed_movements": ["left"],
+          "merge_behavior": "none",
+          "special_regulation": "none",
+          "semantic_interpretation": "The leftmost lane allows left turn.",
+          "lane_confidence": 1.0
+        },
+        {
+          "lane_index": 2,
+          "visible_arrow_type": "straight",
+          "allowed_movements": ["straight"],
+          "merge_behavior": "none",
+          "special_regulation": "none",
+          "semantic_interpretation": "The second lane allows straight movement.",
+          "lane_confidence": 1.0
+        },
+        {
+          "lane_index": 3,
+          "visible_arrow_type": "straight",
+          "allowed_movements": ["straight"],
+          "merge_behavior": "none",
+          "special_regulation": "none",
+          "semantic_interpretation": "The third lane allows straight movement.",
+          "lane_confidence": 1.0
+        },
+        {
+          "lane_index": 4,
+          "visible_arrow_type": "straight",
+          "allowed_movements": ["straight"],
+          "merge_behavior": "none",
+          "special_regulation": "none",
+          "semantic_interpretation": "The fourth lane allows straight movement.",
+          "lane_confidence": 1.0
+        },
+        {
+          "lane_index": 5,
+          "visible_arrow_type": "merge_left",
+          "allowed_movements": ["merge_left"],
+          "merge_behavior": "merge_left",
+          "special_regulation": "none",
+          "semantic_interpretation": "The rightmost lane ends and merges left into lane 4.",
+          "lane_confidence": 1.0
+        }
+      ],
+      "has_conflicting_or_opposite_movements": false,
+      "additional_lane_regulations": [],
+      "overall_lane_semantics": "Five lane-direction indications are visible: left, straight, straight, straight, and a rightmost lane that merges left.",
+      "confidence": 1.0,
+      "explanation": "The cropped sign clearly shows five lane-direction arrows. The rightmost arrow indicates lane ending or merge-left into the adjacent straight lane."
+    }
+  },
+  {
+    "task_id": "task3",
+    "image_id": "灞忓箷鎴浘 2026-05-12 150944.png",
+    "image_path": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\task3_test_5_20260512_141827\\灞忓箷鎴浘 2026-05-12 150944.png",
+    "ground_truth": {
+      "detection_quality": "partially_correct",
+      "lane_markings_in_scene": "discontinuous",
+      "detection_failure_visible": true,
+      "failure_reasons": [
+        "false_positive_lane_prediction",
+        "missed_lane_marking",
+        "incomplete_lane_prediction"
+      ],
+      "problematic_regions": [
+        "left_lane_prediction",
+        "center_right_lane_prediction"
+      ],
+      "confidence": 0.9,
+      "explanation": "The image contains a lane detection overlay. The long magenta/yellow prediction on the left is not well aligned with the real road structure and extends into an implausible area near pedestrians or vehicles. A short cyan lane prediction is visible near the center-right, but it is incomplete. Some visible lane markings are not detected. Therefore the lane detection result is partially correct with visible failures."
+    }
+  },
+  {
+    "task_id": "task3",
+    "image_id": "灞忓箷鎴浘 2026-05-12 151004.png",
+    "image_path": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\task3_test_5_20260512_141827\\灞忓箷鎴浘 2026-05-12 151004.png",
+    "ground_truth": {
+      "detection_quality": "partially_correct",
+      "lane_markings_in_scene": "discontinuous",
+      "detection_failure_visible": true,
+      "failure_reasons": [
+        "intersection_geometry",
+        "missed_lane_marking",
+        "incomplete_lane_prediction",
+        "limited_detection_range",
+        "weak_lane_marking_visibility"
+      ],
+      "problematic_regions": [
+        "right_lane_marking_near_parked_cars",
+        "center_lane_prediction",
+        "left_lane_prediction"
+      ],
+      "confidence": 0.8,
+      "explanation": "The image contains a lane detection overlay near an intersection. The detector identifies a long magenta/yellow lane prediction on the left and a short cyan prediction near the center, so the result is partially correct. However, the center prediction is incomplete and the left prediction is not perfectly aligned with the real road structure. A possible lane marking near the parked vehicles on the right side appears to be missed, but this marking is faint and relatively far away, so the issue may also be related to limited detection range and weak lane-marking visibility. The intersection geometry makes the scene more difficult because lane markings are discontinuous and ambiguous near the junction."
+    }
+  },
+  {
+    "task_id": "task3",
+    "image_id": "灞忓箷鎴浘 2026-05-12 151026.png",
+    "image_path": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\task3_test_5_20260512_141827\\灞忓箷鎴浘 2026-05-12 151026.png",
+    "ground_truth": {
+      "detection_quality": "partially_correct",
+      "lane_markings_in_scene": "discontinuous",
+      "detection_failure_visible": true,
+      "failure_reasons": [
+        "missed_opposing_lane_marking",
+        "limited_detection_scope"
+      ],
+      "problematic_regions": [
+        "far_left_opposing_lane",
+        "opposing_direction_area"
+      ],
+      "confidence": 0.8,
+      "explanation": "The image contains a lane detection overlay. Three lane predictions are visible on the left, center, and right side of the ego-driving direction, and these detected lane lines appear mostly correct. However, there seems to be an opposing-direction lane or lane marking on the far left side that is not detected. This may be understandable if the original detector is mainly designed for ego-lane detection, but for this project the missing opposing-direction area should still be noted. Therefore the result is partially correct rather than fully correct."
+    }
+  },
+  {
+    "task_id": "task4",
+    "image_id": "2018-05-30_08-12-16_911.jpg",
+    "image_path": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\task3_test_5_20260512_141827\\Bilder mit Schildern 1\\2018-05-30_08-12-16_911.jpg",
+    "ground_truth": {
+      "tunnel_visible": false,
+      "bridge_visible": false,
+      "tall_buildings_visible": false,
+      "urban_canyon": false,
+      "gps_risk": "low",
+      "explanation": "The image shows a normal road scene with trees, vehicles, a traffic sign, and a roadside guardrail. No tunnel, bridge, tall buildings, or urban-canyon-like dense building structure is visible. The guardrail alone should not be interpreted as a bridge. Therefore the GPS risk is low."
+    }
+  },
+  {
+    "task_id": "task4",
+    "image_id": "2018-05-30_08-21-27_017.jpg",
+    "image_path": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\task3_test_5_20260512_141827\\Bilder mit Schildern 1\\2018-05-30_08-21-27_017.jpg",
+    "ground_truth": {
+      "tunnel_visible": false,
+      "bridge_visible": false,
+      "tall_buildings_visible": false,
+      "urban_canyon": false,
+      "gps_risk": "low",
+      "explanation": "The image shows a normal road scene with trees, vehicles, and traffic signs. No tunnel, bridge, tall buildings, or dense urban-canyon-like building structure is visible. Therefore the GPS risk is low."
+    }
+  },
+  {
+    "task_id": "task4",
+    "image_id": "ec828b3b-db5f-48bf-a61a-7f97e92c2b96.jpg",
+    "image_path": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\task4_selected\\ec828b3b-db5f-48bf-a61a-7f97e92c2b96.jpg",
+    "ground_truth": {
+      "tunnel_visible": false,
+      "bridge_visible": false,
+      "tall_buildings_visible": false,
+      "urban_canyon": false,
+      "gps_risk": "low",
+      "explanation": "The image shows a normal road scene with trees, sidewalk, vehicles, and a traffic sign. No tunnel, bridge, tall buildings, or dense urban-canyon-like structure is visible. Therefore the GPS risk is low."
+    }
+  }
+]

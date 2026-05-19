@@ -1,0 +1,20 @@
+{
+  "task_id": "task1",
+  "image_id": "example_image_id_or_filename.jpg",
+  "image_path": "D:/path/to/image.jpg",
+  "traffic_sign_visible": null,
+  "sign_category": "example_category",
+  "sign_value": "example_value",
+  "sign_condition": "example_condition",
+  "arrow_sign_visible": null,
+  "lane_count": null,
+  "lane_detection_overlay_visible": null,
+  "gps_risk_infrastructure_visible": null,
+  "bridge_visible": null,
+  "tunnel_visible": null,
+  "underpass_visible": null,
+  "construction_visible": null,
+  "advertisement_or_non_traffic_sign": null,
+  "expected_tasks": [],
+  "notes": ""
+}

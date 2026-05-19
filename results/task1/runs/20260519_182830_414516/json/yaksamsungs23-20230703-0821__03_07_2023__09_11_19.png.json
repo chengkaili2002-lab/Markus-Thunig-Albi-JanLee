@@ -1,0 +1,23 @@
+{
+  "task": "task1",
+  "source_image_name": "yaksamsungs23-20230703-0821__03_07_2023__09_11_19.png",
+  "source_image_relative_path": "yaksamsungs23-20230703-0821__03_07_2023__09_11_19.png",
+  "source_image_absolute_path": "D:\\Automotive Systems\u8bfe\u4ef6\\1.Semester\\DACAITI\\codex\\DCAITI\\_tmp_task1_single\\yaksamsungs23-20230703-0821__03_07_2023__09_11_19.png",
+  "image_file": "yaksamsungs23-20230703-0821__03_07_2023__09_11_19.png",
+  "image_relative_path": "yaksamsungs23-20230703-0821__03_07_2023__09_11_19.png",
+  "image_path": "D:\\Automotive Systems\u8bfe\u4ef6\\1.Semester\\DACAITI\\codex\\DCAITI\\_tmp_task1_single\\yaksamsungs23-20230703-0821__03_07_2023__09_11_19.png",
+  "model": "gemma4:e2b-it-q4_K_M",
+  "runtime_seconds": 40.976,
+  "result": {
+    "traffic_sign_visible": true,
+    "sign_type": "No Parking",
+    "condition": "clean",
+    "occlusion": "none",
+    "damage": "none",
+    "readability": "readable",
+    "confidence": 1.0,
+    "explanation": "A circular 'No Parking' sign is clearly visible on the right side of the road."
+  },
+  "raw_response": "{\n  \"traffic_sign_visible\": true,\n  \"sign_type\": \"No Parking\",\n  \"condition\": \"clean\",\n  \"occlusion\": \"none\",\n  \"damage\": \"none\",\n  \"readability\": \"readable\",\n  \"confidence\": 1.0,\n  \"explanation\": \"A circular 'No Parking' sign is clearly visible on the right side of the road.\"\n}",
+  "error": null
+}
