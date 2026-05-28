@@ -16,3 +16,8 @@ env/
 
 .DS_Store
 Thumbs.db
+
+data/StreetView_images
+data/Task1_sign_impurity
+data/Task2_arrow_signs
+
