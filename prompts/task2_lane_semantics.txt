@@ -1,58 +1,78 @@
-You are analyzing a standardized traffic lane-direction sign in a traffic-scene image.
+You are analyzing a traffic lane direction sign.
 
-Your task is to infer lane-level traffic semantics from the visible arrows.
-Do not treat the arrows as abstract graphics.
-Treat them as standardized lane-direction traffic symbols and infer their usual traffic meaning from the sign itself.
+The sign contains multiple black lane arrows on a white background.
+Each arrow represents one traffic lane.
+Arrows must be analyzed individually from left to right.
 
-Focus on semantic lane understanding, not image captioning.
+Your task is to extract the lane structure into valid JSON.
 
 Important rules:
-- Analyze the sign lane by lane.
-- Do not assume arrow count and lane count are always identical.
-- Infer the allowed movement for each visible lane.
-- Detect combined arrows such as `straight+left`, `straight+right`, `left+right`, and `straight+left+right`.
-- Detect lane merge or lane shift semantics.
-- Define `merge_left` as: this lane moves or merges toward the left neighboring lane.
-- Define `merge_right` as: this lane moves or merges toward the right neighboring lane.
-- Do not describe the sign board as if it were a road-surface arrow.
-- Do not discuss missing geographic context unless the sign is visually unreadable.
-- If the visual evidence is unclear, use `unclear` instead of guessing.
-- Return JSON only. Do not add any extra text.
+- Count all distinct lane arrows.
+- Every visually separate lane arrow symbolizes one lane.
+- Do not merge nearby arrows into one lane unless they are visually connected.
+- Assign lane IDs from left to right using the lower/start position of each arrow.
+- Analyze each lane arrow independently.
 
-Return exactly this structure:
+For every lane arrow determine:
+- allowed driving directions (where the one or multiple arrow-heads point to)
+- whether an additional restriction sign/symbol is present on the lane arrow
+- whether the lane arrow visually merges/points into another lane arrow
+
+Direction Rules - allowed direction tokens are ONLY:
+- "left"
+- "slight_left"
+- "straight"
+- "slight_right"
+- "right"
+- "uturn"
+- "unknown"
+
+Use one or multiple directions per lane arrow depending on the arrow-heads.
+
+Examples:
+["straight"]
+["left", "straight"]
+["straight", "right"]
+
+Merge rules
+- merge_into contains lane IDs that this lane visually merges into.
+- A lane merges into another lane, if the lane arrow is tilted slightly and points towards another lane arrow.
+- Use an empty list if no merge exists.
+- Only detect a merge if the lane arrow visually tilts towards the other lane arrow.
+- Do not infer merges from proximity alone.
+
+Restriction rules
+- restriction_present is true if any additional traffic symbol/sign is attached to or embedded in the lane arrow. Otherwise false.
+- restrictions signs can be e.g. truck prohibitions or bus lane signs
+
+Uncertainty handling
+- If a direction cannot be determined reliably, use "unknown".
+- Do not hallucinate missing lanes, directions, or merges.
+- Set needs_review to true if the sign is ambiguous or partially unclear.
+
+Validation:
+- Check if "lane_count" equals the number of list-objects in "lanes"
+
+Output rules
+- Return ONLY valid JSON.
+- Include a short explanation for each lane regarding detected direction, restriction and merges.
+- Do not use markdown.
+- Do not output text before or after the JSON.
+
+Use exactly this schema:
+
 {
-  "arrow_sign_visible": true,
-  "visible_arrow_count": 0,
-  "lane_count": 0,
-  "lanes": [
-    {
-      "lane_index": 1,
-      "visible_arrow_type": "straight | left | right | straight+left | straight+right | left+right | straight+left+right | u_turn | merge_left | merge_right | unclear",
-      "allowed_movements": ["straight"],
-      "merge_behavior": "none | merge_left | merge_right | unclear",
-      "special_regulation": "none | bus_only | truck_only | truck_restriction | time_restriction | turn_restriction | unclear",
-      "semantic_interpretation": "short string",
-      "lane_confidence": 0.0
-    }
-  ],
-  "has_conflicting_or_opposite_movements": false,
-  "additional_lane_regulations": [],
-  "overall_lane_semantics": "short string",
-  "confidence": 0.0,
-  "explanation": "short string"
+"lane_count": integer,
+"lanes": [
+{
+"lane_id": "lane_1",
+"position_index": 1,
+"directions": [],
+"restriction_present": false,
+"merge_into": [],
+"explanation": ""
 }
-
-Output guidance:
-- `visible_arrow_count` means the number of visible arrow symbols.
-- `lane_count` means the number of lane entries interpreted from the sign.
-- `lane_count` should match the number of objects in `lanes`.
-- Order lanes from left to right if visible.
-- Each lane should describe the movement permitted by that lane, not just the symbol shape.
-- For combined arrows, set `visible_arrow_type` to the combined form and split the movements in `allowed_movements`.
-- Use `merge_behavior` only for actual lane merging or lane shifting.
-- Use `special_regulation` only when a clear lane-specific restriction is visible.
-- Use `additional_lane_regulations` for global restrictions visible on the sign.
-- Set `has_conflicting_or_opposite_movements` to true only if the sign clearly shows movements in opposite or conflicting directions.
-- Keep `overall_lane_semantics` to one short sentence.
-- Keep `explanation` short and practical.
-- Keep all confidence values between 0.0 and 1.0.
+],
+"needs_review": false,
+"review_reason": null
+}

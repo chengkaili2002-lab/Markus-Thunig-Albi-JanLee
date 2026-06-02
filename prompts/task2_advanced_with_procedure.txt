@@ -1,0 +1,103 @@
+You are analyzing a traffic lane direction sign.
+
+The sign contains multiple black lane arrows on a white background.
+Each arrow represents one traffic lane.
+Arrows must be analyzed individually from left to right.
+
+Your task is to extract the lane structure into valid JSON.
+
+Analysis procedure:
+Follow this exact visual analysis procedure before producing the JSON.
+
+Step 1: Identify and count arrow lane shafts.
+- First identify all visible black arrow shafts by their lower/start positions.
+- Each visually separate shaft represents one lane.
+- Count lanes based on shaft starts, not based on arrowheads.
+- Do not combine two separate shafts just because their arrowheads are close together.
+- Do not ignore short, narrow, partially overlapping, or slightly tilted shafts.
+- The final lane_count must equal the number of distinct lane shafts.
+
+Step 2: Assign lane IDs.
+- Assign lane IDs from left to right using only the horizontal order of the lower/start positions of the shafts.
+- Use lane_1 for the leftmost lower/start shaft, lane_2 for the next one, and so on.
+- Do not assign lane IDs based on the upper arrowhead positions.
+- Do not change the order because of merges, tilted shafts, or curved/angled arrowheads.
+
+Step 3: Analyze each lane independently.
+For each lane, inspect only the visual elements physically attached to that lane shaft:
+- the arrowhead or arrowheads attached to this shaft
+- any additional non-arrow traffic symbol/sign attached to or embedded in this shaft
+- any visual connection from this shaft into another lane shaft
+
+Step 4: Determine directions from attached arrowheads.
+- For each lane arrow, first count all arrowheads physically attached to that lane shaft.
+- Then convert each attached arrowhead into one of the allowed direction tokens.
+- A lane may have one or multiple directions.
+- Do not assign an arrowhead to a lane unless it is physically connected to that lane's shaft.
+- Do not infer a direction from nearby arrowheads belonging to another lane.
+
+Step 5: Detect restrictions.
+- After directions are determined, scan each lane again for non-arrow traffic symbols.
+- restriction_present is true if there is any additional traffic sign, vehicle symbol, prohibition symbol, bus/truck symbol, or mini-sign attached to or embedded in the lane arrow.
+- Do not count normal arrowheads as restrictions.
+- If no additional non-arrow symbol is visible, restriction_present is false.
+
+
+Direction Rules - allowed direction tokens are ONLY:
+- "left"
+- "slight_left"
+- "straight"
+- "slight_right"
+- "right"
+- "uturn"
+- "unknown"
+
+Use one or multiple directions per lane arrow depending on the arrow-heads.
+
+Examples:
+["straight"]
+["left", "straight"]
+["straight", "right"]
+
+Merge rules
+- merge_into contains lane IDs that this lane visually merges into.
+- A lane merges into another lane, if the lane arrow is tilted slightly and points towards another lane arrow.
+- Use an empty list if no merge exists.
+- Only detect a merge if the lane arrow visually tilts towards the other lane arrow.
+- Do not infer merges from proximity alone.
+
+Restriction rules
+- restriction_present is true if any additional traffic symbol/sign is attached to or embedded in the lane arrow. Otherwise false.
+- restrictions signs can be e.g. truck prohibitions or bus lane signs
+
+Uncertainty handling
+- If a direction cannot be determined reliably, use "unknown".
+- Do not hallucinate missing lanes, directions, or merges.
+- Set needs_review to true if the sign is ambiguous or partially unclear.
+
+Validation:
+- Check if "lane_count" equals the number of list-objects in "lanes"
+
+Output rules
+- Return ONLY valid JSON.
+- Include a short explanation for each lane regarding detected direction, restriction and merges.
+- Do not use markdown.
+- Do not output text before or after the JSON.
+
+Use exactly this schema:
+
+{
+"lane_count": integer,
+"lanes": [
+{
+"lane_id": "lane_1",
+"position_index": 1,
+"directions": [],
+"restriction_present": false,
+"merge_into": [],
+"explanation": ""
+}
+],
+"needs_review": false,
+"review_reason": null
+}

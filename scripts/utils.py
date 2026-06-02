@@ -8,7 +8,6 @@ from time import perf_counter
 import ollama
 from pydantic import BaseModel
 from model_API import (
-    Task1Result, Task2Lane, Task2Result, Task3Result, Task4Result, Task5Result, Task5StandardInformation,
     call_ollama_with_image, extract_json_text
 )
 
@@ -291,14 +290,17 @@ def run_task_batch(
         output_name = f"{make_safe_relative_name(image_path, sample_dir)}.json"
         output_path = json_dir / output_name
 
+        image_name = image_path.name.split(".")[0]
+
         payload = {
             "task": task_name,
-            "source_image_name": image_path.name,
-            "source_image_relative_path": str(image_path.relative_to(sample_dir)),
-            "source_image_absolute_path": str(image_path.resolve()),
-            "image_file": image_path.name,
-            "image_relative_path": str(image_path.relative_to(sample_dir)),
-            "image_path": str(image_path),
+            "image_name": image_name,
+            # "source_image_name": image_path.name,
+            # "source_image_relative_path": str(image_path.relative_to(sample_dir)),
+            # "source_image_absolute_path": str(image_path.resolve()),
+            # "image_file": image_path.name,
+            # "image_relative_path": str(image_path.relative_to(sample_dir)),
+            # "image_path": str(image_path),
             "model": model,
             "runtime_seconds": runtime_seconds,
             "result": result_data,
@@ -335,4 +337,4 @@ def run_task_batch(
         summary_rows.append(row)
 
     write_csv_file(output_dir / f"{task_name}_summary.csv", summary_rows)
-    print(f"[{task_name}] Finished. Wrote {len(summary_rows)} result files.")
+    print(f"[{task_name}] Finished. Wrote {len(summary_rows)} result files in: {output_dir}.")

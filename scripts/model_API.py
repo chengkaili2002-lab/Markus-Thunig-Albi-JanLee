@@ -17,6 +17,8 @@ class Task1Result(BaseModel):
     explanation: str = Field(description="Short explanation")
 
 
+### TASK 2
+# OLD
 class Task2Lane(BaseModel):
     lane_index: int = Field(ge=1, description="Lane number from left to right or top to bottom")
     visible_arrow_type: Literal[
@@ -44,7 +46,37 @@ class Task2Result(BaseModel):
     confidence: float = Field(ge=0.0, le=1.0, description="Confidence between 0.0 and 1.0")
     explanation: str = Field(description="Short explanation")
 
+# NEW
+Direction = Literal[
+    "left",
+    "slight_left",
+    "straight",
+    "slight_right",
+    "right",
+    "uturn",
+    "unknown",
+]
 
+class Task2Lane(BaseModel):
+    lane_id: str = Field(description="Stable lane ID, e.g. lane_1")
+    position_index: int = Field(description="1-based lane order from left to right")
+    directions: list[Direction] = Field(description="Allowed driving directions")
+    restriction_present: bool = Field(description="Whether any extra restriction symbol is present")
+    merge_into: list[str] = Field(
+        default_factory=list,
+        description="Lane IDs this lane visually connects or merges into",
+    )
+    explanation: str = Field(description="Short explanation text describing the lane arrow belogning to this lane")
+
+
+class Task2LaneSignAnalysis(BaseModel):
+    lane_count: int = Field(description="Number of detected lane arrows")
+    lanes: list[Task2Lane]
+    needs_review: bool = Field(description="True if image is ambiguous or unclear")
+    review_reason: str | None = Field(default=None)
+
+
+### TASK3
 class Task3Result(BaseModel):
     lane_detection_assessment: Literal["correct", "incorrect", "unclear"]
     lane_marking_continuity: Literal["continuous", "discontinuous", "unclear"]
@@ -153,6 +185,7 @@ def call_ollama_with_image(
         ],
         format=schema_model.model_json_schema(),
         options={"temperature": 0},
+        keep_alive="15m",
         stream=False,
     )
 

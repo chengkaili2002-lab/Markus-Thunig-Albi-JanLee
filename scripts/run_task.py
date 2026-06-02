@@ -1,5 +1,6 @@
 import argparse
 import sys
+import os
 from datetime import datetime
 from pathlib import Path
 from typing import Callable, Dict, List, Optional
@@ -15,6 +16,7 @@ from utils import (
 from model_API import (
     Task1Result,
     Task2Result,
+    Task2LaneSignAnalysis,
     Task3Result,
     Task4Result,
 )
@@ -114,18 +116,24 @@ def main(argv: Optional[List[str]] = None) -> None:
 
 
 if __name__ == "__main__":
+    # model = "qwen3-vl:4b"
     model = "bjoernb/gemma4-e2b-think"
     task = "task2"
+    prompt_file = PROMPTS_DIR / "task2_advanced_with_procedure.txt"#"task2_lane_semantics.txt"
+    output_format = Task2LaneSignAnalysis
     config = get_task_config(task)
-    images_dir = config["default_images_dir"]
-    output_dir = Path(p_config.output_dir) / task
-    n_images = 1
+    images_dir = config["default_images_dir"] / "test-set"
+    
+    timestamp = datetime.now().strftime("%m-%d_%H-%M-%S")
+    output_dir = Path(p_config.output_dir) / task / timestamp
+    os.makedirs(output_dir)
+    n_images = 7
 
     run_task_batch(
         task_name=task,
-        prompt_file=config["prompt_file"],
+        prompt_file=prompt_file if prompt_file else config["prompt_file"],
         output_dir=output_dir,
-        schema_model=config["schema_model"],
+        schema_model=output_format,
         model=model,
         images_dir=images_dir,
         max_images=n_images,
