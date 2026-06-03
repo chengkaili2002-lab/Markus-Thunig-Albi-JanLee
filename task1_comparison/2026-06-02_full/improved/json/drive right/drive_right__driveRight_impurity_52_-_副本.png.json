@@ -1,0 +1,19 @@
+{
+  "result": {
+    "sign_type": "drive_right",
+    "surface_condition": "not_clean",
+    "evidence": "The surface of Image B shows visible text overlaying the sign, which is absent in the clean reference Image A.",
+    "dirty_count": 1,
+    "overall_readability": "partially_affected",
+    "dirty_areas": [
+      {
+        "location": "center",
+        "type": "sticker"
+      }
+    ]
+  },
+  "task": "task1",
+  "sign_key": "drive_right",
+  "test_image": "driveRight_impurity_52 - \u526f\u672c.png",
+  "reference_image": "standard.png"
+}

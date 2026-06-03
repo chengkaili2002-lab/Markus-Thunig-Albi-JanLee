@@ -1,0 +1,19 @@
+{
+  "result": {
+    "sign_type": "stop",
+    "surface_condition": "not_clean",
+    "evidence": "Image B shows visible discoloration and texture differences compared to the clean reference Image A.",
+    "dirty_count": 1,
+    "overall_readability": "partially_affected",
+    "dirty_areas": [
+      {
+        "location": "center",
+        "type": "discoloration"
+      }
+    ]
+  },
+  "task": "task1",
+  "sign_key": "stop",
+  "test_image": "stop_clean_43.png",
+  "reference_image": "standard.png"
+}

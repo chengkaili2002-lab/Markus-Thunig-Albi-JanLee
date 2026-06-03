@@ -1,0 +1,53 @@
+Compare Image B with Image A, two images of the same traffic sign type.
+Detect visible surface anomalies in Image B.
+
+Known sign type: speed_limit_30.
+Image A: "{{IMAGE_A}}"
+Image B: "{{IMAGE_B}}"
+
+Clean reference:
+A round sign with a red outer ring, a white inner background, and the black number "30" in the center.
+The sign is clean, intact, and without any visible dirt, contamination, or damage.
+
+Use this schema:
+{
+  "sign_type": "speed_limit_30",
+  "surface_condition": "clean | not_clean",
+  "evidence": "short visual evidence",
+  "dirty_count": integer,
+  "overall_readability": "not_affected | partially_affected | severely_affected | uncertain",
+  "dirty_areas": [
+    {
+      "location": "top_left | top_right | bottom_left | bottom_right | center | border | arrow | unclear",
+      "type": "sticker | paint_loss | discoloration | burn_or_blackening | graffiti | contamination | damage"
+    }
+  ]
+}
+
+Example:
+{
+  "sign_type": "speed_limit_30",
+  "surface_condition": "not_clean",
+  "evidence": "Two visible surface anomalies are present compared with the clean reference.",
+  "dirty_count": 2,
+  "overall_readability": "severely_affected",
+  "dirty_areas": [
+    {
+      "location": "top_left",
+      "type": "sticker"
+    },
+    {
+      "location": "bottom_right",
+      "type": "burn_or_blackening"
+    }
+  ]
+}
+
+Rules:
+Return JSON only.
+Do not explain the traffic meaning of the sign.
+Use Image A a the clean reference.
+Focus only on visible differences and surface anomalies.
+If clean: dirty_count = 0, dirty_areas = [], overall_readability = not_affected.
+If visible anomalies are present, set "surface_condition" to "not_clean" and list each dirty area.
+If dirty_count = 1: overall_readability = partially_affected.If dirty_count >= 2: overall_readability = severely_affected.

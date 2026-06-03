@@ -1,0 +1,19 @@
+{
+  "result": {
+    "sign_type": "speed_limit_30",
+    "surface_condition": "not_clean",
+    "evidence": "Image B shows a noticeable discoloration or texture difference compared to the clean reference Image A.",
+    "dirty_count": 1,
+    "overall_readability": "partially_affected",
+    "dirty_areas": [
+      {
+        "location": "center",
+        "type": "discoloration"
+      }
+    ]
+  },
+  "task": "task1",
+  "sign_key": "speed_limit_30",
+  "test_image": "speed30_impurity_35.png",
+  "reference_image": "standard.png"
+}

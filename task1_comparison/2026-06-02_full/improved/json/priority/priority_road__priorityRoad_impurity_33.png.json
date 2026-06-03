@@ -1,0 +1,20 @@
+{
+  "result": {
+    "sign_type": "priority",
+    "surface_condition": "not_clean",
+    "evidence": "Two visible surface anomalies are present compared with the clean reference.",
+    "dirty_count": 1,
+    "overall_readability": "partially_affected",
+    "dirty_areas": [
+      {
+        "location": "center",
+        "type": "contamination"
+      }
+    ]
+  },
+  "task": "task1",
+  "sign_key": "priority_road",
+  "test_image": "priorityRoad_impurity_33.png",
+  "reference_image": "standard.png",
+  "warning": "Adjusted dirty_count from 2 to 1 to match dirty_areas."
+}

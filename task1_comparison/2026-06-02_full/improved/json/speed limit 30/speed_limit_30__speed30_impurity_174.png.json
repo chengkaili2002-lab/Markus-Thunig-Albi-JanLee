@@ -1,0 +1,27 @@
+{
+  "result": {
+    "sign_type": "speed_limit_30",
+    "surface_condition": "not_clean",
+    "evidence": "Image B shows visible surface anomalies, including discoloration and potential damage, compared to the clean reference in Image A.",
+    "dirty_count": 3,
+    "overall_readability": "severely_affected",
+    "dirty_areas": [
+      {
+        "location": "border",
+        "type": "discoloration"
+      },
+      {
+        "location": "center",
+        "type": "discoloration"
+      },
+      {
+        "location": "border",
+        "type": "damage"
+      }
+    ]
+  },
+  "task": "task1",
+  "sign_key": "speed_limit_30",
+  "test_image": "speed30_impurity_174.png",
+  "reference_image": "standard.png"
+}

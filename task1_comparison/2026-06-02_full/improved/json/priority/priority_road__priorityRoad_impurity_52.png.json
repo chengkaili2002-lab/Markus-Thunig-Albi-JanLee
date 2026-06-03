@@ -1,0 +1,23 @@
+{
+  "result": {
+    "sign_type": "priority",
+    "surface_condition": "not_clean",
+    "evidence": "Image B shows visible surface anomalies compared with the clean reference Image A.",
+    "dirty_count": 2,
+    "overall_readability": "severely_affected",
+    "dirty_areas": [
+      {
+        "location": "center",
+        "type": "contamination"
+      },
+      {
+        "location": "border",
+        "type": "contamination"
+      }
+    ]
+  },
+  "task": "task1",
+  "sign_key": "priority_road",
+  "test_image": "priorityRoad_impurity_52.png",
+  "reference_image": "standard.png"
+}

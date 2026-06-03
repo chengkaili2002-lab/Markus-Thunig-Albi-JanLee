@@ -1,0 +1,23 @@
+{
+  "result": {
+    "sign_type": "drive_right",
+    "surface_condition": "not_clean",
+    "evidence": "Image B shows visible surface anomalies compared with the clean reference Image A.",
+    "dirty_count": 2,
+    "overall_readability": "severely_affected",
+    "dirty_areas": [
+      {
+        "location": "top_right",
+        "type": "discoloration"
+      },
+      {
+        "location": "bottom_right",
+        "type": "paint_loss"
+      }
+    ]
+  },
+  "task": "task1",
+  "sign_key": "drive_right",
+  "test_image": "driveRight_impurity_21 - \u526f\u672c.png",
+  "reference_image": "standard.png"
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "sign_type": "no_stop",
+    "surface_condition": "clean",
+    "evidence": "Image B is clean and matches the clean reference.",
+    "dirty_count": 0,
+    "overall_readability": "not_affected",
+    "dirty_areas": []
+  },
+  "task": "task1",
+  "sign_key": "no_stop",
+  "test_image": "noStop_clean_158.png",
+  "reference_image": "standard.png"
+}

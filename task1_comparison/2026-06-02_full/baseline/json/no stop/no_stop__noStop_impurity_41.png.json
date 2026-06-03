@@ -1,0 +1,11 @@
+{
+  "result": {
+    "readability": "readable",
+    "explanation": "The sign is clearly visible and fully recognizable as a standard traffic sign."
+  },
+  "task": "task1",
+  "sign_key": "no_stop",
+  "test_image": "noStop_impurity_41.png",
+  "reference_image": "standard.png",
+  "raw_response": "{\n  \"readability\": \"readable\",\n  \"explanation\": \"The sign is clearly visible and fully recognizable as a standard traffic sign.\"\n}"
+}

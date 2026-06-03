@@ -1,0 +1,11 @@
+{
+  "result": {
+    "readability": "readable",
+    "explanation": "The sign is clearly visible and fully legible."
+  },
+  "task": "task1",
+  "sign_key": "stop",
+  "test_image": "stop_clean_43.png",
+  "reference_image": "standard.png",
+  "raw_response": "{\n  \"readability\": \"readable\",\n  \"explanation\": \"The sign is clearly visible and fully legible.\"\n}"
+}

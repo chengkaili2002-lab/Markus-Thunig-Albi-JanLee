@@ -1,0 +1,11 @@
+{
+  "result": {
+    "readability": "unreadable",
+    "explanation": "The sign is heavily obscured by a large, illegible handwritten marking, making the actual traffic sign content unreadable."
+  },
+  "task": "task1",
+  "sign_key": "priority_road",
+  "test_image": "priorityRoad_impurity_43.png",
+  "reference_image": "standard.png",
+  "raw_response": "{\n  \"readability\": \"unreadable\",\n  \"explanation\": \"The sign is heavily obscured by a large, illegible handwritten marking, making the actual traffic sign content unreadable.\"\n}"
+}

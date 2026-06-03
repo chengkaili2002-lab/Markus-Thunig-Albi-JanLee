@@ -2,7 +2,9 @@ import argparse
 from datetime import datetime
 from pathlib import Path
 
-from utils import PROMPTS_DIR, RESULTS_DIR, ROOT_DIR, Task4Result, get_default_model, run_task_batch
+from common import PROMPTS_DIR, RESULTS_DIR, ROOT_DIR, get_default_model
+from schemas import Task4Result
+from utils import run_task_batch
 
 
 def main() -> None:

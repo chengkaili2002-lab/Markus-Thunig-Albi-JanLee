@@ -1,0 +1,11 @@
+{
+  "result": {
+    "readability": "unclear",
+    "explanation": "The image is heavily blurred and lacks sufficient detail to determine the sign's meaning or condition."
+  },
+  "task": "task1",
+  "sign_key": "priority_road",
+  "test_image": "priorityRoad_clean_100.png",
+  "reference_image": "standard.png",
+  "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image is heavily blurred and lacks sufficient detail to determine the sign's meaning or condition.\"\n}"
+}

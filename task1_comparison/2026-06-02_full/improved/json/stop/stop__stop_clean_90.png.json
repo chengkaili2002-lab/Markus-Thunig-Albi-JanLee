@@ -1,0 +1,19 @@
+{
+  "result": {
+    "sign_type": "stop",
+    "surface_condition": "not_clean",
+    "evidence": "Image B shows visible surface anomalies compared with the clean reference, specifically discoloration or texture issues on the sign surface.",
+    "dirty_count": 1,
+    "overall_readability": "partially_affected",
+    "dirty_areas": [
+      {
+        "location": "center",
+        "type": "discoloration"
+      }
+    ]
+  },
+  "task": "task1",
+  "sign_key": "stop",
+  "test_image": "stop_clean_90.png",
+  "reference_image": "standard.png"
+}

@@ -1,0 +1,23 @@
+{
+  "result": {
+    "sign_type": "no_stop",
+    "surface_condition": "not_clean",
+    "evidence": "Image B shows visible surface anomalies compared with the clean reference Image A.",
+    "dirty_count": 2,
+    "overall_readability": "severely_affected",
+    "dirty_areas": [
+      {
+        "location": "center",
+        "type": "paint_loss"
+      },
+      {
+        "location": "bottom_right",
+        "type": "paint_loss"
+      }
+    ]
+  },
+  "task": "task1",
+  "sign_key": "no_stop",
+  "test_image": "noStop_clean_13.png",
+  "reference_image": "standard.png"
+}

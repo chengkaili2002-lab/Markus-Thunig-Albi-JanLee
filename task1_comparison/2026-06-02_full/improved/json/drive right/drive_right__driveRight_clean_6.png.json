@@ -1,0 +1,14 @@
+{
+  "result": {
+    "sign_type": "drive_right",
+    "surface_condition": "clean",
+    "evidence": "Image B is a clean version of the sign type shown in Image A.",
+    "dirty_count": 0,
+    "overall_readability": "not_affected",
+    "dirty_areas": []
+  },
+  "task": "task1",
+  "sign_key": "drive_right",
+  "test_image": "driveRight_clean_6.png",
+  "reference_image": "standard.png"
+}

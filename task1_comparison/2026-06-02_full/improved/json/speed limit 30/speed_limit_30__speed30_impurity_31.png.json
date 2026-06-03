@@ -1,0 +1,19 @@
+{
+  "result": {
+    "sign_type": "speed_limit_30",
+    "surface_condition": "not_clean",
+    "evidence": "Image B contains visible surface anomalies, specifically a sticker placed across the center of the sign.",
+    "dirty_count": 1,
+    "overall_readability": "partially_affected",
+    "dirty_areas": [
+      {
+        "location": "center",
+        "type": "sticker"
+      }
+    ]
+  },
+  "task": "task1",
+  "sign_key": "speed_limit_30",
+  "test_image": "speed30_impurity_31.png",
+  "reference_image": "standard.png"
+}

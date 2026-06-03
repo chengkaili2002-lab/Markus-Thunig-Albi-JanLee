@@ -1,0 +1,27 @@
+{
+  "result": {
+    "sign_type": "stop",
+    "surface_condition": "not_clean",
+    "evidence": "Image B shows visible surface anomalies compared with the clean reference Image A.",
+    "dirty_count": 3,
+    "overall_readability": "severely_affected",
+    "dirty_areas": [
+      {
+        "location": "top_left",
+        "type": "sticker"
+      },
+      {
+        "location": "top_right",
+        "type": "sticker"
+      },
+      {
+        "location": "bottom_right",
+        "type": "sticker"
+      }
+    ]
+  },
+  "task": "task1",
+  "sign_key": "stop",
+  "test_image": "stop_impurity_0.png",
+  "reference_image": "standard.png"
+}

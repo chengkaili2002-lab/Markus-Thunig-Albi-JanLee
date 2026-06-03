@@ -55,6 +55,8 @@ Each task script loops over every image in the selected folder, calls Ollama, an
 python scripts/run_task1.py --model gemma4:e2b-it-q4_K_M
 ```
 
+By default, Task 1 now reads the five sign folders under `data/data/Task1_sign_impurity/` and uses each folder's `31.5.2026/` images as the test set, with the matching `standard.png` as the reference image.
+
 ### Task 2: Lane Semantics from Arrow Signs
 
 ```powershell

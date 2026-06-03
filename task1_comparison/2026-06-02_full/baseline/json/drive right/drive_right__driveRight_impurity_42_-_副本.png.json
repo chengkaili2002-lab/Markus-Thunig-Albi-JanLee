@@ -1,0 +1,11 @@
+{
+  "result": {
+    "readability": "readable",
+    "explanation": "The sign is clearly visible and fully legible."
+  },
+  "task": "task1",
+  "sign_key": "drive_right",
+  "test_image": "driveRight_impurity_42 - \u526f\u672c.png",
+  "reference_image": "standard.png",
+  "raw_response": "{\n  \"readability\": \"readable\",\n  \"explanation\": \"The sign is clearly visible and fully legible.\"\n}"
+}

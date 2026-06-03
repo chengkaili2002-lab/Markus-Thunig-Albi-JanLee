@@ -1,0 +1,11 @@
+{
+  "result": {
+    "readability": "readable",
+    "explanation": "The sign is clear and fully legible, showing the number 30 inside a red circle."
+  },
+  "task": "task1",
+  "sign_key": "speed_limit_30",
+  "test_image": "speed30_impurity_31.png",
+  "reference_image": "standard.png",
+  "raw_response": "{\n  \"readability\": \"readable\",\n  \"explanation\": \"The sign is clear and fully legible, showing the number 30 inside a red circle.\"\n}"
+}
