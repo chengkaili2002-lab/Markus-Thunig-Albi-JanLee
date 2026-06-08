@@ -1,0 +1,452 @@
+[
+  {
+    "image_name": "DriveRightCleanNo.2",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "drive_right",
+    "runtime_seconds": 117.266,
+    "readability": "unclear",
+    "explanation": "The image provided is mostly blank or contains unidentifiable noise, making it impossible to determine if a traffic sign is present or readable.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is mostly blank or contains unidentifiable noise, making it impossible to determine if a traffic sign is present or readable.\"\n}"
+  },
+  {
+    "image_name": "DriveRightCleanNo.6",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "drive_right",
+    "runtime_seconds": 4.418,
+    "readability": "unclear",
+    "explanation": "The image provided is mostly obscured or consists of unrecognizable characters, making it impossible to determine the content or condition of a traffic sign.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is mostly obscured or consists of unrecognizable characters, making it impossible to determine the content or condition of a traffic sign.\"\n}"
+  },
+  {
+    "image_name": "DriveRightCleanNo.10",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "drive_right",
+    "runtime_seconds": 5.825,
+    "readability": "unclear",
+    "explanation": "The image provided does not contain a recognizable traffic sign.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided does not contain a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "DriveRightCleanNo.159",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "drive_right",
+    "runtime_seconds": 4.698,
+    "readability": "unclear",
+    "explanation": "The image provided does not contain a recognizable traffic sign.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided does not contain a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "DriveRightCleanNo.172",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "drive_right",
+    "runtime_seconds": 4.459,
+    "readability": "unclear",
+    "explanation": "The image provided is mostly blank or contains unidentifiable characters, making it impossible to determine if it is a recognizable traffic sign.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is mostly blank or contains unidentifiable characters, making it impossible to determine if it is a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "DriveRightImpurityNo.13",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "drive_right",
+    "runtime_seconds": 9.84,
+    "readability": "unclear",
+    "explanation": "The image provided is mostly obscured or contains unrecognizable characters, making it unclear what the sign is.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is mostly obscured or contains unrecognizable characters, making it unclear what the sign is.\"\n}"
+  },
+  {
+    "image_name": "DriveRightImpurityNo.21",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "drive_right",
+    "runtime_seconds": 6.9,
+    "readability": "unclear",
+    "explanation": "The image provided contains mostly unreadable or irrelevant characters, not a recognizable traffic sign.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided contains mostly unreadable or irrelevant characters, not a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "DriveRightImpurityNo.42",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "drive_right",
+    "runtime_seconds": 8.726,
+    "readability": "unclear",
+    "explanation": "The provided image is heavily obscured and contains unrecognizable characters, making it impossible to determine the sign's content or condition.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The provided image is heavily obscured and contains unrecognizable characters, making it impossible to determine the sign's content or condition.\"\n}"
+  },
+  {
+    "image_name": "DriveRightImpurityNo.52",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "drive_right",
+    "runtime_seconds": 7.946,
+    "readability": "unclear",
+    "explanation": "The image provided is mostly blank or contains only very faint, unidentifiable markings, making it impossible to determine if it is a recognizable traffic sign.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is mostly blank or contains only very faint, unidentifiable markings, making it impossible to determine if it is a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "DriveRightImpurityNo.164",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "drive_right",
+    "runtime_seconds": 5.017,
+    "readability": "unclear",
+    "explanation": "The image provided contains only fragmented, unidentifiable characters and symbols, not a recognizable traffic sign.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided contains only fragmented, unidentifiable characters and symbols, not a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "NoStopCleanNo.13",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "no_stop",
+    "runtime_seconds": 6.112,
+    "readability": "unclear",
+    "explanation": "The image provided is heavily obscured and contains unrecognizable characters, making it impossible to determine if it is a valid traffic sign or what it signifies.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is heavily obscured and contains unrecognizable characters, making it impossible to determine if it is a valid traffic sign or what it signifies.\"\n}"
+  },
+  {
+    "image_name": "NoStopCleanNo.47",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "no_stop",
+    "runtime_seconds": 5.224,
+    "readability": "unclear",
+    "explanation": "The image provided is a close-up of a texture (likely part of a sign or background) and does not contain a recognizable, standard traffic sign.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is a close-up of a texture (likely part of a sign or background) and does not contain a recognizable, standard traffic sign.\"\n}"
+  },
+  {
+    "image_name": "NoStopCleanNo.61",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "no_stop",
+    "runtime_seconds": 4.612,
+    "readability": "unclear",
+    "explanation": "The image provided is heavily obscured and does not contain a recognizable traffic sign.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is heavily obscured and does not contain a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "NoStopCleanNo.158",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "no_stop",
+    "runtime_seconds": 4.914,
+    "readability": "unclear",
+    "explanation": "The image provided does not contain a recognizable traffic sign.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided does not contain a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "NoStopCleanNo.163",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "no_stop",
+    "runtime_seconds": 5.554,
+    "readability": "unclear",
+    "explanation": "The image provided is heavily obscured and does not contain a recognizable traffic sign.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is heavily obscured and does not contain a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "NoStopImpurityNo.17",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "no_stop",
+    "runtime_seconds": 5.28,
+    "readability": "unclear",
+    "explanation": "The image provided does not contain a recognizable traffic sign.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided does not contain a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "NoStopImpurityNo.30",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "no_stop",
+    "runtime_seconds": 6.886,
+    "readability": "unclear",
+    "explanation": "The image provided does not contain a recognizable traffic sign.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided does not contain a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "NoStopImpurityNo.40",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "no_stop",
+    "runtime_seconds": 5.512,
+    "readability": "unclear",
+    "explanation": "The image provided appears to be a texture or pattern rather than a recognizable traffic sign.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided appears to be a texture or pattern rather than a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "NoStopImpurityNo.41",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "no_stop",
+    "runtime_seconds": 4.759,
+    "readability": "unclear",
+    "explanation": "The image provided is mostly composed of faint, illegible text or symbols, making it unclear what specific traffic sign is present.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is mostly composed of faint, illegible text or symbols, making it unclear what specific traffic sign is present.\"\n}"
+  },
+  {
+    "image_name": "NoStopImpurityNo.173",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "no_stop",
+    "runtime_seconds": 5.302,
+    "readability": "unclear",
+    "explanation": "The image provided is a collage of various overlapping, indistinct shapes that do not clearly represent a recognizable traffic sign.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is a collage of various overlapping, indistinct shapes that do not clearly represent a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "PriorityRoadCleanNo.25",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "priority",
+    "runtime_seconds": 5.707,
+    "readability": "unclear",
+    "explanation": "The provided image is mostly blank or contains only very faint, unidentifiable markings, making it impossible to determine if it is a recognizable traffic sign.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The provided image is mostly blank or contains only very faint, unidentifiable markings, making it impossible to determine if it is a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "PriorityRoadCleanNo.58",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "priority",
+    "runtime_seconds": 5.256,
+    "readability": "unclear",
+    "explanation": "The image provided contains only fragmented, unidentifiable symbols and text, not a recognizable traffic sign.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided contains only fragmented, unidentifiable symbols and text, not a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "PriorityRoadCleanNo.61",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "priority",
+    "runtime_seconds": 6.811,
+    "readability": "unclear",
+    "explanation": "The image provided is a pattern of squares/rectangles, not a recognizable traffic sign.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is a pattern of squares/rectangles, not a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "PriorityRoadCleanNo.311",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "priority",
+    "runtime_seconds": 5.402,
+    "readability": "unclear",
+    "explanation": "The image provided is heavily obscured or contains unrecognizable markings, making it impossible to determine if it is a recognizable traffic sign.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is heavily obscured or contains unrecognizable markings, making it impossible to determine if it is a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "PriorityRoadCleanNo.684",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "priority",
+    "runtime_seconds": 6.134,
+    "readability": "unclear",
+    "explanation": "The image provided is heavily obscured and contains mostly watermarks/text, making it impossible to discern a recognizable traffic sign.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is heavily obscured and contains mostly watermarks/text, making it impossible to discern a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "PriorityRoadImpurityNo.1",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "priority",
+    "runtime_seconds": 9.028,
+    "readability": "unclear",
+    "explanation": "The provided image is entirely composed of unreadable characters/symbols, not a recognizable traffic sign.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The provided image is entirely composed of unreadable characters/symbols, not a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "PriorityRoadImpurityNo.28",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "priority",
+    "runtime_seconds": 5.967,
+    "readability": "unclear",
+    "explanation": "The image provided is heavily obscured and contains a mix of numbers, symbols, and what appears to be a partial sign or text, making it impossible to determine the content of a standard traffic sign.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is heavily obscured and contains a mix of numbers, symbols, and what appears to be a partial sign or text, making it impossible to determine the content of a standard traffic sign.\"\n}"
+  },
+  {
+    "image_name": "PriorityRoadImpurityNo.33",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "priority",
+    "runtime_seconds": 4.69,
+    "readability": "unclear",
+    "explanation": "The image contains a sequence of yellow signs, but the specific content is heavily obscured or illegible.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image contains a sequence of yellow signs, but the specific content is heavily obscured or illegible.\"\n}"
+  },
+  {
+    "image_name": "PriorityRoadImpurityNo.43",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "priority",
+    "runtime_seconds": 7.293,
+    "readability": "unclear",
+    "explanation": "The image provided does not contain a recognizable traffic sign.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided does not contain a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "PriorityRoadImpurityNo.52",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "priority",
+    "runtime_seconds": 5.816,
+    "readability": "unclear",
+    "explanation": "The image provided is heavily obscured, making it impossible to determine if it is a recognizable traffic sign.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is heavily obscured, making it impossible to determine if it is a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "SpeedLimit30CleanNo.28",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "speed_limit",
+    "runtime_seconds": 6.918,
+    "readability": "unclear",
+    "explanation": "The image provided contains a series of overlapping, illegible markings that do not form a recognizable traffic sign.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided contains a series of overlapping, illegible markings that do not form a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "SpeedLimit30CleanNo.30",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "speed_limit",
+    "runtime_seconds": 5.459,
+    "readability": "unclear",
+    "explanation": "The image provided is heavily obscured and contains unrecognizable characters, making it impossible to determine if it is a recognizable traffic sign.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is heavily obscured and contains unrecognizable characters, making it impossible to determine if it is a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "SpeedLimit30CleanNo.140",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "speed_limit",
+    "runtime_seconds": 5.964,
+    "readability": "unclear",
+    "explanation": "The image provided is heavily obscured, fragmented, and does not clearly depict a recognizable traffic sign.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is heavily obscured, fragmented, and does not clearly depict a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "SpeedLimit30CleanNo.146",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "speed_limit",
+    "runtime_seconds": 5.483,
+    "readability": "unclear",
+    "explanation": "The image provided does not contain a recognizable traffic sign.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided does not contain a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "SpeedLimit30CleanNo.149",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "speed_limit",
+    "runtime_seconds": 6.513,
+    "readability": "unclear",
+    "explanation": "The image contains multiple overlapping or fragmented elements, making it impossible to clearly identify a single, recognizable traffic sign.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image contains multiple overlapping or fragmented elements, making it impossible to clearly identify a single, recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "SpeedLimit30ImpurityNo.25",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "speed_limit",
+    "runtime_seconds": 4.418,
+    "readability": "unclear",
+    "explanation": "The image provided is heavily obscured and contains fragmented, unidentifiable characters, making it impossible to determine if it is a recognizable traffic sign.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is heavily obscured and contains fragmented, unidentifiable characters, making it impossible to determine if it is a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "SpeedLimit30ImpurityNo.31",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "speed_limit",
+    "runtime_seconds": 5.335,
+    "readability": "unclear",
+    "explanation": "The image provided is heavily obscured and contains fragmented, unidentifiable characters, making it impossible to determine if it is a recognizable traffic sign.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is heavily obscured and contains fragmented, unidentifiable characters, making it impossible to determine if it is a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "SpeedLimit30ImpurityNo.35",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "speed_limit",
+    "runtime_seconds": 5.045,
+    "readability": "unclear",
+    "explanation": "The image provided is a collage of various red and white rectangular shapes, not a recognizable traffic sign.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is a collage of various red and white rectangular shapes, not a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "SpeedLimit30ImpurityNo.174",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "speed_limit",
+    "runtime_seconds": 5.499,
+    "readability": "unreadable",
+    "explanation": "The image consists of fragmented, abstract shapes and does not contain any recognizable or legible traffic sign.",
+    "raw_response": "```json\n{\n  \"readability\": \"unreadable\",\n  \"explanation\": \"The image consists of fragmented, abstract shapes and does not contain any recognizable or legible traffic sign.\"\n}\n```"
+  },
+  {
+    "image_name": "SpeedLimit30ImpurityNo.197",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "speed_limit",
+    "runtime_seconds": 3.307,
+    "readability": "unclear",
+    "explanation": "The image contains fragmented and unclear characters, making it impossible to determine the sign's meaning.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image contains fragmented and unclear characters, making it impossible to determine the sign's meaning.\"\n}"
+  },
+  {
+    "image_name": "StopCleanNo.1",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "stop",
+    "runtime_seconds": 6.522,
+    "readability": "unclear",
+    "explanation": "The image contains a pattern of red and yellow markings, but no recognizable standard traffic sign is present.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image contains a pattern of red and yellow markings, but no recognizable standard traffic sign is present.\"\n}"
+  },
+  {
+    "image_name": "StopCleanNo.90",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "stop",
+    "runtime_seconds": 12.375,
+    "readability": "unclear",
+    "explanation": "The provided image is heavily obscured or contains unrecognizable characters, making it unclear what the sign is.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The provided image is heavily obscured or contains unrecognizable characters, making it unclear what the sign is.\"\n}"
+  },
+  {
+    "image_name": "StopCleanNo.106",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "stop",
+    "runtime_seconds": 6.474,
+    "readability": "unclear",
+    "explanation": "The image provided is heavily occluded by a red background and appears to be a highly distorted or damaged sign, making the text illegible.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is heavily occluded by a red background and appears to be a highly distorted or damaged sign, making the text illegible.\"\n}"
+  },
+  {
+    "image_name": "StopCleanNo.308",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "stop",
+    "runtime_seconds": 8.856,
+    "readability": "unclear",
+    "explanation": "The provided image is heavily obscured or contains unrecognizable characters, making it unclear what the sign is.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The provided image is heavily obscured or contains unrecognizable characters, making it unclear what the sign is.\"\n}"
+  },
+  {
+    "image_name": "StopCleanNo.326",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "stop",
+    "runtime_seconds": 7.15,
+    "readability": "unclear",
+    "explanation": "No traffic sign was provided for analysis.",
+    "raw_response": "```json\n{\n  \"readability\": \"unclear\",\n  \"explanation\": \"No traffic sign was provided for analysis.\"\n}\n```"
+  },
+  {
+    "image_name": "StopImpurityNo.0",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "stop",
+    "runtime_seconds": 3.735,
+    "readability": "readable",
+    "explanation": "The sign is clearly visible and legible.",
+    "raw_response": "{\n  \"readability\": \"readable\",\n  \"explanation\": \"The sign is clearly visible and legible.\"\n}"
+  },
+  {
+    "image_name": "StopImpurityNo.25",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "stop",
+    "runtime_seconds": 5.952,
+    "readability": "unclear",
+    "explanation": "The image provided is heavily obscured and does not contain a recognizable traffic sign.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is heavily obscured and does not contain a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "StopImpurityNo.68",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "stop",
+    "runtime_seconds": 4.92,
+    "readability": "unclear",
+    "explanation": "The image provided is mostly obscured or consists of unidentifiable characters, making it unclear what sign is present.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is mostly obscured or consists of unidentifiable characters, making it unclear what sign is present.\"\n}"
+  },
+  {
+    "image_name": "StopImpurityNo.116",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "stop",
+    "runtime_seconds": 7.316,
+    "readability": "unclear",
+    "explanation": "The image provided does not contain a recognizable traffic sign.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided does not contain a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "StopImpurityNo.458",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "stop",
+    "runtime_seconds": 4.58,
+    "readability": "unclear",
+    "explanation": "The image appears to be a collage or a heavily textured surface, not a standard, recognizable traffic sign.",
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image appears to be a collage or a heavily textured surface, not a standard, recognizable traffic sign.\"\n}"
+  }
+]

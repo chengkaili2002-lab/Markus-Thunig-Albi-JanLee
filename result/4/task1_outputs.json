@@ -1,0 +1,1536 @@
+[
+  {
+    "order": 1,
+    "image_name": "DriveRightCleanNo.2",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "drive_right",
+    "runtime_seconds": 28.877,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\driveRight_clean_2.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\drive right.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\drive_right.txt",
+    "overall_readability": "severely_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "contamination",
+      "damage"
+    ],
+    "result": {
+      "sign_type": "drive_right",
+      "surface_condition": "not_clean",
+      "evidence": "Image B shows visible surface anomalies compared with the clean reference in Image A.",
+      "dirty_count": 2,
+      "overall_readability": "severely_affected",
+      "dirty_areas": [
+        {
+          "location": "top_left",
+          "type": "contamination"
+        },
+        {
+          "location": "bottom_right",
+          "type": "damage"
+        }
+      ]
+    },
+    "raw_response": "{\"sign_type\": \"drive_right\", \"surface_condition\": \"not_clean\", \"evidence\": \"Image B shows visible surface anomalies compared with the clean reference in Image A.\", \"dirty_count\": 2, \"overall_readability\": \"partially_affected\", \"dirty_areas\": [\n    {\n      \"location\": \"top_left\",\n      \"type\": \"contamination\"\n    },\n    {\n      \"location\": \"bottom_right\",\n      \"type\": \"damage\"\n    }\n  ]}"
+  },
+  {
+    "order": 2,
+    "image_name": "DriveRightCleanNo.6",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "drive_right",
+    "runtime_seconds": 7.945,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\driveRight_clean_6.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\drive right.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\drive_right.txt",
+    "overall_readability": "severely_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "paint_loss",
+      "discoloration"
+    ],
+    "result": {
+      "sign_type": "drive_right",
+      "surface_condition": "not_clean",
+      "evidence": "Image B contains visible surface anomalies compared with the clean reference in Image A.",
+      "dirty_count": 2,
+      "overall_readability": "severely_affected",
+      "dirty_areas": [
+        {
+          "location": "top_left",
+          "type": "paint_loss"
+        },
+        {
+          "location": "bottom_right",
+          "type": "discoloration"
+        }
+      ]
+    },
+    "raw_response": "{\"sign_type\": \"drive_right\", \"surface_condition\": \"not_clean\", \"evidence\": \"Image B contains visible surface anomalies compared with the clean reference in Image A.\", \"dirty_count\": 2, \"overall_readability\": \"severely_affected\", \"dirty_areas\": [\n  {\n    \"location\": \"top_left\",\n    \"type\": \"paint_loss\"\n  },\n  {\n    \"location\": \"bottom_right\",\n    \"type\": \"discoloration\"\n  }\n]}"
+  },
+  {
+    "order": 3,
+    "image_name": "DriveRightCleanNo.10",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "drive_right",
+    "runtime_seconds": 8.256,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\driveRight_clean_10.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\drive right.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\drive_right.txt",
+    "overall_readability": "severely_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "contamination",
+      "discoloration"
+    ],
+    "result": {
+      "sign_type": "drive_right",
+      "surface_condition": "not_clean",
+      "evidence": "Image B contains visible surface anomalies compared with the clean reference in Image A.",
+      "dirty_count": 2,
+      "overall_readability": "severely_affected",
+      "dirty_areas": [
+        {
+          "location": "center",
+          "type": "contamination"
+        },
+        {
+          "location": "arrow",
+          "type": "discoloration"
+        }
+      ]
+    },
+    "raw_response": "{\"sign_type\": \"drive_right\", \"surface_condition\": \"not_clean\", \"evidence\": \"Image B contains visible surface anomalies compared with the clean reference in Image A.\", \"dirty_count\": 2, \"overall_readability\": \"partially_affected\", \"dirty_areas\": [\n    {\n      \"location\": \"center\",\n      \"type\": \"contamination\"\n    },\n    {\n      \"location\": \"arrow\",\n      \"type\": \"discoloration\"\n    }\n  ]}"
+  },
+  {
+    "order": 4,
+    "image_name": "DriveRightCleanNo.159",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "drive_right",
+    "runtime_seconds": 8.425,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\driveRight_clean_159 - 副本.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\drive right.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\drive_right.txt",
+    "overall_readability": "severely_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "paint_loss",
+      "discoloration"
+    ],
+    "result": {
+      "sign_type": "drive_right",
+      "surface_condition": "not_clean",
+      "evidence": "Image B contains visible surface anomalies compared with the clean reference in Image A.",
+      "dirty_count": 2,
+      "overall_readability": "severely_affected",
+      "dirty_areas": [
+        {
+          "location": "top_left",
+          "type": "paint_loss"
+        },
+        {
+          "location": "bottom_right",
+          "type": "discoloration"
+        }
+      ]
+    },
+    "raw_response": "{\n  \"sign_type\": \"drive_right\",\n  \"surface_condition\": \"not_clean\",\n  \"evidence\": \"Image B contains visible surface anomalies compared with the clean reference in Image A.\",\n  \"dirty_count\": 2,\n  \"overall_readability\": \"severely_affected\",\n  \"dirty_areas\": [\n    {\n      \"location\": \"top_left\",\n      \"type\": \"paint_loss\"\n    },\n    {\n      \"location\": \"bottom_right\",\n      \"type\": \"discoloration\"\n    }\n  ]\n}"
+  },
+  {
+    "order": 5,
+    "image_name": "DriveRightCleanNo.172",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "drive_right",
+    "runtime_seconds": 6.421,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\driveRight_clean_172.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\drive right.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\drive_right.txt",
+    "overall_readability": "severely_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "contamination",
+      "damage"
+    ],
+    "result": {
+      "sign_type": "drive_right",
+      "surface_condition": "not_clean",
+      "evidence": "Image B shows visible surface anomalies compared with the clean reference in Image A.",
+      "dirty_count": 2,
+      "overall_readability": "severely_affected",
+      "dirty_areas": [
+        {
+          "location": "top_left",
+          "type": "contamination"
+        },
+        {
+          "location": "bottom_right",
+          "type": "damage"
+        }
+      ]
+    },
+    "raw_response": "{\"sign_type\": \"drive_right\", \"surface_condition\": \"not_clean\", \"evidence\": \"Image B shows visible surface anomalies compared with the clean reference in Image A.\", \"dirty_count\": 2, \"overall_readability\": \"partially_affected\", \"dirty_areas\": [\n    {\n      \"location\": \"top_left\",\n      \"type\": \"contamination\"\n    },\n    {\n      \"location\": \"bottom_right\",\n      \"type\": \"damage\"\n    }\n  ]}"
+  },
+  {
+    "order": 6,
+    "image_name": "DriveRightImpurityNo.13",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "drive_right",
+    "runtime_seconds": 7.867,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\driveRight_impurity_13 - 副本.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\drive right.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\drive_right.txt",
+    "overall_readability": "severely_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "paint_loss",
+      "discoloration",
+      "damage"
+    ],
+    "result": {
+      "sign_type": "drive_right",
+      "surface_condition": "not_clean",
+      "evidence": "Image B contains visible surface anomalies compared with the clean reference in Image A.",
+      "dirty_count": 3,
+      "overall_readability": "severely_affected",
+      "dirty_areas": [
+        {
+          "location": "top_left",
+          "type": "paint_loss"
+        },
+        {
+          "location": "bottom_right",
+          "type": "discoloration"
+        },
+        {
+          "location": "center",
+          "type": "damage"
+        }
+      ]
+    },
+    "raw_response": "{\"sign_type\": \"drive_right\", \"surface_condition\": \"not_clean\", \"evidence\": \"Image B contains visible surface anomalies compared with the clean reference in Image A.\", \"dirty_count\": 3, \"overall_readability\": \"severely_affected\", \"dirty_areas\": [\n    {\n      \"location\": \"top_left\",\n      \"type\": \"paint_loss\"\n    },\n    {\n      \"location\": \"bottom_right\",\n      \"type\": \"discoloration\"\n    },\n    {\n      \"location\": \"center\",\n      \"type\": \"damage\"\n    }\n  ]}"
+  },
+  {
+    "order": 7,
+    "image_name": "DriveRightImpurityNo.21",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "drive_right",
+    "runtime_seconds": 7.828,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\driveRight_impurity_21 - 副本.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\drive right.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\drive_right.txt",
+    "overall_readability": "severely_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "contamination",
+      "damage"
+    ],
+    "result": {
+      "sign_type": "drive_right",
+      "surface_condition": "not_clean",
+      "evidence": "Image B shows visible surface anomalies compared with the clean reference in Image A.",
+      "dirty_count": 2,
+      "overall_readability": "severely_affected",
+      "dirty_areas": [
+        {
+          "location": "center",
+          "type": "contamination"
+        },
+        {
+          "location": "border",
+          "type": "damage"
+        }
+      ]
+    },
+    "raw_response": "{\n  \"sign_type\": \"drive_right\",\n  \"surface_condition\": \"not_clean\",\n  \"evidence\": \"Image B shows visible surface anomalies compared with the clean reference in Image A.\",\n  \"dirty_count\": 2,\n  \"overall_readability\": \"partially_affected\",\n  \"dirty_areas\": [\n    {\n      \"location\": \"center\",\n      \"type\": \"contamination\"\n    },\n    {\n      \"location\": \"border\",\n      \"type\": \"damage\"\n    }\n  ]\n}"
+  },
+  {
+    "order": 8,
+    "image_name": "DriveRightImpurityNo.42",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "drive_right",
+    "runtime_seconds": 10.249,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\driveRight_impurity_42 - 副本.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\drive right.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\drive_right.txt",
+    "overall_readability": "severely_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "paint_loss",
+      "discoloration"
+    ],
+    "result": {
+      "sign_type": "drive_right",
+      "surface_condition": "not_clean",
+      "evidence": "Image B contains significant surface anomalies compared to the clean reference in Image A.",
+      "dirty_count": 4,
+      "overall_readability": "severely_affected",
+      "dirty_areas": [
+        {
+          "location": "top_left",
+          "type": "paint_loss"
+        },
+        {
+          "location": "top_right",
+          "type": "discoloration"
+        },
+        {
+          "location": "bottom_left",
+          "type": "paint_loss"
+        },
+        {
+          "location": "bottom_right",
+          "type": "discoloration"
+        }
+      ]
+    },
+    "raw_response": "{\"sign_type\": \"drive_right\", \"surface_condition\": \"not_clean\", \"evidence\": \"Image B contains significant surface anomalies compared to the clean reference in Image A.\", \"dirty_count\": 4, \"overall_readability\": \"severely_affected\", \"dirty_areas\": [\n    {\n      \"location\": \"top_left\",\n      \"type\": \"paint_loss\"\n    },\n    {\n      \"location\": \"top_right\",\n      \"type\": \"discoloration\"\n    },\n    {\n      \"location\": \"bottom_left\",\n      \"type\": \"paint_loss\"\n    },\n    {\n      \"location\": \"bottom_right\",\n      \"type\": \"discoloration\"\n    }\n  ]}"
+  },
+  {
+    "order": 9,
+    "image_name": "DriveRightImpurityNo.52",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "drive_right",
+    "runtime_seconds": 6.944,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\driveRight_impurity_52 - 副本.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\drive right.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\drive_right.txt",
+    "overall_readability": "severely_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "discoloration",
+      "contamination"
+    ],
+    "result": {
+      "sign_type": "drive_right",
+      "surface_condition": "not_clean",
+      "evidence": "Image B shows visible surface anomalies compared with the clean reference in Image A.",
+      "dirty_count": 2,
+      "overall_readability": "severely_affected",
+      "dirty_areas": [
+        {
+          "location": "center",
+          "type": "discoloration"
+        },
+        {
+          "location": "border",
+          "type": "contamination"
+        }
+      ]
+    },
+    "raw_response": "{\"sign_type\": \"drive_right\", \"surface_condition\": \"not_clean\", \"evidence\": \"Image B shows visible surface anomalies compared with the clean reference in Image A.\", \"dirty_count\": 2, \"overall_readability\": \"partially_affected\", \"dirty_areas\": [\n    {\n      \"location\": \"center\",\n      \"type\": \"discoloration\"\n    },\n    {\n      \"location\": \"border\",\n      \"type\": \"contamination\"\n    }\n  ]}"
+  },
+  {
+    "order": 10,
+    "image_name": "DriveRightImpurityNo.164",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "drive_right",
+    "runtime_seconds": 33.391,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\driveRight_impurity_164 - 副本.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\drive right.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\drive_right.txt",
+    "error": "1 validation error for Task1Result\n  Invalid JSON: EOF while parsing a value at line 1 column 0 [type=json_invalid, input_value='', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid"
+  },
+  {
+    "order": 11,
+    "image_name": "NoStopCleanNo.13",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "no_stop",
+    "runtime_seconds": 7.398,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\noStop_clean_13.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\no stop.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\no_stop.txt",
+    "overall_readability": "partially_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "contamination"
+    ],
+    "result": {
+      "sign_type": "no_stop",
+      "surface_condition": "not_clean",
+      "evidence": "Image B shows visible surface anomalies compared with the clean reference in Image A.",
+      "dirty_count": 1,
+      "overall_readability": "partially_affected",
+      "dirty_areas": [
+        {
+          "location": "center",
+          "type": "contamination"
+        }
+      ]
+    },
+    "raw_response": "{\"sign_type\": \"no_stop\", \"surface_condition\": \"not_clean\", \"evidence\": \"Image B shows visible surface anomalies compared with the clean reference in Image A.\", \"dirty_count\": 1, \"overall_readability\": \"partially_affected\", \"dirty_areas\": [\n    {\n      \"location\": \"center\",\n      \"type\": \"contamination\"\n    }\n  ]}"
+  },
+  {
+    "order": 12,
+    "image_name": "NoStopCleanNo.47",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "no_stop",
+    "runtime_seconds": 5.996,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\noStop_clean_47.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\no stop.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\no_stop.txt",
+    "overall_readability": "partially_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "damage"
+    ],
+    "result": {
+      "sign_type": "no_stop",
+      "surface_condition": "not_clean",
+      "evidence": "Image B contains visible surface anomalies compared with the clean reference in Image A.",
+      "dirty_count": 1,
+      "overall_readability": "partially_affected",
+      "dirty_areas": [
+        {
+          "location": "bottom_right",
+          "type": "damage"
+        }
+      ]
+    },
+    "raw_response": "{\"sign_type\": \"no_stop\", \"surface_condition\": \"not_clean\", \"evidence\": \"Image B contains visible surface anomalies compared with the clean reference in Image A.\", \"dirty_count\": 1, \"overall_readability\": \"partially_affected\", \"dirty_areas\": [\n  {\n    \"location\": \"bottom_right\",\n    \"type\": \"damage\"\n  }\n]}"
+  },
+  {
+    "order": 13,
+    "image_name": "NoStopCleanNo.61",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "no_stop",
+    "runtime_seconds": 7.927,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\noStop_clean_61.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\no stop.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\no_stop.txt",
+    "overall_readability": "partially_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "contamination"
+    ],
+    "result": {
+      "sign_type": "no_stop",
+      "surface_condition": "not_clean",
+      "evidence": "Image B shows visible surface anomalies compared with the clean reference in Image A.",
+      "dirty_count": 1,
+      "overall_readability": "partially_affected",
+      "dirty_areas": [
+        {
+          "location": "center",
+          "type": "contamination"
+        }
+      ]
+    },
+    "raw_response": "{\"sign_type\": \"no_stop\", \"surface_condition\": \"not_clean\", \"evidence\": \"Image B shows visible surface anomalies compared with the clean reference in Image A.\", \"dirty_count\": 1, \"overall_readability\": \"partially_affected\", \"dirty_areas\": [\n  {\n    \"location\": \"center\",\n    \"type\": \"contamination\"\n  }\n]}"
+  },
+  {
+    "order": 14,
+    "image_name": "NoStopCleanNo.158",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "no_stop",
+    "runtime_seconds": 6.576,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\noStop_clean_158.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\no stop.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\no_stop.txt",
+    "overall_readability": "partially_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "damage"
+    ],
+    "result": {
+      "sign_type": "no_stop",
+      "surface_condition": "not_clean",
+      "evidence": "Image B contains visible surface anomalies compared with the clean reference in Image A.",
+      "dirty_count": 1,
+      "overall_readability": "partially_affected",
+      "dirty_areas": [
+        {
+          "location": "bottom_right",
+          "type": "damage"
+        }
+      ]
+    },
+    "raw_response": "{\"sign_type\": \"no_stop\", \"surface_condition\": \"not_clean\", \"evidence\": \"Image B contains visible surface anomalies compared with the clean reference in Image A.\", \"dirty_count\": 1, \"overall_readability\": \"partially_affected\", \"dirty_areas\": [\n  {\n    \"location\": \"bottom_right\",\n    \"type\": \"damage\"\n  }\n]}"
+  },
+  {
+    "order": 15,
+    "image_name": "NoStopCleanNo.163",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "no_stop",
+    "runtime_seconds": 7.552,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\noStop_clean_163.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\no stop.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\no_stop.txt",
+    "overall_readability": "partially_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "contamination"
+    ],
+    "result": {
+      "sign_type": "no_stop",
+      "surface_condition": "not_clean",
+      "evidence": "Image B shows visible surface anomalies compared with the clean reference in Image A.",
+      "dirty_count": 1,
+      "overall_readability": "partially_affected",
+      "dirty_areas": [
+        {
+          "location": "center",
+          "type": "contamination"
+        }
+      ]
+    },
+    "raw_response": "{\"sign_type\": \"no_stop\", \"surface_condition\": \"not_clean\", \"evidence\": \"Image B shows visible surface anomalies compared with the clean reference in Image A.\", \"dirty_count\": 1, \"overall_readability\": \"partially_affected\", \"dirty_areas\": [\n  {\n    \"location\": \"center\",\n    \"type\": \"contamination\"\n  }\n]}"
+  },
+  {
+    "order": 16,
+    "image_name": "NoStopImpurityNo.17",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "no_stop",
+    "runtime_seconds": 7.598,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\noStop_impurity_17.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\no stop.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\no_stop.txt",
+    "overall_readability": "partially_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "damage"
+    ],
+    "result": {
+      "sign_type": "no_stop",
+      "surface_condition": "not_clean",
+      "evidence": "Image B contains visible surface anomalies compared with the clean reference in Image A.",
+      "dirty_count": 1,
+      "overall_readability": "partially_affected",
+      "dirty_areas": [
+        {
+          "location": "bottom_right",
+          "type": "damage"
+        }
+      ]
+    },
+    "raw_response": "{\"sign_type\": \"no_stop\", \"surface_condition\": \"not_clean\", \"evidence\": \"Image B contains visible surface anomalies compared with the clean reference in Image A.\", \"dirty_count\": 1, \"overall_readability\": \"partially_affected\", \"dirty_areas\": [\n  {\n    \"location\": \"bottom_right\",\n    \"type\": \"damage\"\n  }\n]}"
+  },
+  {
+    "order": 17,
+    "image_name": "NoStopImpurityNo.30",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "no_stop",
+    "runtime_seconds": 8.454,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\noStop_impurity_30.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\no stop.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\no_stop.txt",
+    "overall_readability": "partially_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "discoloration"
+    ],
+    "result": {
+      "sign_type": "no_stop",
+      "surface_condition": "not_clean",
+      "evidence": "Image B shows visible surface anomalies compared with the clean reference in Image A.",
+      "dirty_count": 1,
+      "overall_readability": "partially_affected",
+      "dirty_areas": [
+        {
+          "location": "center",
+          "type": "discoloration"
+        }
+      ]
+    },
+    "raw_response": "{\n  \"sign_type\": \"no_stop\",\n  \"surface_condition\": \"not_clean\",\n  \"evidence\": \"Image B shows visible surface anomalies compared with the clean reference in Image A.\",\n  \"dirty_count\": 1,\n  \"overall_readability\": \"partially_affected\",\n  \"dirty_areas\": [\n    {\n      \"location\": \"center\",\n      \"type\": \"discoloration\"\n    }\n  ]\n}"
+  },
+  {
+    "order": 18,
+    "image_name": "NoStopImpurityNo.40",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "no_stop",
+    "runtime_seconds": 7.851,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\noStop_impurity_40.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\no stop.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\no_stop.txt",
+    "overall_readability": "partially_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "damage"
+    ],
+    "result": {
+      "sign_type": "no_stop",
+      "surface_condition": "not_clean",
+      "evidence": "Image B contains visible surface anomalies compared with the clean reference in Image A.",
+      "dirty_count": 1,
+      "overall_readability": "partially_affected",
+      "dirty_areas": [
+        {
+          "location": "bottom_right",
+          "type": "damage"
+        }
+      ]
+    },
+    "raw_response": "{\"sign_type\": \"no_stop\", \"surface_condition\": \"not_clean\", \"evidence\": \"Image B contains visible surface anomalies compared with the clean reference in Image A.\", \"dirty_count\": 1, \"overall_readability\": \"partially_affected\", \"dirty_areas\": [\n  {\n    \"location\": \"bottom_right\",\n    \"type\": \"damage\"\n  }\n]}"
+  },
+  {
+    "order": 19,
+    "image_name": "NoStopImpurityNo.41",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "no_stop",
+    "runtime_seconds": 7.476,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\noStop_impurity_41.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\no stop.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\no_stop.txt",
+    "overall_readability": "partially_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "contamination"
+    ],
+    "result": {
+      "sign_type": "no_stop",
+      "surface_condition": "not_clean",
+      "evidence": "Image B contains visible surface anomalies compared with the clean reference in Image A.",
+      "dirty_count": 1,
+      "overall_readability": "partially_affected",
+      "dirty_areas": [
+        {
+          "location": "center",
+          "type": "contamination"
+        }
+      ]
+    },
+    "raw_response": "{\"sign_type\": \"no_stop\", \"surface_condition\": \"not_clean\", \"evidence\": \"Image B contains visible surface anomalies compared with the clean reference in Image A.\", \"dirty_count\": 1, \"overall_readability\": \"partially_affected\", \"dirty_areas\": [\n  {\n    \"location\": \"center\",\n    \"type\": \"contamination\"\n  }\n]}"
+  },
+  {
+    "order": 20,
+    "image_name": "NoStopImpurityNo.173",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "no_stop",
+    "runtime_seconds": 8.474,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\noStop_impurity_173.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\no stop.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\no_stop.txt",
+    "overall_readability": "partially_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "discoloration"
+    ],
+    "result": {
+      "sign_type": "no_stop",
+      "surface_condition": "not_clean",
+      "evidence": "Image B contains visible surface anomalies compared with the clean reference in Image A.",
+      "dirty_count": 1,
+      "overall_readability": "partially_affected",
+      "dirty_areas": [
+        {
+          "location": "center",
+          "type": "discoloration"
+        }
+      ]
+    },
+    "raw_response": "{\"sign_type\": \"no_stop\", \"surface_condition\": \"not_clean\", \"evidence\": \"Image B contains visible surface anomalies compared with the clean reference in Image A.\", \"dirty_count\": 1, \"overall_readability\": \"partially_affected\", \"dirty_areas\": [\n  {\n    \"location\": \"center\",\n    \"type\": \"discoloration\"\n  }\n]}"
+  },
+  {
+    "order": 21,
+    "image_name": "PriorityRoadCleanNo.25",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "priority",
+    "runtime_seconds": 10.394,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\priorityRoad_clean_25.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\priority road.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\priority.txt",
+    "overall_readability": "severely_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "contamination",
+      "damage"
+    ],
+    "result": {
+      "sign_type": "priority",
+      "surface_condition": "not_clean",
+      "evidence": "Image B has visible surface anomalies compared with the clean reference in Image A.",
+      "dirty_count": 2,
+      "overall_readability": "severely_affected",
+      "dirty_areas": [
+        {
+          "location": "top_left",
+          "type": "contamination"
+        },
+        {
+          "location": "bottom_right",
+          "type": "damage"
+        }
+      ]
+    },
+    "raw_response": "{\"sign_type\": \"priority\", \"surface_condition\": \"not_clean\", \"evidence\": \"Image B has visible surface anomalies compared with the clean reference in Image A.\", \"dirty_count\": 2, \"overall_readability\": \"partially_affected\", \"dirty_areas\": [\n  {\n    \"location\": \"top_left\",\n    \"type\": \"contamination\"\n  },\n  {\n    \"location\": \"bottom_right\",\n    \"type\": \"damage\"\n  }\n]}"
+  },
+  {
+    "order": 22,
+    "image_name": "PriorityRoadCleanNo.58",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "priority",
+    "runtime_seconds": 8.135,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\priorityRoad_clean_58.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\priority road.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\priority.txt",
+    "overall_readability": "partially_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "paint_loss"
+    ],
+    "result": {
+      "sign_type": "priority",
+      "surface_condition": "not_clean",
+      "evidence": "Image B shows visible surface anomalies compared with the clean reference in Image A.",
+      "dirty_count": 1,
+      "overall_readability": "partially_affected",
+      "dirty_areas": [
+        {
+          "location": "center",
+          "type": "paint_loss"
+        }
+      ]
+    },
+    "raw_response": "{\"sign_type\": \"priority\", \"surface_condition\": \"not_clean\", \"evidence\": \"Image B shows visible surface anomalies compared with the clean reference in Image A.\", \"dirty_count\": 1, \"overall_readability\": \"partially_affected\", \"dirty_areas\": [\n  {\n    \"location\": \"center\",\n    \"type\": \"paint_loss\"\n  }\n]}"
+  },
+  {
+    "order": 23,
+    "image_name": "PriorityRoadCleanNo.61",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "priority",
+    "runtime_seconds": 6.07,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\priorityRoad_clean_61.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\priority road.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\priority.txt",
+    "overall_readability": "partially_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "contamination"
+    ],
+    "result": {
+      "sign_type": "priority",
+      "surface_condition": "not_clean",
+      "evidence": "Image B shows visible surface anomalies compared with the clean reference in Image A.",
+      "dirty_count": 1,
+      "overall_readability": "partially_affected",
+      "dirty_areas": [
+        {
+          "location": "center",
+          "type": "contamination"
+        }
+      ]
+    },
+    "raw_response": "{\"sign_type\": \"priority\", \"surface_condition\": \"not_clean\", \"evidence\": \"Image B shows visible surface anomalies compared with the clean reference in Image A.\", \"dirty_count\": 1, \"overall_readability\": \"partially_affected\", \"dirty_areas\": [\n  {\n    \"location\": \"center\",\n    \"type\": \"contamination\"\n  }\n]}"
+  },
+  {
+    "order": 24,
+    "image_name": "PriorityRoadCleanNo.311",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "priority",
+    "runtime_seconds": 7.716,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\priorityRoad_clean_311.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\priority road.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\priority.txt",
+    "overall_readability": "partially_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "paint_loss"
+    ],
+    "result": {
+      "sign_type": "priority",
+      "surface_condition": "not_clean",
+      "evidence": "Image B has visible surface anomalies compared with the clean reference in Image A.",
+      "dirty_count": 1,
+      "overall_readability": "partially_affected",
+      "dirty_areas": [
+        {
+          "location": "center",
+          "type": "paint_loss"
+        }
+      ]
+    },
+    "raw_response": "{\"sign_type\": \"priority\", \"surface_condition\": \"not_clean\", \"evidence\": \"Image B has visible surface anomalies compared with the clean reference in Image A.\", \"dirty_count\": 1, \"overall_readability\": \"partially_affected\", \"dirty_areas\": [\n  {\n    \"location\": \"center\",\n    \"type\": \"paint_loss\"\n  }\n]}"
+  },
+  {
+    "order": 25,
+    "image_name": "PriorityRoadCleanNo.684",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "priority",
+    "runtime_seconds": 6.411,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\priorityRoad_clean_684.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\priority road.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\priority.txt",
+    "overall_readability": "partially_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "discoloration"
+    ],
+    "result": {
+      "sign_type": "priority",
+      "surface_condition": "not_clean",
+      "evidence": "Image B shows visible surface anomalies compared with the clean reference in Image A.",
+      "dirty_count": 1,
+      "overall_readability": "partially_affected",
+      "dirty_areas": [
+        {
+          "location": "center",
+          "type": "discoloration"
+        }
+      ]
+    },
+    "raw_response": "{\"sign_type\": \"priority\", \"surface_condition\": \"not_clean\", \"evidence\": \"Image B shows visible surface anomalies compared with the clean reference in Image A.\", \"dirty_count\": 1, \"overall_readability\": \"partially_affected\", \"dirty_areas\": [\n  {\n    \"location\": \"center\",\n    \"type\": \"discoloration\"\n  }\n]}"
+  },
+  {
+    "order": 26,
+    "image_name": "PriorityRoadImpurityNo.1",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "priority",
+    "runtime_seconds": 8.681,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\priorityRoad_impurity_1.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\priority road.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\priority.txt",
+    "overall_readability": "severely_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "paint_loss",
+      "discoloration"
+    ],
+    "result": {
+      "sign_type": "priority",
+      "surface_condition": "not_clean",
+      "evidence": "Image B contains visible surface anomalies compared with the clean reference in Image A.",
+      "dirty_count": 2,
+      "overall_readability": "severely_affected",
+      "dirty_areas": [
+        {
+          "location": "top_left",
+          "type": "paint_loss"
+        },
+        {
+          "location": "bottom_right",
+          "type": "discoloration"
+        }
+      ]
+    },
+    "raw_response": "{\"sign_type\": \"priority\", \"surface_condition\": \"not_clean\", \"evidence\": \"Image B contains visible surface anomalies compared with the clean reference in Image A.\", \"dirty_count\": 2, \"overall_readability\": \"severely_affected\", \"dirty_areas\": [\n  {\n    \"location\": \"top_left\",\n    \"type\": \"paint_loss\"\n  },\n  {\n    \"location\": \"bottom_right\",\n    \"type\": \"discoloration\"\n  }\n]}"
+  },
+  {
+    "order": 27,
+    "image_name": "PriorityRoadImpurityNo.28",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "priority",
+    "runtime_seconds": 7.752,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\priorityRoad_impurity_28.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\priority road.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\priority.txt",
+    "overall_readability": "severely_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "contamination",
+      "discoloration"
+    ],
+    "result": {
+      "sign_type": "priority",
+      "surface_condition": "not_clean",
+      "evidence": "Image B shows visible surface anomalies compared with the clean reference in Image A.",
+      "dirty_count": 2,
+      "overall_readability": "severely_affected",
+      "dirty_areas": [
+        {
+          "location": "center",
+          "type": "contamination"
+        },
+        {
+          "location": "bottom_right",
+          "type": "discoloration"
+        }
+      ]
+    },
+    "raw_response": "{\"sign_type\": \"priority\", \"surface_condition\": \"not_clean\", \"evidence\": \"Image B shows visible surface anomalies compared with the clean reference in Image A.\", \"dirty_count\": 2, \"overall_readability\": \"severely_affected\", \"dirty_areas\": [\n    {\n      \"location\": \"center\",\n      \"type\": \"contamination\"\n    },\n    {\n      \"location\": \"bottom_right\",\n      \"type\": \"discoloration\"\n    }\n  ]}"
+  },
+  {
+    "order": 28,
+    "image_name": "PriorityRoadImpurityNo.33",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "priority",
+    "runtime_seconds": 8.409,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\priorityRoad_impurity_33.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\priority road.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\priority.txt",
+    "overall_readability": "partially_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "discoloration"
+    ],
+    "result": {
+      "sign_type": "priority",
+      "surface_condition": "not_clean",
+      "evidence": "Image B contains multiple visible surface anomalies compared with the clean reference in Image A.",
+      "dirty_count": 1,
+      "overall_readability": "partially_affected",
+      "dirty_areas": [
+        {
+          "location": "center",
+          "type": "discoloration"
+        }
+      ]
+    },
+    "raw_response": "{\"sign_type\": \"priority\", \"surface_condition\": \"not_clean\", \"evidence\": \"Image B contains multiple visible surface anomalies compared with the clean reference in Image A.\", \"dirty_count\": 1, \"overall_readability\": \"partially_affected\", \"dirty_areas\": [\n  {\n    \"location\": \"center\",\n    \"type\": \"discoloration\"\n  }\n]}"
+  },
+  {
+    "order": 29,
+    "image_name": "PriorityRoadImpurityNo.43",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "priority",
+    "runtime_seconds": 7.942,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\priorityRoad_impurity_43.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\priority road.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\priority.txt",
+    "overall_readability": "partially_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "contamination"
+    ],
+    "result": {
+      "sign_type": "priority",
+      "surface_condition": "not_clean",
+      "evidence": "Image B shows visible surface anomalies compared with the clean reference in Image A.",
+      "dirty_count": 1,
+      "overall_readability": "partially_affected",
+      "dirty_areas": [
+        {
+          "location": "center",
+          "type": "contamination"
+        }
+      ]
+    },
+    "raw_response": "{\"sign_type\": \"priority\", \"surface_condition\": \"not_clean\", \"evidence\": \"Image B shows visible surface anomalies compared with the clean reference in Image A.\", \"dirty_count\": 1, \"overall_readability\": \"partially_affected\", \"dirty_areas\": [\n  {\n    \"location\": \"center\",\n    \"type\": \"contamination\"\n  }\n]}"
+  },
+  {
+    "order": 30,
+    "image_name": "PriorityRoadImpurityNo.52",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "priority",
+    "runtime_seconds": 7.425,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\priorityRoad_impurity_52.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\priority road.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\priority.txt",
+    "overall_readability": "severely_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "paint_loss",
+      "discoloration"
+    ],
+    "result": {
+      "sign_type": "priority",
+      "surface_condition": "not_clean",
+      "evidence": "Image B contains visible surface anomalies compared with the clean reference in Image A.",
+      "dirty_count": 2,
+      "overall_readability": "severely_affected",
+      "dirty_areas": [
+        {
+          "location": "top_left",
+          "type": "paint_loss"
+        },
+        {
+          "location": "bottom_right",
+          "type": "discoloration"
+        }
+      ]
+    },
+    "raw_response": "{\"sign_type\": \"priority\", \"surface_condition\": \"not_clean\", \"evidence\": \"Image B contains visible surface anomalies compared with the clean reference in Image A.\", \"dirty_count\": 2, \"overall_readability\": \"severely_affected\", \"dirty_areas\": [\n  {\n    \"location\": \"top_left\",\n    \"type\": \"paint_loss\"\n  },\n  {\n    \"location\": \"bottom_right\",\n    \"type\": \"discoloration\"\n  }\n]}"
+  },
+  {
+    "order": 31,
+    "image_name": "SpeedLimit30CleanNo.28",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "speed_limit_30",
+    "runtime_seconds": 9.55,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\speed30_clean_28.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\speed limit 30.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\speed_limit_30.txt",
+    "overall_readability": "partially_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "contamination"
+    ],
+    "result": {
+      "sign_type": "speed_limit_30",
+      "surface_condition": "not_clean",
+      "evidence": "Image B shows visible surface anomalies compared with the clean reference in Image A.",
+      "dirty_count": 1,
+      "overall_readability": "partially_affected",
+      "dirty_areas": [
+        {
+          "location": "center",
+          "type": "contamination"
+        }
+      ]
+    },
+    "raw_response": "{\n  \"sign_type\": \"speed_limit_30\",\n  \"surface_condition\": \"not_clean\",\n  \"evidence\": \"Image B shows visible surface anomalies compared with the clean reference in Image A.\",\n  \"dirty_count\": 1,\n  \"overall_readability\": \"partially_affected\",\n  \"dirty_areas\": [\n    {\n      \"location\": \"center\",\n      \"type\": \"contamination\"\n    }\n  ]\n}"
+  },
+  {
+    "order": 32,
+    "image_name": "SpeedLimit30CleanNo.30",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "speed_limit_30",
+    "runtime_seconds": 8.031,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\speed30_clean_30.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\speed limit 30.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\speed_limit_30.txt",
+    "overall_readability": "partially_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "discoloration"
+    ],
+    "result": {
+      "sign_type": "speed_limit_30",
+      "surface_condition": "not_clean",
+      "evidence": "Image B shows significant surface anomalies compared to the clean reference in Image A.",
+      "dirty_count": 1,
+      "overall_readability": "partially_affected",
+      "dirty_areas": [
+        {
+          "location": "center",
+          "type": "discoloration"
+        }
+      ]
+    },
+    "raw_response": "{\n  \"sign_type\": \"speed_limit_30\",\n  \"surface_condition\": \"not_clean\",\n  \"evidence\": \"Image B shows significant surface anomalies compared to the clean reference in Image A.\",\n  \"dirty_count\": 21,\n  \"overall_readability\": \"severely_affected\",\n  \"dirty_areas\": [\n    {\n      \"location\": \"center\",\n      \"type\": \"discoloration\"\n    }\n  ]\n}",
+    "warning": "Adjusted dirty_count from 21 to 1."
+  },
+  {
+    "order": 33,
+    "image_name": "SpeedLimit30CleanNo.140",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "speed_limit_30",
+    "runtime_seconds": 13.129,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\speed30_clean_140.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\speed limit 30.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\speed_limit_30.txt",
+    "overall_readability": "partially_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "contamination"
+    ],
+    "result": {
+      "sign_type": "speed_limit_30",
+      "surface_condition": "not_clean",
+      "evidence": "Image B shows significant surface contamination compared to the clean reference in Image A.",
+      "dirty_count": 1,
+      "overall_readability": "partially_affected",
+      "dirty_areas": [
+        {
+          "location": "center",
+          "type": "contamination"
+        }
+      ]
+    },
+    "raw_response": "{\"sign_type\": \"speed_limit_30\", \"surface_condition\": \"not_clean\", \"evidence\": \"Image B shows significant surface contamination compared to the clean reference in Image A.\", \"dirty_count\": 1, \"overall_readability\": \"partially_affected\", \"dirty_areas\": [\n    {\n      \"location\": \"center\",\n      \"type\": \"contamination\"\n    }\n  ]}"
+  },
+  {
+    "order": 34,
+    "image_name": "SpeedLimit30CleanNo.146",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "speed_limit_30",
+    "runtime_seconds": 10.752,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\speed30_clean_146.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\speed limit 30.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\speed_limit_30.txt",
+    "overall_readability": "severely_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "paint_loss",
+      "discoloration"
+    ],
+    "result": {
+      "sign_type": "speed_limit_30",
+      "surface_condition": "not_clean",
+      "evidence": "Image B contains numerous visible surface anomalies compared to the clean reference in Image A.",
+      "dirty_count": 3,
+      "overall_readability": "severely_affected",
+      "dirty_areas": [
+        {
+          "location": "center",
+          "type": "paint_loss"
+        },
+        {
+          "location": "top_left",
+          "type": "discoloration"
+        },
+        {
+          "location": "bottom_right",
+          "type": "discoloration"
+        }
+      ]
+    },
+    "raw_response": "{\"sign_type\": \"speed_limit_30\", \"surface_condition\": \"not_clean\", \"evidence\": \"Image B contains numerous visible surface anomalies compared to the clean reference in Image A.\", \"dirty_count\": 45, \"overall_readability\": \"severely_affected\", \"dirty_areas\": [\n    {\n      \"location\": \"center\",\n      \"type\": \"paint_loss\"\n    },\n    {\n      \"location\": \"top_left\",\n      \"type\": \"discoloration\"\n    },\n    {\n      \"location\": \"bottom_right\",\n      \"type\": \"discoloration\"\n    }\n  ]}",
+    "warning": "Adjusted dirty_count from 45 to 3."
+  },
+  {
+    "order": 35,
+    "image_name": "SpeedLimit30CleanNo.149",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "speed_limit_30",
+    "runtime_seconds": 7.608,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\speed30_clean_149.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\speed limit 30.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\speed_limit_30.txt",
+    "overall_readability": "partially_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "contamination"
+    ],
+    "result": {
+      "sign_type": "speed_limit_30",
+      "surface_condition": "not_clean",
+      "evidence": "Image B shows significant surface contamination compared to the clean reference in Image A.",
+      "dirty_count": 1,
+      "overall_readability": "partially_affected",
+      "dirty_areas": [
+        {
+          "location": "center",
+          "type": "contamination"
+        }
+      ]
+    },
+    "raw_response": "{\n  \"sign_type\": \"speed_limit_30\",\n  \"surface_condition\": \"not_clean\",\n  \"evidence\": \"Image B shows significant surface contamination compared to the clean reference in Image A.\",\n  \"dirty_count\": 1,\n  \"overall_readability\": \"partially_affected\",\n  \"dirty_areas\": [\n    {\n      \"location\": \"center\",\n      \"type\": \"contamination\"\n    }\n  ]\n}"
+  },
+  {
+    "order": 36,
+    "image_name": "SpeedLimit30ImpurityNo.25",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "speed_limit_30",
+    "runtime_seconds": 9.324,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\speed30_impurity_25.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\speed limit 30.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\speed_limit_30.txt",
+    "overall_readability": "partially_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "contamination"
+    ],
+    "result": {
+      "sign_type": "speed_limit_30",
+      "surface_condition": "not_clean",
+      "evidence": "Image B contains multiple visible surface anomalies compared with the clean reference in Image A.",
+      "dirty_count": 1,
+      "overall_readability": "partially_affected",
+      "dirty_areas": [
+        {
+          "location": "center",
+          "type": "contamination"
+        }
+      ]
+    },
+    "raw_response": "{\"sign_type\": \"speed_limit_30\", \"surface_condition\": \"not_clean\", \"evidence\": \"Image B contains multiple visible surface anomalies compared with the clean reference in Image A.\", \"dirty_count\": 25, \"overall_readability\": \"severely_affected\", \"dirty_areas\": [\n    {\n      \"location\": \"center\",\n      \"type\": \"contamination\"\n    }\n  ]}",
+    "warning": "Adjusted dirty_count from 25 to 1."
+  },
+  {
+    "order": 37,
+    "image_name": "SpeedLimit30ImpurityNo.31",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "speed_limit_30",
+    "runtime_seconds": 8.802,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\speed30_impurity_31.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\speed limit 30.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\speed_limit_30.txt",
+    "overall_readability": "severely_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "contamination",
+      "sticker"
+    ],
+    "result": {
+      "sign_type": "speed_limit_30",
+      "surface_condition": "not_clean",
+      "evidence": "Image B shows multiple surface anomalies compared to the clean reference in Image A.",
+      "dirty_count": 2,
+      "overall_readability": "severely_affected",
+      "dirty_areas": [
+        {
+          "location": "center",
+          "type": "contamination"
+        },
+        {
+          "location": "bottom_right",
+          "type": "sticker"
+        }
+      ]
+    },
+    "raw_response": "{\"sign_type\": \"speed_limit_30\", \"surface_condition\": \"not_clean\", \"evidence\": \"Image B shows multiple surface anomalies compared to the clean reference in Image A.\", \"dirty_count\": 2, \"overall_readability\": \"partially_affected\", \"dirty_areas\": [\n    {\n      \"location\": \"center\",\n      \"type\": \"contamination\"\n    },\n    {\n      \"location\": \"bottom_right\",\n      \"type\": \"sticker\"\n    }\n  ]}"
+  },
+  {
+    "order": 38,
+    "image_name": "SpeedLimit30ImpurityNo.35",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "speed_limit_30",
+    "runtime_seconds": 8.496,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\speed30_impurity_35.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\speed limit 30.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\speed_limit_30.txt",
+    "overall_readability": "severely_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "contamination",
+      "damage"
+    ],
+    "result": {
+      "sign_type": "speed_limit_30",
+      "surface_condition": "not_clean",
+      "evidence": "Image B shows significant surface anomalies compared to the clean reference in Image A.",
+      "dirty_count": 2,
+      "overall_readability": "severely_affected",
+      "dirty_areas": [
+        {
+          "location": "center",
+          "type": "contamination"
+        },
+        {
+          "location": "bottom_right",
+          "type": "damage"
+        }
+      ]
+    },
+    "raw_response": "{\"sign_type\": \"speed_limit_30\", \"surface_condition\": \"not_clean\", \"evidence\": \"Image B shows significant surface anomalies compared to the clean reference in Image A.\", \"dirty_count\": 2, \"overall_readability\": \"severely_affected\", \"dirty_areas\": [\n    {\n      \"location\": \"center\",\n      \"type\": \"contamination\"\n    },\n    {\n      \"location\": \"bottom_right\",\n      \"type\": \"damage\"\n    }\n  ]}"
+  },
+  {
+    "order": 39,
+    "image_name": "SpeedLimit30ImpurityNo.174",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "speed_limit_30",
+    "runtime_seconds": 9.05,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\speed30_impurity_174.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\speed limit 30.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\speed_limit_30.txt",
+    "overall_readability": "partially_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "contamination"
+    ],
+    "result": {
+      "sign_type": "speed_limit_30",
+      "surface_condition": "not_clean",
+      "evidence": "Image B shows significant surface contamination across the entire sign compared to the clean reference in Image A.",
+      "dirty_count": 1,
+      "overall_readability": "partially_affected",
+      "dirty_areas": [
+        {
+          "location": "center",
+          "type": "contamination"
+        }
+      ]
+    },
+    "raw_response": "{\n  \"sign_type\": \"speed_limit_30\",\n  \"surface_condition\": \"not_clean\",\n  \"evidence\": \"Image B shows significant surface contamination across the entire sign compared to the clean reference in Image A.\",\n  \"dirty_count\": 1,\n  \"overall_readability\": \"severely_affected\",\n  \"dirty_areas\": [\n    {\n      \"location\": \"center\",\n      \"type\": \"contamination\"\n    }\n  ]\n}"
+  },
+  {
+    "order": 40,
+    "image_name": "SpeedLimit30ImpurityNo.197",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "speed_limit_30",
+    "runtime_seconds": 9.033,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\speed30_impurity_197.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\speed limit 30.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\speed_limit_30.txt",
+    "overall_readability": "partially_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "discoloration"
+    ],
+    "result": {
+      "sign_type": "speed_limit_30",
+      "surface_condition": "not_clean",
+      "evidence": "Image B shows multiple surface anomalies compared to the clean reference in Image A.",
+      "dirty_count": 1,
+      "overall_readability": "partially_affected",
+      "dirty_areas": [
+        {
+          "location": "center",
+          "type": "discoloration"
+        }
+      ]
+    },
+    "raw_response": "{\"sign_type\": \"speed_limit_30\", \"surface_condition\": \"not_clean\", \"evidence\": \"Image B shows multiple surface anomalies compared to the clean reference in Image A.\", \"dirty_count\": 21, \"overall_readability\": \"severely_affected\", \"dirty_areas\": [\n    {\n      \"location\": \"center\",\n      \"type\": \"discoloration\"\n    }\n  ]}",
+    "warning": "Adjusted dirty_count from 21 to 1."
+  },
+  {
+    "order": 41,
+    "image_name": "StopCleanNo.1",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "stop",
+    "runtime_seconds": 7.682,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\stop_clean_1.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\stop.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\stop.txt",
+    "overall_readability": "partially_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "discoloration"
+    ],
+    "result": {
+      "sign_type": "stop",
+      "surface_condition": "not_clean",
+      "evidence": "Image B shows visible surface anomalies compared with the clean reference.",
+      "dirty_count": 1,
+      "overall_readability": "partially_affected",
+      "dirty_areas": [
+        {
+          "location": "center",
+          "type": "discoloration"
+        }
+      ]
+    },
+    "raw_response": "{\n  \"sign_type\": \"stop\",\n  \"surface_condition\": \"not_clean\",\n  \"evidence\": \"Image B shows visible surface anomalies compared with the clean reference.\",\n  \"dirty_count\": 1,\n  \"overall_readability\": \"partially_affected\",\n  \"dirty_areas\": [\n    {\n      \"location\": \"center\",\n      \"type\": \"discoloration\"\n    }\n  ]\n}"
+  },
+  {
+    "order": 42,
+    "image_name": "StopCleanNo.90",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "stop",
+    "runtime_seconds": 11.561,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\stop_clean_90.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\stop.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\stop.txt",
+    "overall_readability": "partially_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "discoloration"
+    ],
+    "result": {
+      "sign_type": "stop",
+      "surface_condition": "not_clean",
+      "evidence": "Image B contains visible surface anomalies compared with the clean reference in Image A.",
+      "dirty_count": 1,
+      "overall_readability": "partially_affected",
+      "dirty_areas": [
+        {
+          "location": "center",
+          "type": "discoloration"
+        }
+      ]
+    },
+    "raw_response": "{\"sign_type\": \"stop\", \"surface_condition\": \"not_clean\", \"evidence\": \"Image B contains visible surface anomalies compared with the clean reference in Image A.\", \"dirty_count\": 1, \"overall_readability\": \"partially_affected\", \"dirty_areas\": [\n  {\n    \"location\": \"center\",\n    \"type\": \"discoloration\"\n  }\n]}"
+  },
+  {
+    "order": 43,
+    "image_name": "StopCleanNo.106",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "stop",
+    "runtime_seconds": 8.148,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\stop_clean_106.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\stop.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\stop.txt",
+    "overall_readability": "partially_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "contamination"
+    ],
+    "result": {
+      "sign_type": "stop",
+      "surface_condition": "not_clean",
+      "evidence": "Image B shows significant surface contamination/dirt compared to the clean reference in Image A.",
+      "dirty_count": 1,
+      "overall_readability": "partially_affected",
+      "dirty_areas": [
+        {
+          "location": "center",
+          "type": "contamination"
+        }
+      ]
+    },
+    "raw_response": "{\n  \"sign_type\": \"stop\",\n  \"surface_condition\": \"not_clean\",\n  \"evidence\": \"Image B shows significant surface contamination/dirt compared to the clean reference in Image A.\",\n  \"dirty_count\": 1,\n  \"overall_readability\": \"partially_affected\",\n  \"dirty_areas\": [\n    {\n      \"location\": \"center\",\n      \"type\": \"contamination\"\n    }\n  ]\n}"
+  },
+  {
+    "order": 44,
+    "image_name": "StopCleanNo.308",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "stop",
+    "runtime_seconds": 7.387,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\stop_clean_308.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\stop.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\stop.txt",
+    "overall_readability": "partially_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "paint_loss"
+    ],
+    "result": {
+      "sign_type": "stop",
+      "surface_condition": "not_clean",
+      "evidence": "Image B contains visible surface anomalies compared with the clean reference in Image A.",
+      "dirty_count": 1,
+      "overall_readability": "partially_affected",
+      "dirty_areas": [
+        {
+          "location": "center",
+          "type": "paint_loss"
+        }
+      ]
+    },
+    "raw_response": "{\"sign_type\": \"stop\", \"surface_condition\": \"not_clean\", \"evidence\": \"Image B contains visible surface anomalies compared with the clean reference in Image A.\", \"dirty_count\": 1, \"overall_readability\": \"partially_affected\", \"dirty_areas\": [\n  {\n    \"location\": \"center\",\n    \"type\": \"paint_loss\"\n  }\n]}"
+  },
+  {
+    "order": 45,
+    "image_name": "StopCleanNo.326",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "stop",
+    "runtime_seconds": 7.826,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\stop_clean_326.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\stop.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\stop.txt",
+    "overall_readability": "partially_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "discoloration"
+    ],
+    "result": {
+      "sign_type": "stop",
+      "surface_condition": "not_clean",
+      "evidence": "Image B shows visible surface anomalies compared with the clean reference.",
+      "dirty_count": 1,
+      "overall_readability": "partially_affected",
+      "dirty_areas": [
+        {
+          "location": "center",
+          "type": "discoloration"
+        }
+      ]
+    },
+    "raw_response": "{\n  \"sign_type\": \"stop\",\n  \"surface_condition\": \"not_clean\",\n  \"evidence\": \"Image B shows visible surface anomalies compared with the clean reference.\",\n  \"dirty_count\": 1,\n  \"overall_readability\": \"partially_affected\",\n  \"dirty_areas\": [\n    {\n      \"location\": \"center\",\n      \"type\": \"discoloration\"\n    }\n  ]\n}"
+  },
+  {
+    "order": 46,
+    "image_name": "StopImpurityNo.0",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "stop",
+    "runtime_seconds": 6.931,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\stop_impurity_0.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\stop.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\stop.txt",
+    "overall_readability": "partially_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "paint_loss"
+    ],
+    "result": {
+      "sign_type": "stop",
+      "surface_condition": "not_clean",
+      "evidence": "Image B contains multiple visible surface anomalies compared with the clean reference in Image A.",
+      "dirty_count": 1,
+      "overall_readability": "partially_affected",
+      "dirty_areas": [
+        {
+          "location": "center",
+          "type": "paint_loss"
+        }
+      ]
+    },
+    "raw_response": "{\"sign_type\": \"stop\", \"surface_condition\": \"not_clean\", \"evidence\": \"Image B contains multiple visible surface anomalies compared with the clean reference in Image A.\", \"dirty_count\": 1, \"overall_readability\": \"partially_affected\", \"dirty_areas\": [\n  {\n    \"location\": \"center\",\n    \"type\": \"paint_loss\"\n  }\n]}"
+  },
+  {
+    "order": 47,
+    "image_name": "StopImpurityNo.25",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "stop",
+    "runtime_seconds": 8.389,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\stop_impurity_25.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\stop.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\stop.txt",
+    "overall_readability": "partially_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "discoloration"
+    ],
+    "result": {
+      "sign_type": "stop",
+      "surface_condition": "not_clean",
+      "evidence": "Image B shows significant discoloration and dirt across the surface compared to the clean reference in Image A.",
+      "dirty_count": 1,
+      "overall_readability": "partially_affected",
+      "dirty_areas": [
+        {
+          "location": "center",
+          "type": "discoloration"
+        }
+      ]
+    },
+    "raw_response": "{\n  \"sign_type\": \"stop\",\n  \"surface_condition\": \"not_clean\",\n  \"evidence\": \"Image B shows significant discoloration and dirt across the surface compared to the clean reference in Image A.\",\n  \"dirty_count\": 1,\n  \"overall_readability\": \"partially_affected\",\n  \"dirty_areas\": [\n    {\n      \"location\": \"center\",\n      \"type\": \"discoloration\"\n    }\n  ]\n}"
+  },
+  {
+    "order": 48,
+    "image_name": "StopImpurityNo.68",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "stop",
+    "runtime_seconds": 5.971,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\stop_impurity_68.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\stop.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\stop.txt",
+    "overall_readability": "partially_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "discoloration"
+    ],
+    "result": {
+      "sign_type": "stop",
+      "surface_condition": "not_clean",
+      "evidence": "Image B contains visible surface anomalies compared with the clean reference in Image A.",
+      "dirty_count": 1,
+      "overall_readability": "partially_affected",
+      "dirty_areas": [
+        {
+          "location": "center",
+          "type": "discoloration"
+        }
+      ]
+    },
+    "raw_response": "{\"sign_type\": \"stop\", \"surface_condition\": \"not_clean\", \"evidence\": \"Image B contains visible surface anomalies compared with the clean reference in Image A.\", \"dirty_count\": 1, \"overall_readability\": \"partially_affected\", \"dirty_areas\": [\n  {\n    \"location\": \"center\",\n    \"type\": \"discoloration\"\n  }\n]}"
+  },
+  {
+    "order": 49,
+    "image_name": "StopImpurityNo.116",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "stop",
+    "runtime_seconds": 7.805,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\stop_impurity_116.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\stop.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\stop.txt",
+    "overall_readability": "partially_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "discoloration"
+    ],
+    "result": {
+      "sign_type": "stop",
+      "surface_condition": "not_clean",
+      "evidence": "Image B shows visible surface anomalies compared with the clean reference.",
+      "dirty_count": 1,
+      "overall_readability": "partially_affected",
+      "dirty_areas": [
+        {
+          "location": "center",
+          "type": "discoloration"
+        }
+      ]
+    },
+    "raw_response": "{\"sign_type\": \"stop\", \"surface_condition\": \"not_clean\", \"evidence\": \"Image B shows visible surface anomalies compared with the clean reference.\", \"dirty_count\": 1, \"overall_readability\": \"partially_affected\", \"dirty_areas\": [\n  {\n    \"location\": \"center\",\n    \"type\": \"discoloration\"\n  }\n]}"
+  },
+  {
+    "order": 50,
+    "image_name": "StopImpurityNo.458",
+    "model": "bjoernb/gemma4-e2b-think:latest",
+    "sign_type": "stop",
+    "runtime_seconds": 6.882,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\stop_impurity_458.png",
+    "reference_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\standard\\stop.png",
+    "prompt_file": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\prompts\\task1_sign_condition\\stop.txt",
+    "overall_readability": "partially_affected",
+    "impurity_present": "yes",
+    "impurity_types": [
+      "discoloration"
+    ],
+    "result": {
+      "sign_type": "stop",
+      "surface_condition": "not_clean",
+      "evidence": "Image B shows multiple visible surface anomalies compared with the clean reference in Image A.",
+      "dirty_count": 1,
+      "overall_readability": "partially_affected",
+      "dirty_areas": [
+        {
+          "location": "center",
+          "type": "discoloration"
+        }
+      ]
+    },
+    "raw_response": "{\"sign_type\": \"stop\", \"surface_condition\": \"not_clean\", \"evidence\": \"Image B shows multiple visible surface anomalies compared with the clean reference in Image A.\", \"dirty_count\": 10, \"overall_readability\": \"severely_affected\", \"dirty_areas\": [\n    {\n      \"location\": \"center\",\n      \"type\": \"discoloration\"\n    }\n  ]}",
+    "warning": "Adjusted dirty_count from 10 to 1."
+  }
+]

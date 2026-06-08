@@ -1,0 +1,444 @@
+[
+  {
+    "image_name": "DriveRightCleanNo.2",
+    "runtime_seconds": 19.032,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is mostly blank or contains unidentifiable noise, making it impossible to determine if a traffic sign is present or readable."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is mostly blank or contains unidentifiable noise, making it impossible to determine if a traffic sign is present or readable.\"\n}"
+  },
+  {
+    "image_name": "DriveRightCleanNo.6",
+    "runtime_seconds": 5.339,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is mostly obscured or consists of unidentifiable markings, making it impossible to determine if it is a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is mostly obscured or consists of unidentifiable markings, making it impossible to determine if it is a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "DriveRightCleanNo.10",
+    "runtime_seconds": 4.304,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided does not contain a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided does not contain a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "DriveRightCleanNo.159",
+    "runtime_seconds": 4.073,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided does not contain a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided does not contain a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "DriveRightCleanNo.172",
+    "runtime_seconds": 8.518,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is mostly blank or contains unidentifiable characters, making it impossible to determine if it is a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is mostly blank or contains unidentifiable characters, making it impossible to determine if it is a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "DriveRightImpurityNo.13",
+    "runtime_seconds": 5.409,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is heavily obscured and does not contain a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is heavily obscured and does not contain a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "DriveRightImpurityNo.21",
+    "runtime_seconds": 7.047,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided contains mostly unreadable or irrelevant characters, not a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided contains mostly unreadable or irrelevant characters, not a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "DriveRightImpurityNo.42",
+    "runtime_seconds": 4.943,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The provided image is heavily obscured and contains unrecognizable characters, making it impossible to determine the sign's content or condition."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The provided image is heavily obscured and contains unrecognizable characters, making it impossible to determine the sign's content or condition.\"\n}"
+  },
+  {
+    "image_name": "DriveRightImpurityNo.52",
+    "runtime_seconds": 4.63,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is mostly blank or contains only very faint, unidentifiable markings, making it impossible to determine if it is a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is mostly blank or contains only very faint, unidentifiable markings, making it impossible to determine if it is a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "DriveRightImpurityNo.164",
+    "runtime_seconds": 4.27,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided contains only a collection of seemingly random characters and symbols, not a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided contains only a collection of seemingly random characters and symbols, not a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "NoStopCleanNo.13",
+    "runtime_seconds": 4.492,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is heavily obscured and contains unrecognizable characters, making it impossible to determine if it is a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is heavily obscured and contains unrecognizable characters, making it impossible to determine if it is a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "NoStopCleanNo.47",
+    "runtime_seconds": 5.438,
+    "result": {
+      "readability": "unreadable",
+      "explanation": "The image provided is a texture/pattern, not a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unreadable\",\n  \"explanation\": \"The image provided is a texture/pattern, not a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "NoStopCleanNo.61",
+    "runtime_seconds": 4.723,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is heavily obscured and does not contain a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is heavily obscured and does not contain a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "NoStopCleanNo.158",
+    "runtime_seconds": 4.763,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided does not contain a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided does not contain a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "NoStopCleanNo.163",
+    "runtime_seconds": 5.887,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is heavily obscured and does not contain a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is heavily obscured and does not contain a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "NoStopImpurityNo.17",
+    "runtime_seconds": 4.453,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided does not contain a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided does not contain a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "NoStopImpurityNo.30",
+    "runtime_seconds": 4.413,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided does not contain a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided does not contain a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "NoStopImpurityNo.40",
+    "runtime_seconds": 4.019,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided appears to be a texture or pattern rather than a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided appears to be a texture or pattern rather than a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "NoStopImpurityNo.41",
+    "runtime_seconds": 5.246,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is mostly composed of faint, illegible text and symbols, making it unclear what specific traffic sign is present or readable."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is mostly composed of faint, illegible text and symbols, making it unclear what specific traffic sign is present or readable.\"\n}"
+  },
+  {
+    "image_name": "NoStopImpurityNo.173",
+    "runtime_seconds": 3.611,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is a collage of various overlapping, indistinct shapes and colors, not a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is a collage of various overlapping, indistinct shapes and colors, not a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "PriorityRoadCleanNo.25",
+    "runtime_seconds": 5.481,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The provided image is mostly blank or contains only very faint, unidentifiable markings, making it impossible to determine if it is a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The provided image is mostly blank or contains only very faint, unidentifiable markings, making it impossible to determine if it is a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "PriorityRoadCleanNo.58",
+    "runtime_seconds": 5.63,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided contains only fragmented, unidentifiable symbols and does not clearly depict a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided contains only fragmented, unidentifiable symbols and does not clearly depict a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "PriorityRoadCleanNo.61",
+    "runtime_seconds": 5.771,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is a pattern of squares and symbols, not a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is a pattern of squares and symbols, not a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "PriorityRoadCleanNo.311",
+    "runtime_seconds": 4.383,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is a collection of unrelated characters and symbols, not a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is a collection of unrelated characters and symbols, not a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "PriorityRoadCleanNo.684",
+    "runtime_seconds": 5.007,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is heavily obscured and contains mostly watermarks/text, making it impossible to discern a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is heavily obscured and contains mostly watermarks/text, making it impossible to discern a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "PriorityRoadImpurityNo.1",
+    "runtime_seconds": 8.027,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The provided image is entirely composed of unreadable characters and does not contain a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The provided image is entirely composed of unreadable characters and does not contain a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "PriorityRoadImpurityNo.28",
+    "runtime_seconds": 5.455,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is heavily obscured and appears to be a collage or pattern rather than a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is heavily obscured and appears to be a collage or pattern rather than a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "PriorityRoadImpurityNo.33",
+    "runtime_seconds": 4.449,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image contains a sequence of yellow signs, but the specific content and context are too fragmented and unclear to determine a single readable sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image contains a sequence of yellow signs, but the specific content and context are too fragmented and unclear to determine a single readable sign.\"\n}"
+  },
+  {
+    "image_name": "PriorityRoadImpurityNo.43",
+    "runtime_seconds": 7.033,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided does not contain a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided does not contain a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "PriorityRoadImpurityNo.52",
+    "runtime_seconds": 6.027,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is heavily obscured and contains mostly abstract or illegible markings, making it impossible to determine if it is a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is heavily obscured and contains mostly abstract or illegible markings, making it impossible to determine if it is a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "SpeedLimit30CleanNo.28",
+    "runtime_seconds": 4.937,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided contains a series of overlapping, illegible markings that do not form a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided contains a series of overlapping, illegible markings that do not form a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "SpeedLimit30CleanNo.30",
+    "runtime_seconds": 6.941,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is heavily obscured and contains unrecognizable characters, making it impossible to determine if it is a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is heavily obscured and contains unrecognizable characters, making it impossible to determine if it is a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "SpeedLimit30CleanNo.140",
+    "runtime_seconds": 5.517,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is heavily obscured and contains illegible markings, making it impossible to determine if it is a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is heavily obscured and contains illegible markings, making it impossible to determine if it is a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "SpeedLimit30CleanNo.146",
+    "runtime_seconds": 5.365,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided does not contain a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided does not contain a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "SpeedLimit30CleanNo.149",
+    "runtime_seconds": 4.428,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image contains a pattern of red and white squares, which does not form a recognizable standard traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image contains a pattern of red and white squares, which does not form a recognizable standard traffic sign.\"\n}"
+  },
+  {
+    "image_name": "SpeedLimit30ImpurityNo.25",
+    "runtime_seconds": 4.55,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is heavily obscured and contains fragmented, unidentifiable characters, making it impossible to determine if it is a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is heavily obscured and contains fragmented, unidentifiable characters, making it impossible to determine if it is a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "SpeedLimit30ImpurityNo.31",
+    "runtime_seconds": 4.316,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is heavily obscured and contains fragmented, unidentifiable characters, making it impossible to determine if it is a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is heavily obscured and contains fragmented, unidentifiable characters, making it impossible to determine if it is a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "SpeedLimit30ImpurityNo.35",
+    "runtime_seconds": 4.105,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is a collage of various red and white rectangular shapes, not a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is a collage of various red and white rectangular shapes, not a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "SpeedLimit30ImpurityNo.174",
+    "runtime_seconds": 37.449,
+    "error": "1 validation error for Task1BaselineResult\n  Invalid JSON: EOF while parsing a value at line 1 column 0 [type=json_invalid, input_value='', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid"
+  },
+  {
+    "image_name": "SpeedLimit30ImpurityNo.197",
+    "runtime_seconds": 1.46,
+    "error": "1 validation error for Task1BaselineResult\n  Invalid JSON: EOF while parsing a value at line 1 column 0 [type=json_invalid, input_value='', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid"
+  },
+  {
+    "image_name": "StopCleanNo.1",
+    "runtime_seconds": 5.231,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image contains a pattern of red and yellow markings, but no recognizable standard traffic sign is present."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image contains a pattern of red and yellow markings, but no recognizable standard traffic sign is present.\"\n}"
+  },
+  {
+    "image_name": "StopCleanNo.90",
+    "runtime_seconds": 4.169,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The provided image is heavily obscured and unclear, making it impossible to determine the content of the traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The provided image is heavily obscured and unclear, making it impossible to determine the content of the traffic sign.\"\n}"
+  },
+  {
+    "image_name": "StopCleanNo.106",
+    "runtime_seconds": 4.305,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is a close-up of what appears to be a faded or damaged portion of a sign, making it unclear."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is a close-up of what appears to be a faded or damaged portion of a sign, making it unclear.\"\n}"
+  },
+  {
+    "image_name": "StopCleanNo.308",
+    "runtime_seconds": 8.139,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The provided image is heavily obscured and illegible."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The provided image is heavily obscured and illegible.\"\n}"
+  },
+  {
+    "image_name": "StopCleanNo.326",
+    "runtime_seconds": 9.968,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided does not contain a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided does not contain a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "StopImpurityNo.0",
+    "runtime_seconds": 3.464,
+    "result": {
+      "readability": "readable",
+      "explanation": "The sign is clearly visible and legible."
+    },
+    "raw_response": "{\n  \"readability\": \"readable\",\n  \"explanation\": \"The sign is clearly visible and legible.\"\n}"
+  },
+  {
+    "image_name": "StopImpurityNo.25",
+    "runtime_seconds": 6.671,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is heavily obscured and contains unrecognizable characters, making it impossible to determine if it is a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is heavily obscured and contains unrecognizable characters, making it impossible to determine if it is a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "StopImpurityNo.68",
+    "runtime_seconds": 4.854,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is mostly obscured or contains unidentifiable characters, making it unclear what kind of traffic sign it is."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is mostly obscured or contains unidentifiable characters, making it unclear what kind of traffic sign it is.\"\n}"
+  },
+  {
+    "image_name": "StopImpurityNo.116",
+    "runtime_seconds": 4.717,
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided does not contain a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided does not contain a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "StopImpurityNo.458",
+    "runtime_seconds": 4.167,
+    "result": {
+      "readability": "unreadable",
+      "explanation": "The image appears to be a heavily damaged or obscured sign, making the text illegible."
+    },
+    "raw_response": "{\n  \"readability\": \"unreadable\",\n  \"explanation\": \"The image appears to be a heavily damaged or obscured sign, making the text illegible.\"\n}"
+  }
+]

@@ -1,0 +1,46 @@
+Compare Image B with Image A, two images of the same traffic sign type.
+Detect visible surface anomalies in Image B.
+
+Known sign type: no_stop.
+Image A: "{{IMAGE_A}}"
+Image B: "{{IMAGE_B}}"
+
+Clean reference:
+A round sign with a red outer ring, a blue inner circle, and a red diagonal cross.
+The sign may have one white left-pointing arrow in the upper blue area, one white right-pointing arrow in the lower blue area, or both arrows together.
+All visible elements are clean, intact, and without any visible dirt, contamination, or damage.
+
+Use this schema:
+{
+ "image_name": 
+  "model": "model name",
+  "runtime_seconds": 0.0,
+  "sign_type": "drive_right",
+  "overall_readability": "not_affected | partially_affected | severely_affected",
+  "readability_evidence": "short evidence explaining the readability label",
+  "impurity_present": "yes | no",
+  "impurity_types": [
+  "sticker | paint_loss | discoloration | burn_or_blackening | graffiti | contamination | damage"
+]
+}
+
+Example:
+{
+ "image_name": "drive_right_clean_999.png"
+  "model": "gemma4:e2b-it-q4_K_M",
+  "runtime_seconds": 10.121,
+  "sign_type": "drive_right",
+  "overall_readability": "partially_affected",
+  "readability_evidence": "The sign is still recognizable, but visible dark marks reduce readability.",
+  "impurity_present": "yes",
+  "impurity_types": ["sticker", "burn_or_blackening"]
+}
+
+Rules:
+Return JSON only.
+Do not explain the traffic meaning of the sign.
+Use Image A a the clean reference.
+Focus only on visible differences and surface anomalies.
+"readability_evidence" must only explain the readability label.
+If "impurity_present" is "no", then "impurity_types" must be [].
+If "impurity_present" is "yes", list all visible impurity types.

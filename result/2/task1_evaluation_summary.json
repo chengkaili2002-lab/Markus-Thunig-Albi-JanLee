@@ -1,0 +1,35 @@
+{
+  "ground_truth": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\groundtruth.json",
+  "baseline_output": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\results\\7.6.2026\\task1_baseline_outputs.json",
+  "improved_output": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\results\\7.6.2026\\task1_improved_pairwise_outputs.json",
+  "metrics": {
+    "readability": "Compare ground_truth.overall_readability with model readability.",
+    "impurity_types": "Compare impurity_types as an unordered exact set."
+  },
+  "baseline": {
+    "evaluated_count": 50,
+    "readability_accuracy": {
+      "correct": 1,
+      "total": 50,
+      "accuracy": 0.02
+    },
+    "impurity_type_accuracy": {
+      "correct": 12,
+      "total": 50,
+      "accuracy": 0.24
+    }
+  },
+  "improved_pairwise": {
+    "evaluated_count": 50,
+    "readability_accuracy": {
+      "correct": 14,
+      "total": 50,
+      "accuracy": 0.28
+    },
+    "impurity_type_accuracy": {
+      "correct": 6,
+      "total": 50,
+      "accuracy": 0.12
+    }
+  }
+}

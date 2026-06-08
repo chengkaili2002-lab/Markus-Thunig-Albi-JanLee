@@ -7,7 +7,13 @@ from task1_pipeline import run_task1_groundtruth_ordered
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Run Task1 one-shot traffic-sign anomaly detection in ground-truth order."
+        description="Run Task1 one-shot anomaly detection for selected sign types."
+    )
+    parser.add_argument(
+        "--sign-type",
+        action="append",
+        required=True,
+        help="Sign type to run. Can be repeated. Example: --sign-type drive_right",
     )
     parser.add_argument(
         "--ground-truth",
@@ -30,25 +36,12 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--output-file",
         type=Path,
-        default=RESULTS_DIR / "7.6.2026" / "task1_outputs.json",
+        default=RESULTS_DIR / "7.6.2026" / "task1_sign_type_outputs.json",
         help="Combined JSON output file.",
     )
-    parser.add_argument(
-        "--model",
-        default=get_default_model(),
-        help="Ollama model name.",
-    )
-    parser.add_argument(
-        "--retries",
-        type=int,
-        default=2,
-        help="Retry count for invalid or empty model responses.",
-    )
-    parser.add_argument(
-        "--dry-run",
-        action="store_true",
-        help="Validate mapping and write the planned run order without calling the model.",
-    )
+    parser.add_argument("--model", default=get_default_model(), help="Ollama model name.")
+    parser.add_argument("--retries", type=int, default=2)
+    parser.add_argument("--dry-run", action="store_true")
     return parser.parse_args()
 
 
@@ -62,6 +55,7 @@ def main() -> None:
         model=args.model,
         retries=args.retries,
         dry_run=args.dry_run,
+        sign_types=args.sign_type,
     )
     print(f"[task1] Wrote {len(outputs)} entries to {args.output_file}")
 

@@ -1,0 +1,682 @@
+[
+  {
+    "image_name": "DriveRightCleanNo.2",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "drive_right",
+    "runtime_seconds": 12.479,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\driveRight_clean_2.png",
+    "readability": "unclear",
+    "explanation": "The image provided is mostly composed of scattered, unidentifiable characters and symbols, not a recognizable traffic sign.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is mostly composed of scattered, unidentifiable characters and symbols, not a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is mostly composed of scattered, unidentifiable characters and symbols, not a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "DriveRightCleanNo.6",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "drive_right",
+    "runtime_seconds": 9.298,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\driveRight_clean_6.png",
+    "readability": "unclear",
+    "explanation": "The image provided is mostly obscured or consists of unidentifiable markings, making it impossible to determine if a standard traffic sign is present or readable.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is mostly obscured or consists of unidentifiable markings, making it impossible to determine if a standard traffic sign is present or readable."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is mostly obscured or consists of unidentifiable markings, making it impossible to determine if a standard traffic sign is present or readable.\"\n}"
+  },
+  {
+    "image_name": "DriveRightCleanNo.10",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "drive_right",
+    "runtime_seconds": 37.744,
+    "error": "1 validation error for Task1BaselineResult\n  Invalid JSON: EOF while parsing a value at line 1 column 0 [type=json_invalid, input_value='', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid"
+  },
+  {
+    "image_name": "DriveRightCleanNo.159",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "drive_right",
+    "runtime_seconds": 4.501,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\driveRight_clean_159 - 副本.png",
+    "readability": "unclear",
+    "explanation": "The image provided is mostly blank or contains illegible content, making it impossible to assess a traffic sign.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is mostly blank or contains illegible content, making it impossible to assess a traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is mostly blank or contains illegible content, making it impossible to assess a traffic sign.\"\n}"
+  },
+  {
+    "image_name": "DriveRightCleanNo.172",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "drive_right",
+    "runtime_seconds": 4.476,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\driveRight_clean_172.png",
+    "readability": "unclear",
+    "explanation": "The provided image is mostly black and contains no discernible traffic sign.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The provided image is mostly black and contains no discernible traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The provided image is mostly black and contains no discernible traffic sign.\"\n}"
+  },
+  {
+    "image_name": "DriveRightImpurityNo.13",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "drive_right",
+    "runtime_seconds": 11.685,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\driveRight_impurity_13 - 副本.png",
+    "readability": "unclear",
+    "explanation": "The provided image is heavily obscured or contains unrecognizable characters, making it unclear what sign is present.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The provided image is heavily obscured or contains unrecognizable characters, making it unclear what sign is present."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The provided image is heavily obscured or contains unrecognizable characters, making it unclear what sign is present.\"\n}"
+  },
+  {
+    "image_name": "DriveRightImpurityNo.21",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "drive_right",
+    "runtime_seconds": 6.09,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\driveRight_impurity_21 - 副本.png",
+    "readability": "unclear",
+    "explanation": "The image provided contains mostly white space with some faint, unclear markings that do not resemble a recognizable traffic sign.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided contains mostly white space with some faint, unclear markings that do not resemble a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided contains mostly white space with some faint, unclear markings that do not resemble a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "DriveRightImpurityNo.42",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "drive_right",
+    "runtime_seconds": 7.012,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\driveRight_impurity_42 - 副本.png",
+    "readability": "unclear",
+    "explanation": "The provided image is heavily obscured or contains unrecognizable characters, making it impossible to determine the content of a traffic sign.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The provided image is heavily obscured or contains unrecognizable characters, making it impossible to determine the content of a traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The provided image is heavily obscured or contains unrecognizable characters, making it impossible to determine the content of a traffic sign.\"\n}"
+  },
+  {
+    "image_name": "DriveRightImpurityNo.52",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "drive_right",
+    "runtime_seconds": 9.594,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\driveRight_impurity_52 - 副本.png",
+    "readability": "unclear",
+    "explanation": "The image provided is mostly composed of fragmented, unidentifiable lines and symbols, not a recognizable traffic sign.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is mostly composed of fragmented, unidentifiable lines and symbols, not a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is mostly composed of fragmented, unidentifiable lines and symbols, not a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "DriveRightImpurityNo.164",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "drive_right",
+    "runtime_seconds": 7.785,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\driveRight_impurity_164 - 副本.png",
+    "readability": "unclear",
+    "explanation": "The image provided contains only fragmented, uninterpretable characters and symbols, not a recognizable traffic sign.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided contains only fragmented, uninterpretable characters and symbols, not a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided contains only fragmented, uninterpretable characters and symbols, not a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "NoStopCleanNo.13",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "no_stop",
+    "runtime_seconds": 8.854,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\noStop_clean_13.png",
+    "readability": "unclear",
+    "explanation": "The provided image is heavily obscured and contains unrecognizable characters, making it impossible to determine the content or condition of a traffic sign.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The provided image is heavily obscured and contains unrecognizable characters, making it impossible to determine the content or condition of a traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The provided image is heavily obscured and contains unrecognizable characters, making it impossible to determine the content or condition of a traffic sign.\"\n}"
+  },
+  {
+    "image_name": "NoStopCleanNo.47",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "no_stop",
+    "runtime_seconds": 3.535,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\noStop_clean_47.png",
+    "readability": "unreadable",
+    "explanation": "The image provided is a close-up of a texture (likely a wall or surface) and does not contain any recognizable traffic sign.",
+    "result": {
+      "readability": "unreadable",
+      "explanation": "The image provided is a close-up of a texture (likely a wall or surface) and does not contain any recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unreadable\",\n  \"explanation\": \"The image provided is a close-up of a texture (likely a wall or surface) and does not contain any recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "NoStopCleanNo.61",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "no_stop",
+    "runtime_seconds": 4.195,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\noStop_clean_61.png",
+    "readability": "unclear",
+    "explanation": "The image provided is heavily obscured and does not contain a recognizable traffic sign.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is heavily obscured and does not contain a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is heavily obscured and does not contain a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "NoStopCleanNo.158",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "no_stop",
+    "runtime_seconds": 5.77,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\noStop_clean_158.png",
+    "readability": "unclear",
+    "explanation": "The image provided is heavily obscured and contains unrecognizable characters, making it impossible to determine if it is a recognizable traffic sign.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is heavily obscured and contains unrecognizable characters, making it impossible to determine if it is a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is heavily obscured and contains unrecognizable characters, making it impossible to determine if it is a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "NoStopCleanNo.163",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "no_stop",
+    "runtime_seconds": 4.691,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\noStop_clean_163.png",
+    "readability": "unclear",
+    "explanation": "The provided image is heavily obscured and contains mostly unrecognizable shapes, making it impossible to determine if it is a recognizable traffic sign.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The provided image is heavily obscured and contains mostly unrecognizable shapes, making it impossible to determine if it is a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The provided image is heavily obscured and contains mostly unrecognizable shapes, making it impossible to determine if it is a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "NoStopImpurityNo.17",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "no_stop",
+    "runtime_seconds": 5.344,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\noStop_impurity_17.png",
+    "readability": "unclear",
+    "explanation": "The image provided is a collage of various red/orange shapes, not a recognizable traffic sign.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is a collage of various red/orange shapes, not a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is a collage of various red/orange shapes, not a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "NoStopImpurityNo.30",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "no_stop",
+    "runtime_seconds": 5.791,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\noStop_impurity_30.png",
+    "readability": "unclear",
+    "explanation": "The image provided is a close-up of a road surface or possibly a sign that is heavily obscured, making it impossible to determine if it is a recognizable traffic sign.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is a close-up of a road surface or possibly a sign that is heavily obscured, making it impossible to determine if it is a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is a close-up of a road surface or possibly a sign that is heavily obscured, making it impossible to determine if it is a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "NoStopImpurityNo.40",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "no_stop",
+    "runtime_seconds": 4.428,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\noStop_impurity_40.png",
+    "readability": "unclear",
+    "explanation": "The image provided is a collage of various reddish-orange shapes, not a recognizable traffic sign.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is a collage of various reddish-orange shapes, not a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is a collage of various reddish-orange shapes, not a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "NoStopImpurityNo.41",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "no_stop",
+    "runtime_seconds": 7.777,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\noStop_impurity_41.png",
+    "readability": "unclear",
+    "explanation": "The provided image is mostly obscured or contains very low-resolution, illegible text/symbols.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The provided image is mostly obscured or contains very low-resolution, illegible text/symbols."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The provided image is mostly obscured or contains very low-resolution, illegible text/symbols.\"\n}"
+  },
+  {
+    "image_name": "NoStopImpurityNo.173",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "no_stop",
+    "runtime_seconds": 4.439,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\noStop_impurity_173.png",
+    "readability": "unclear",
+    "explanation": "The image provided is a collage of various overlapping, indistinct shapes that do not clearly represent a recognizable traffic sign.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is a collage of various overlapping, indistinct shapes that do not clearly represent a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is a collage of various overlapping, indistinct shapes that do not clearly represent a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "PriorityRoadCleanNo.25",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "priority",
+    "runtime_seconds": 5.003,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\priorityRoad_clean_25.png",
+    "readability": "unclear",
+    "explanation": "The provided image is mostly empty or contains only very faint, unidentifiable lines, making it impossible to determine if a traffic sign is present or readable.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The provided image is mostly empty or contains only very faint, unidentifiable lines, making it impossible to determine if a traffic sign is present or readable."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The provided image is mostly empty or contains only very faint, unidentifiable lines, making it impossible to determine if a traffic sign is present or readable.\"\n}",
+    "retry_attempt": 1
+  },
+  {
+    "image_name": "PriorityRoadCleanNo.58",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "priority",
+    "runtime_seconds": 5.086,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\priorityRoad_clean_58.png",
+    "readability": "unclear",
+    "explanation": "The image provided contains only fragmented, unidentifiable symbols and text, not a recognizable traffic sign.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided contains only fragmented, unidentifiable symbols and text, not a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided contains only fragmented, unidentifiable symbols and text, not a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "PriorityRoadCleanNo.61",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "priority",
+    "runtime_seconds": 5.684,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\priorityRoad_clean_61.png",
+    "readability": "unclear",
+    "explanation": "The image provided is a collage of various overlapping, partially visible signs, making it impossible to determine the readability of any single sign.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is a collage of various overlapping, partially visible signs, making it impossible to determine the readability of any single sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is a collage of various overlapping, partially visible signs, making it impossible to determine the readability of any single sign.\"\n}"
+  },
+  {
+    "image_name": "PriorityRoadCleanNo.311",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "priority",
+    "runtime_seconds": 4.222,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\priorityRoad_clean_311.png",
+    "readability": "unclear",
+    "explanation": "The image provided is a sequence of symbols/characters, not a recognizable traffic sign.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is a sequence of symbols/characters, not a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is a sequence of symbols/characters, not a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "PriorityRoadCleanNo.684",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "priority",
+    "runtime_seconds": 5.241,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\priorityRoad_clean_684.png",
+    "readability": "unclear",
+    "explanation": "The provided image is heavily obscured and contains mostly watermarks/text, making it impossible to discern any recognizable traffic sign.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The provided image is heavily obscured and contains mostly watermarks/text, making it impossible to discern any recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The provided image is heavily obscured and contains mostly watermarks/text, making it impossible to discern any recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "PriorityRoadImpurityNo.1",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "priority",
+    "runtime_seconds": 10.558,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\priorityRoad_impurity_1.png",
+    "readability": "unclear",
+    "explanation": "The provided image is mostly obscured or contains unidentifiable content, making it impossible to assess a traffic sign.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The provided image is mostly obscured or contains unidentifiable content, making it impossible to assess a traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The provided image is mostly obscured or contains unidentifiable content, making it impossible to assess a traffic sign.\"\n}"
+  },
+  {
+    "image_name": "PriorityRoadImpurityNo.28",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "priority",
+    "runtime_seconds": 4.846,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\priorityRoad_impurity_28.png",
+    "readability": "unclear",
+    "explanation": "The image provided is a collage of many small, overlapping, and partially obscured images, not a single, clear traffic sign.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is a collage of many small, overlapping, and partially obscured images, not a single, clear traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is a collage of many small, overlapping, and partially obscured images, not a single, clear traffic sign.\"\n}"
+  },
+  {
+    "image_name": "PriorityRoadImpurityNo.33",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "priority",
+    "runtime_seconds": 4.606,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\priorityRoad_impurity_33.png",
+    "readability": "unclear",
+    "explanation": "The image contains a sequence of yellow rectangular signs, but the content within them is heavily obscured or consists of unreadable characters/symbols.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image contains a sequence of yellow rectangular signs, but the content within them is heavily obscured or consists of unreadable characters/symbols."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image contains a sequence of yellow rectangular signs, but the content within them is heavily obscured or consists of unreadable characters/symbols.\"\n}"
+  },
+  {
+    "image_name": "PriorityRoadImpurityNo.43",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "priority",
+    "runtime_seconds": 9.619,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\priorityRoad_impurity_43.png",
+    "readability": "unclear",
+    "explanation": "The image provided is a collage of text/graphics and does not contain a discernible traffic sign.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is a collage of text/graphics and does not contain a discernible traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is a collage of text/graphics and does not contain a discernible traffic sign.\"\n}"
+  },
+  {
+    "image_name": "PriorityRoadImpurityNo.52",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "priority",
+    "runtime_seconds": 5.91,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\priorityRoad_impurity_52.png",
+    "readability": "unclear",
+    "explanation": "The image provided is heavily obscured or contains unrecognizable markings, making it impossible to determine if it is a recognizable traffic sign.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is heavily obscured or contains unrecognizable markings, making it impossible to determine if it is a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is heavily obscured or contains unrecognizable markings, making it impossible to determine if it is a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "SpeedLimit30CleanNo.28",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "speed_limit",
+    "runtime_seconds": 5.418,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\speed30_clean_28.png",
+    "readability": "unclear",
+    "explanation": "The image provided consists of a series of overlapping, illegible markings that do not form a recognizable traffic sign.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided consists of a series of overlapping, illegible markings that do not form a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided consists of a series of overlapping, illegible markings that do not form a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "SpeedLimit30CleanNo.30",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "speed_limit",
+    "runtime_seconds": 5.401,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\speed30_clean_30.png",
+    "readability": "unclear",
+    "explanation": "The image provided is heavily obscured and contains unrecognizable characters, making it impossible to determine if it is a recognizable traffic sign.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is heavily obscured and contains unrecognizable characters, making it impossible to determine if it is a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is heavily obscured and contains unrecognizable characters, making it impossible to determine if it is a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "SpeedLimit30CleanNo.140",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "speed_limit",
+    "runtime_seconds": 5.447,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\speed30_clean_140.png",
+    "readability": "unclear",
+    "explanation": "The image provided is heavily obscured, making it impossible to determine if any traffic sign is present or readable.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is heavily obscured, making it impossible to determine if any traffic sign is present or readable."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is heavily obscured, making it impossible to determine if any traffic sign is present or readable.\"\n}"
+  },
+  {
+    "image_name": "SpeedLimit30CleanNo.146",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "speed_limit",
+    "runtime_seconds": 5.218,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\speed30_clean_146.png",
+    "readability": "unclear",
+    "explanation": "The image provided is mostly composed of abstract shapes and text fragments, not a recognizable traffic sign.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is mostly composed of abstract shapes and text fragments, not a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is mostly composed of abstract shapes and text fragments, not a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "SpeedLimit30CleanNo.149",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "speed_limit",
+    "runtime_seconds": 7.097,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\speed30_clean_149.png",
+    "readability": "unclear",
+    "explanation": "The image contains multiple overlapping, partially obscured, and fragmented text/symbols, making it impossible to determine a single clear sign.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image contains multiple overlapping, partially obscured, and fragmented text/symbols, making it impossible to determine a single clear sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image contains multiple overlapping, partially obscured, and fragmented text/symbols, making it impossible to determine a single clear sign.\"\n}"
+  },
+  {
+    "image_name": "SpeedLimit30ImpurityNo.25",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "speed_limit",
+    "runtime_seconds": 4.89,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\speed30_impurity_25.png",
+    "readability": "unclear",
+    "explanation": "The image provided is heavily obscured and contains fragmented, unreadable characters, making it impossible to determine the content of a traffic sign.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is heavily obscured and contains fragmented, unreadable characters, making it impossible to determine the content of a traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is heavily obscured and contains fragmented, unreadable characters, making it impossible to determine the content of a traffic sign.\"\n}"
+  },
+  {
+    "image_name": "SpeedLimit30ImpurityNo.31",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "speed_limit",
+    "runtime_seconds": 5.821,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\speed30_impurity_31.png",
+    "readability": "unclear",
+    "explanation": "The image provided is heavily obscured and contains fragmented, unidentifiable characters, making it impossible to determine if it represents a recognizable traffic sign.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is heavily obscured and contains fragmented, unidentifiable characters, making it impossible to determine if it represents a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is heavily obscured and contains fragmented, unidentifiable characters, making it impossible to determine if it represents a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "SpeedLimit30ImpurityNo.35",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "speed_limit",
+    "runtime_seconds": 5.483,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\speed30_impurity_35.png",
+    "readability": "unclear",
+    "explanation": "The image provided is a collage of various red and white rectangular shapes, not a recognizable traffic sign.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is a collage of various red and white rectangular shapes, not a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is a collage of various red and white rectangular shapes, not a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "SpeedLimit30ImpurityNo.174",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "speed_limit",
+    "runtime_seconds": 37.678,
+    "error": "1 validation error for Task1BaselineResult\n  Invalid JSON: EOF while parsing a value at line 1 column 0 [type=json_invalid, input_value='', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid"
+  },
+  {
+    "image_name": "SpeedLimit30ImpurityNo.197",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "speed_limit",
+    "runtime_seconds": 6.635,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\speed30_impurity_197.png",
+    "readability": "unclear",
+    "explanation": "The image contains fragmented and unclear characters, making it impossible to determine the sign's meaning.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image contains fragmented and unclear characters, making it impossible to determine the sign's meaning."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image contains fragmented and unclear characters, making it impossible to determine the sign's meaning.\"\n}"
+  },
+  {
+    "image_name": "StopCleanNo.1",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "stop",
+    "runtime_seconds": 5.183,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\stop_clean_1.png",
+    "readability": "unclear",
+    "explanation": "The image contains a sequence of red and yellow markings, but no recognizable standard traffic sign is present.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image contains a sequence of red and yellow markings, but no recognizable standard traffic sign is present."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image contains a sequence of red and yellow markings, but no recognizable standard traffic sign is present.\"\n}"
+  },
+  {
+    "image_name": "StopCleanNo.90",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "stop",
+    "runtime_seconds": 9.528,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\stop_clean_90.png",
+    "readability": "unclear",
+    "explanation": "The provided image is heavily obscured or contains unidentifiable markings, making it impossible to determine the content of a traffic sign.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The provided image is heavily obscured or contains unidentifiable markings, making it impossible to determine the content of a traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The provided image is heavily obscured or contains unidentifiable markings, making it impossible to determine the content of a traffic sign.\"\n}"
+  },
+  {
+    "image_name": "StopCleanNo.106",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "stop",
+    "runtime_seconds": 6.29,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\stop_clean_106.png",
+    "readability": "unclear",
+    "explanation": "The image provided is heavily occluded by a large, reddish-brown background, making the text of the sign illegible.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is heavily occluded by a large, reddish-brown background, making the text of the sign illegible."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is heavily occluded by a large, reddish-brown background, making the text of the sign illegible.\"\n}"
+  },
+  {
+    "image_name": "StopCleanNo.308",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "stop",
+    "runtime_seconds": 8.509,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\stop_clean_308.png",
+    "readability": "unclear",
+    "explanation": "The provided image is heavily obscured or contains unidentifiable markings, making it impossible to determine the content of a traffic sign.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The provided image is heavily obscured or contains unidentifiable markings, making it impossible to determine the content of a traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The provided image is heavily obscured or contains unidentifiable markings, making it impossible to determine the content of a traffic sign.\"\n}"
+  },
+  {
+    "image_name": "StopCleanNo.326",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "stop",
+    "runtime_seconds": 5.864,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\stop_clean_326.png",
+    "readability": "unclear",
+    "explanation": "The provided image is heavily obscured and contains mostly red shapes, making it impossible to discern any recognizable traffic sign.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The provided image is heavily obscured and contains mostly red shapes, making it impossible to discern any recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The provided image is heavily obscured and contains mostly red shapes, making it impossible to discern any recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "StopImpurityNo.0",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "stop",
+    "runtime_seconds": 3.567,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\stop_impurity_0.png",
+    "readability": "readable",
+    "explanation": "The sign is clearly visible and legible.",
+    "result": {
+      "readability": "readable",
+      "explanation": "The sign is clearly visible and legible."
+    },
+    "raw_response": "{\n  \"readability\": \"readable\",\n  \"explanation\": \"The sign is clearly visible and legible.\"\n}"
+  },
+  {
+    "image_name": "StopImpurityNo.25",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "stop",
+    "runtime_seconds": 5.994,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\stop_impurity_25.png",
+    "readability": "unclear",
+    "explanation": "The image provided is heavily obscured and contains unrecognizable characters, making it impossible to determine if it is a recognizable traffic sign.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image provided is heavily obscured and contains unrecognizable characters, making it impossible to determine if it is a recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image provided is heavily obscured and contains unrecognizable characters, making it impossible to determine if it is a recognizable traffic sign.\"\n}"
+  },
+  {
+    "image_name": "StopImpurityNo.68",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "stop",
+    "runtime_seconds": 7.877,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\stop_impurity_68.png",
+    "readability": "unclear",
+    "explanation": "The provided image is mostly obscured or contains unidentifiable characters, making it unclear.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The provided image is mostly obscured or contains unidentifiable characters, making it unclear."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The provided image is mostly obscured or contains unidentifiable characters, making it unclear.\"\n}"
+  },
+  {
+    "image_name": "StopImpurityNo.116",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "stop",
+    "runtime_seconds": 2.115,
+    "error": "1 validation error for Task1BaselineResult\n  Invalid JSON: EOF while parsing a value at line 1 column 0 [type=json_invalid, input_value='', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid"
+  },
+  {
+    "image_name": "StopImpurityNo.458",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "sign_type": "stop",
+    "runtime_seconds": 4.778,
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\6.7实现自动化评估测试结果\\dataset\\stop_impurity_458.png",
+    "readability": "unclear",
+    "explanation": "The image appears to be a collage or a heavily textured surface, not a clear, recognizable traffic sign.",
+    "result": {
+      "readability": "unclear",
+      "explanation": "The image appears to be a collage or a heavily textured surface, not a clear, recognizable traffic sign."
+    },
+    "raw_response": "{\n  \"readability\": \"unclear\",\n  \"explanation\": \"The image appears to be a collage or a heavily textured surface, not a clear, recognizable traffic sign.\"\n}"
+  }
+]

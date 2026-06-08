@@ -1,0 +1,402 @@
+[
+  {
+    "image_name": "DriveRightCleanNo.2",
+    "model": "ground_truth",
+    "sign_type": "drive_right",
+    "overall_readability": "not_affected",
+    "impurity_present": "no",
+    "impurity_types": []
+  },
+  {
+    "image_name": "DriveRightCleanNo.6",
+    "model": "ground_truth",
+    "sign_type": "drive_right",
+    "overall_readability": "not_affected",
+    "impurity_present": "no",
+    "impurity_types": []
+  },
+  {
+    "image_name": "DriveRightCleanNo.10",
+    "model": "ground_truth",
+    "sign_type": "drive_right",
+    "overall_readability": "not_affected",
+    "impurity_present": "yes",
+    "impurity_types": ["contamination"]
+  },
+  {
+    "image_name": "DriveRightCleanNo.159",
+    "model": "ground_truth",
+    "sign_type": "drive_right",
+    "overall_readability": "not_affected",
+    "impurity_present": "no",
+    "impurity_types": []
+  },  
+  {
+    "image_name": "DriveRightCleanNo.172",
+    "model": "ground_truth",
+    "sign_type": "drive_right",
+    "overall_readability": "not_affected",
+    "impurity_present": "yes",
+    "impurity_types": ["contamination", "graffiti"]
+  },
+  {
+    "image_name": "DriveRightImpurityNo.13",
+    "model": "ground_truth",
+    "sign_type": "drive_right",
+    "overall_readability": "not_affected",
+    "impurity_present": "yes",
+    "impurity_types": ["contamination", "graffiti"]
+  },
+  {
+    "image_name": "DriveRightImpurityNo.21",
+    "model": "ground_truth",
+    "sign_type": "drive_right",
+    "overall_readability": "not_affected",
+    "impurity_present": "yes",
+    "impurity_types": ["contamination", "graffiti"]
+  },
+  {
+    "image_name": "DriveRightImpurityNo.42",
+    "model": "ground_truth",
+    "sign_type": "drive_right",
+    "overall_readability": "severely_affected",
+    "impurity_present": "yes",
+    "impurity_types": ["contamination", "graffiti"]
+  },
+  {
+    "image_name": "DriveRightImpurityNo.52",
+    "model": "ground_truth",
+    "sign_type": "drive_right",
+    "overall_readability": "not_affected",
+    "impurity_present": "yes",
+    "impurity_types": ["sticker"]
+  },
+  {
+    "image_name": "DriveRightImpurityNo.164",
+    "model": "ground_truth",
+    "sign_type": "drive_right",
+    "overall_readability": "not_affected",
+    "impurity_present": "yes",
+    "impurity_types": ["graffiti", "sticker"]
+  },
+  {
+    "image_name": "NoStopCleanNo.13",
+    "model": "ground_truth",
+    "sign_type": "no_stop",
+    "overall_readability": "not_affected",
+    "impurity_present": "yes",
+    "impurity_types": ["contamination"]
+  },
+  {
+    "image_name": "NoStopCleanNo.47",
+    "model": "ground_truth",
+    "sign_type": "no_stop",
+    "overall_readability": "not_affected",
+    "impurity_present": "no",
+    "impurity_types": []
+  },
+  {
+    "image_name": "NoStopCleanNo.61",
+    "model": "ground_truth",
+    "sign_type": "no_stop",
+    "overall_readability": "not_affected",
+    "impurity_present": "yes",
+    "impurity_types": ["contamination"]
+  },
+  {
+    "image_name": "NoStopCleanNo.158",
+    "model": "ground_truth",
+    "sign_type": "no_stop",
+    "overall_readability": "not_affected",
+    "impurity_present": "yes",
+    "impurity_types": ["contamination"]
+  },
+  {
+    "image_name": "NoStopCleanNo.163",
+    "model": "ground_truth",
+    "sign_type": "no_stop",
+    "overall_readability": "not_affected",
+    "impurity_present": "no",
+    "impurity_types": []
+  },
+ {
+    "image_name": "NoStopImpurityNo.17",
+    "model": "ground_truth",
+    "sign_type": "no_stop",
+    "overall_readability": "not_affected",
+    "impurity_present": "yes",
+    "impurity_types": ["sticker"]
+  },
+  {
+    "image_name": "NoStopImpurityNo.30",
+    "model": "ground_truth",
+    "sign_type": "no_stop",
+    "overall_readability": "severely_affected",
+    "impurity_present": "yes",
+    "impurity_types": ["discoloration"]
+  },
+  {
+    "image_name": "NoStopImpurityNo.40",
+    "model": "ground_truth",
+    "sign_type": "no_stop",
+    "overall_readability": "severely_affected",
+    "impurity_present": "yes",
+    "impurity_types": ["sticker"]
+  },
+  {
+    "image_name": "NoStopImpurityNo.41",
+    "model": "ground_truth",
+    "sign_type": "no_stop",
+    "overall_readability": "not_affected",
+    "impurity_present": "yes",
+    "impurity_types": ["sticker"]
+  },
+  {
+    "image_name": "NoStopImpurityNo.173",
+    "model": "ground_truth",
+    "sign_type": "no_stop",
+    "overall_readability": "not_affected",
+    "impurity_present": "yes",
+    "impurity_types": ["sticker"]
+  },
+  {
+    "image_name": "PriorityRoadCleanNo.25",
+    "model": "ground_truth",
+    "sign_type": "priority",
+    "overall_readability": "not_affected",
+    "impurity_present": "yes",
+    "impurity_types": ["contamination"]
+  },
+  {
+    "image_name": "PriorityRoadCleanNo.58",
+    "model": "ground_truth",
+    "sign_type": "priority",
+    "overall_readability": "not_affected",
+    "impurity_present": "yes",
+    "impurity_types": ["contamination"]
+  },
+  {
+    "image_name": "PriorityRoadCleanNo.61",
+    "model": "ground_truth",
+    "sign_type": "priority",
+    "overall_readability": "not_affected",
+    "impurity_present": "yes",
+    "impurity_types": ["contamination"]
+  },
+  {
+    "image_name": "PriorityRoadCleanNo.311",
+    "model": "ground_truth",
+    "sign_type": "priority",
+    "overall_readability": "not_affected",
+    "impurity_present": "yes",
+    "impurity_types": ["contamination"]
+  },
+  {
+    "image_name": "PriorityRoadCleanNo.684",
+    "model": "ground_truth",
+    "sign_type": "priority",
+    "overall_readability": "not_affected",
+    "impurity_present": "yes",
+    "impurity_types": ["contamination"]
+  },
+  {
+    "image_name": "PriorityRoadImpurityNo.1",
+    "model": "ground_truth",
+    "sign_type": "priority",
+    "overall_readability": "not_affected",
+    "impurity_present": "yes",
+    "impurity_types": ["contamination", "sticker"]
+  },
+  {
+    "image_name": "PriorityRoadImpurityNo.28",
+    "model": "ground_truth",
+    "sign_type": "priority",
+    "overall_readability": "not_affected",
+    "impurity_present": "yes",
+    "impurity_types": ["contamination", "sticker"]
+  },
+  {
+    "image_name": "PriorityRoadImpurityNo.33",
+    "model": "ground_truth",
+    "sign_type": "priority",
+    "overall_readability": "not_affected",
+    "impurity_present": "yes",
+    "impurity_types": ["contamination", "sticker"]
+  },
+  {
+    "image_name": "PriorityRoadImpurityNo.43",
+    "model": "ground_truth",
+    "sign_type": "priority",
+    "overall_readability": "not_affected",
+    "impurity_present": "yes",
+    "impurity_types": ["graffiti", "sticker", "contamination"]
+  },
+  {
+    "image_name": "PriorityRoadImpurityNo.52",
+    "model": "ground_truth",
+    "sign_type": "priority",
+    "overall_readability": "severely_affected",
+    "impurity_present": "yes",
+    "impurity_types": ["graffiti"]
+  },
+  {
+    "image_name": "SpeedLimit30CleanNo.28",
+    "model": "ground_truth",
+    "sign_type": "speed_limit",
+    "overall_readability": "not_affected",
+    "impurity_present": "yes",
+    "impurity_types": ["contamination"]
+  },
+  {
+    "image_name": "SpeedLimit30CleanNo.30",
+    "model": "ground_truth",
+    "sign_type": "speed_limit",
+    "overall_readability": "not_affected",
+    "impurity_present": "yes",
+    "impurity_types": ["contamination"]
+  },
+  {
+    "image_name": "SpeedLimit30CleanNo.140",
+    "model": "ground_truth",
+    "sign_type": "speed_limit",
+    "overall_readability": "not_affected",
+    "impurity_present": "no",
+    "impurity_types": []
+  },
+  {
+    "image_name": "SpeedLimit30CleanNo.146",
+    "model": "ground_truth",
+    "sign_type": "speed_limit",
+    "overall_readability": "not_affected",
+    "impurity_present": "no",
+    "impurity_types": []
+  },
+  {
+    "image_name": "SpeedLimit30CleanNo.149",
+    "model": "ground_truth",
+    "sign_type": "speed_limit",
+    "overall_readability": "not_affected",
+    "impurity_present": "no",
+    "impurity_types": []
+  },
+  {
+    "image_name": "SpeedLimit30ImpurityNo.25",
+    "model": "ground_truth",
+    "sign_type": "speed_limit",
+    "overall_readability": "not_affected",
+    "impurity_present": "yes",
+    "impurity_types": ["sticker"]
+  },
+  {
+    "image_name": "SpeedLimit30ImpurityNo.31",
+    "model": "ground_truth",
+    "sign_type": "speed_limit",
+    "overall_readability": "not_affected",
+    "impurity_present": "yes",
+    "impurity_types": ["sticker"]
+  },
+  {
+    "image_name": "SpeedLimit30ImpurityNo.35",
+    "model": "ground_truth",
+    "sign_type": "speed_limit",
+    "overall_readability": "not_affected",
+    "impurity_present": "yes",
+    "impurity_types": ["sticker"]
+  },
+  {
+    "image_name": "SpeedLimit30ImpurityNo.174",
+    "model": "ground_truth",
+    "sign_type": "speed_limit",
+    "overall_readability": "not_affected",
+    "impurity_present": "yes",
+    "impurity_types": ["sticker"]
+  },
+  {
+    "image_name": "SpeedLimit30ImpurityNo.197",
+    "model": "ground_truth",
+    "sign_type": "speed_limit",
+    "overall_readability": "not_affected",
+    "impurity_present": "yes",
+    "impurity_types": ["sticker"]
+  },
+  {
+    "image_name": "StopCleanNo.1",
+    "model": "ground_truth",
+    "sign_type": "stop",
+    "overall_readability": "not_affected",
+    "impurity_present": "yes",
+    "impurity_types": ["contamination"]
+  },
+  {
+    "image_name": "StopCleanNo.90",
+    "model": "ground_truth",
+    "sign_type": "stop",
+    "overall_readability": "not_affected",
+    "impurity_present": "no",
+    "impurity_types": []
+  },
+  {
+    "image_name": "StopCleanNo.106",
+    "model": "ground_truth",
+    "sign_type": "stop",
+    "overall_readability": "not_affected",
+    "impurity_present": "no",
+    "impurity_types": []
+  },
+  {
+    "image_name": "StopCleanNo.308",
+    "model": "ground_truth",
+    "sign_type": "stop",
+    "overall_readability": "not_affected",
+    "impurity_present": "no",
+    "impurity_types": []
+  },
+  {
+    "image_name": "StopCleanNo.326",
+    "model": "ground_truth",
+    "sign_type": "stop",
+    "overall_readability": "not_affected",
+    "impurity_present": "no",
+    "impurity_types": []
+  },
+  {
+    "image_name": "StopImpurityNo.0",
+    "model": "ground_truth",
+    "sign_type": "stop",
+    "overall_readability": "not_affected",
+    "impurity_present": "yes",
+    "impurity_types": ["sticker"]
+  },
+  {
+    "image_name": "StopImpurityNo.25",
+    "model": "ground_truth",
+    "sign_type": "stop",
+    "overall_readability": "not_affected",
+    "impurity_present": "yes",
+    "impurity_types": ["sticker"]
+  },
+  {
+    "image_name": "StopImpurityNo.68",
+    "model": "ground_truth",
+    "sign_type": "stop",
+    "overall_readability": "not_affected",
+    "impurity_present": "yes",
+    "impurity_types": ["sticker"]
+  },
+  {
+    "image_name": "StopImpurityNo.116",
+    "model": "ground_truth",
+    "sign_type": "stop",
+    "overall_readability": "not_affected",
+    "impurity_present": "yes",
+    "impurity_types": ["sticker"]
+  },
+  {
+    "image_name": "StopImpurityNo.458",
+    "model": "ground_truth",
+    "sign_type": "stop",
+    "overall_readability": "not_affected",
+    "impurity_present": "yes",
+    "impurity_types": ["sticker"]
+  }
+]

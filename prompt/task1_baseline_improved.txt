@@ -1,0 +1,17 @@
+Analyze one traffic-sign image.
+
+Return JSON only:
+{
+  "image_name": "{image_name}",
+  "overall_readability": "not_affected | partially_affected | severely_affected | uncertain",
+  "readability_evidence": "short reason",
+  "impurity_present": "yes | no | uncertain",
+  "impurity_types": ["sticker | paint_loss | discoloration | burn_or_blackening | graffiti | contamination | damage"]
+}
+
+Rules:
+- Do not classify the sign type.
+- Judge visible impurity and readability impact.
+- Use "uncertain" if the image is too unclear.
+- If no impurity: "impurity_present": "no", "impurity_types": [].
+- If impurity exists: "impurity_present": "yes", list all impurity types.

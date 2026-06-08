@@ -1,0 +1,160 @@
+[
+  {
+    "image_name": "DriveRightCleanNo.2",
+    "runtime_seconds": 23.778,
+    "result": {
+      "image_name": "DriveRightCleanNo.2",
+      "model": "bjoernb/gemma4-e2b-think:latest",
+      "runtime_seconds": 23.778,
+      "sign_type": "drive_right",
+      "overall_readability": "not_affected",
+      "readability_evidence": "The sign is clear and fully readable.",
+      "impurity_present": "no",
+      "impurity_types": []
+    },
+    "raw_response": "{\"image_name\": \"driveRight_clean_2.png\", \"model\": \"gemma4:e2b-it-q4_K_M\", \"runtime_seconds\": 10.563, \"sign_type\": \"drive_right\", \"overall_readability\": \"not_affected\", \"readability_evidence\": \"The sign is clear and fully readable.\", \"impurity_present\": \"no\", \"impurity_types\": []}"
+  },
+  {
+    "image_name": "DriveRightCleanNo.6",
+    "runtime_seconds": 8.484,
+    "result": {
+      "image_name": "DriveRightCleanNo.6",
+      "model": "bjoernb/gemma4-e2b-think:latest",
+      "runtime_seconds": 8.484,
+      "sign_type": "drive_right",
+      "overall_readability": "partially_affected",
+      "readability_evidence": "The sign is still recognizable, but visible dark marks reduce readability.",
+      "impurity_present": "yes",
+      "impurity_types": [
+        "paint_loss",
+        "discoloration"
+      ]
+    },
+    "raw_response": "{\n  \"image_name\": \"driveRight_clean_999.png\",\n  \"model\": \"gemma4:e2b-it-q4_K_M\",\n  \"runtime_seconds\": 10.121,\n  \"sign_type\": \"drive_right\",\n  \"overall_readability\": \"partially_affected\",\n  \"readability_evidence\": \"The sign is still recognizable, but visible dark marks reduce readability.\",\n  \"impurity_present\": \"yes\",\n  \"impurity_types\": [\n    \"paint_loss\",\n    \"discoloration\"\n  ]\n}"
+  },
+  {
+    "image_name": "DriveRightCleanNo.10",
+    "runtime_seconds": 7.343,
+    "result": {
+      "image_name": "DriveRightCleanNo.10",
+      "model": "bjoernb/gemma4-e2b-think:latest",
+      "runtime_seconds": 7.343,
+      "sign_type": "drive_right",
+      "overall_readability": "not_affected",
+      "readability_evidence": "The sign is clear and fully readable.",
+      "impurity_present": "no",
+      "impurity_types": []
+    },
+    "raw_response": "{\n  \"image_name\": \"driveRight_clean_10.png\",\n  \"model\": \"gemma4:e2b-it-q4_K_M\",\n  \"runtime_seconds\": 10.121,\n  \"sign_type\": \"drive_right\",\n  \"overall_readability\": \"not_affected\",\n  \"readability_evidence\": \"The sign is clear and fully readable.\",\n  \"impurity_present\": \"no\",\n  \"impurity_types\": []\n}"
+  },
+  {
+    "image_name": "DriveRightCleanNo.159",
+    "runtime_seconds": 8.284,
+    "result": {
+      "image_name": "DriveRightCleanNo.159",
+      "model": "bjoernb/gemma4-e2b-think:latest",
+      "runtime_seconds": 8.284,
+      "sign_type": "drive_right",
+      "overall_readability": "not_affected",
+      "readability_evidence": "The sign is clearly visible and fully readable.",
+      "impurity_present": "no",
+      "impurity_types": []
+    },
+    "raw_response": "{\n  \"image_name\": \"driveRight_clean_1.png\",\n  \"model\": \"gemma4:e2b-it-q4_K_M\",\n  \"runtime_seconds\": 10.121,\n  \"sign_type\": \"drive_right\",\n  \"overall_readability\": \"not_affected\",\n  \"readability_evidence\": \"The sign is clearly visible and fully readable.\",\n  \"impurity_present\": \"no\",\n  \"impurity_types\": []\n}"
+  },
+  {
+    "image_name": "DriveRightCleanNo.172",
+    "runtime_seconds": 6.894,
+    "result": {
+      "image_name": "DriveRightCleanNo.172",
+      "model": "bjoernb/gemma4-e2b-think:latest",
+      "runtime_seconds": 6.894,
+      "sign_type": "drive_right",
+      "overall_readability": "not_affected",
+      "readability_evidence": "Image B is a clean version of the sign and shows no visible surface anomalies.",
+      "impurity_present": "no",
+      "impurity_types": []
+    },
+    "raw_response": "{\n  \"image_name\": \"driveRight_clean_172.png\",\n  \"model\": \"gemma4:e2b-it-q4_K_M\",\n  \"runtime_seconds\": 3.56,\n  \"sign_type\": \"drive_right\",\n  \"overall_readability\": \"not_affected\",\n  \"readability_evidence\": \"Image B is a clean version of the sign and shows no visible surface anomalies.\",\n  \"impurity_present\": \"no\",\n  \"impurity_types\": []\n}"
+  },
+  {
+    "image_name": "DriveRightImpurityNo.13",
+    "runtime_seconds": 7.772,
+    "result": {
+      "image_name": "DriveRightImpurityNo.13",
+      "model": "bjoernb/gemma4-e2b-think:latest",
+      "runtime_seconds": 7.772,
+      "sign_type": "drive_right",
+      "overall_readability": "partially_affected",
+      "readability_evidence": "The sign is partially obscured by a dark mark across the center.",
+      "impurity_present": "yes",
+      "impurity_types": [
+        "burn_or_blackening"
+      ]
+    },
+    "raw_response": "{\"image_name\": \"drive_right_anomalous.png\", \"model\": \"gemma4:e2b-it-q4_K_M\", \"runtime_seconds\": 10.121, \"sign_type\": \"drive_right\", \"overall_readability\": \"partially_affected\", \"readability_evidence\": \"The sign is partially obscured by a dark mark across the center.\", \"impurity_present\": \"yes\", \"impurity_types\": [\"burn_or_blackening\"]}"
+  },
+  {
+    "image_name": "DriveRightImpurityNo.21",
+    "runtime_seconds": 8.652,
+    "result": {
+      "image_name": "DriveRightImpurityNo.21",
+      "model": "bjoernb/gemma4-e2b-think:latest",
+      "runtime_seconds": 8.652,
+      "sign_type": "drive_right",
+      "overall_readability": "not_affected",
+      "readability_evidence": "The sign remains clearly visible and readable.",
+      "impurity_present": "no",
+      "impurity_types": []
+    },
+    "raw_response": "{\n  \"image_name\": \"drive_right_impurity_21 - 副本.png\",\n  \"model\": \"gemma4:e2b-it-q4_K_M\",\n  \"runtime_seconds\": 10.567,\n  \"sign_type\": \"drive_right\",\n  \"overall_readability\": \"not_affected\",\n  \"readability_evidence\": \"The sign remains clearly visible and readable.\",\n  \"impurity_present\": \"no\",\n  \"impurity_types\": []\n}"
+  },
+  {
+    "image_name": "DriveRightImpurityNo.42",
+    "runtime_seconds": 7.762,
+    "result": {
+      "image_name": "DriveRightImpurityNo.42",
+      "model": "bjoernb/gemma4-e2b-think:latest",
+      "runtime_seconds": 7.762,
+      "sign_type": "drive_right",
+      "overall_readability": "partially_affected",
+      "readability_evidence": "The sign is still recognizable, but visible dark marks reduce readability.",
+      "impurity_present": "yes",
+      "impurity_types": [
+        "paint_loss",
+        "discoloration"
+      ]
+    },
+    "raw_response": "{\n  \"image_name\": \"drive_right_impurity_12345.png\",\n  \"model\": \"gemma4:e2b-it-q4_K_M\",\n  \"runtime_seconds\": 10.121,\n  \"sign_type\": \"drive_right\",\n  \"overall_readability\": \"partially_affected\",\n  \"readability_evidence\": \"The sign is still recognizable, but visible dark marks reduce readability.\",\n  \"impurity_present\": \"yes\",\n  \"impurity_types\": [\n    \"paint_loss\",\n    \"discoloration\"\n  ]\n}"
+  },
+  {
+    "image_name": "DriveRightImpurityNo.52",
+    "runtime_seconds": 9.12,
+    "result": {
+      "image_name": "DriveRightImpurityNo.52",
+      "model": "bjoernb/gemma4-e2b-think:latest",
+      "runtime_seconds": 9.12,
+      "sign_type": "drive_right",
+      "overall_readability": "not_affected",
+      "readability_evidence": "The sign remains fully readable with no visible surface anomalies.",
+      "impurity_present": "no",
+      "impurity_types": []
+    },
+    "raw_response": "{\n  \"image_name\": \"drive_right_impurity_52 - 副本.png\",\n  \"model\": \"gemma4:e2b-it-q4_K_M\",\n  \"runtime_seconds\": 10.121,\n  \"sign_type\": \"drive_right\",\n  \"overall_readability\": \"not_affected\",\n  \"readability_evidence\": \"The sign remains fully readable with no visible surface anomalies.\",\n  \"impurity_present\": \"no\",\n  \"impurity_types\": []\n}"
+  },
+  {
+    "image_name": "DriveRightImpurityNo.164",
+    "runtime_seconds": 10.355,
+    "result": {
+      "image_name": "DriveRightImpurityNo.164",
+      "model": "bjoernb/gemma4-e2b-think:latest",
+      "runtime_seconds": 10.355,
+      "sign_type": "drive_right",
+      "overall_readability": "not_affected",
+      "readability_evidence": "The sign is clearly visible and fully readable.",
+      "impurity_present": "no",
+      "impurity_types": []
+    },
+    "raw_response": "{\"image_name\": \"driveRight_impurity_12345.png\", \"model\": \"gemma4:e2b-it-q4_K_M\", \"runtime_seconds\": 10.121, \"sign_type\": \"drive_right\", \"overall_readability\": \"not_affected\", \"readability_evidence\": \"The sign is clearly visible and fully readable.\", \"impurity_present\": \"no\", \"impurity_types\": []}"
+  }
+]

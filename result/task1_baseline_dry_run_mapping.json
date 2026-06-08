@@ -1,0 +1,252 @@
+[
+  {
+    "order": 1,
+    "image_name": "DriveRightCleanNo.2",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\driveRight_clean_2.png"
+  },
+  {
+    "order": 2,
+    "image_name": "DriveRightCleanNo.6",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\driveRight_clean_6.png"
+  },
+  {
+    "order": 3,
+    "image_name": "DriveRightCleanNo.10",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\driveRight_clean_10.png"
+  },
+  {
+    "order": 4,
+    "image_name": "DriveRightCleanNo.159",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\driveRight_clean_159 - 副本.png"
+  },
+  {
+    "order": 5,
+    "image_name": "DriveRightCleanNo.172",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\driveRight_clean_172.png"
+  },
+  {
+    "order": 6,
+    "image_name": "DriveRightImpurityNo.13",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\driveRight_impurity_13 - 副本.png"
+  },
+  {
+    "order": 7,
+    "image_name": "DriveRightImpurityNo.21",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\driveRight_impurity_21 - 副本.png"
+  },
+  {
+    "order": 8,
+    "image_name": "DriveRightImpurityNo.42",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\driveRight_impurity_42 - 副本.png"
+  },
+  {
+    "order": 9,
+    "image_name": "DriveRightImpurityNo.52",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\driveRight_impurity_52 - 副本.png"
+  },
+  {
+    "order": 10,
+    "image_name": "DriveRightImpurityNo.164",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\driveRight_impurity_164 - 副本.png"
+  },
+  {
+    "order": 11,
+    "image_name": "NoStopCleanNo.13",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\noStop_clean_13.png"
+  },
+  {
+    "order": 12,
+    "image_name": "NoStopCleanNo.47",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\noStop_clean_47.png"
+  },
+  {
+    "order": 13,
+    "image_name": "NoStopCleanNo.61",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\noStop_clean_61.png"
+  },
+  {
+    "order": 14,
+    "image_name": "NoStopCleanNo.158",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\noStop_clean_158.png"
+  },
+  {
+    "order": 15,
+    "image_name": "NoStopCleanNo.163",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\noStop_clean_163.png"
+  },
+  {
+    "order": 16,
+    "image_name": "NoStopImpurityNo.17",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\noStop_impurity_17.png"
+  },
+  {
+    "order": 17,
+    "image_name": "NoStopImpurityNo.30",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\noStop_impurity_30.png"
+  },
+  {
+    "order": 18,
+    "image_name": "NoStopImpurityNo.40",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\noStop_impurity_40.png"
+  },
+  {
+    "order": 19,
+    "image_name": "NoStopImpurityNo.41",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\noStop_impurity_41.png"
+  },
+  {
+    "order": 20,
+    "image_name": "NoStopImpurityNo.173",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\noStop_impurity_173.png"
+  },
+  {
+    "order": 21,
+    "image_name": "PriorityRoadCleanNo.25",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\priorityRoad_clean_25.png"
+  },
+  {
+    "order": 22,
+    "image_name": "PriorityRoadCleanNo.58",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\priorityRoad_clean_58.png"
+  },
+  {
+    "order": 23,
+    "image_name": "PriorityRoadCleanNo.61",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\priorityRoad_clean_61.png"
+  },
+  {
+    "order": 24,
+    "image_name": "PriorityRoadCleanNo.311",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\priorityRoad_clean_311.png"
+  },
+  {
+    "order": 25,
+    "image_name": "PriorityRoadCleanNo.684",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\priorityRoad_clean_684.png"
+  },
+  {
+    "order": 26,
+    "image_name": "PriorityRoadImpurityNo.1",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\priorityRoad_impurity_1.png"
+  },
+  {
+    "order": 27,
+    "image_name": "PriorityRoadImpurityNo.28",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\priorityRoad_impurity_28.png"
+  },
+  {
+    "order": 28,
+    "image_name": "PriorityRoadImpurityNo.33",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\priorityRoad_impurity_33.png"
+  },
+  {
+    "order": 29,
+    "image_name": "PriorityRoadImpurityNo.43",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\priorityRoad_impurity_43.png"
+  },
+  {
+    "order": 30,
+    "image_name": "PriorityRoadImpurityNo.52",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\priorityRoad_impurity_52.png"
+  },
+  {
+    "order": 31,
+    "image_name": "SpeedLimit30CleanNo.28",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\speed30_clean_28.png"
+  },
+  {
+    "order": 32,
+    "image_name": "SpeedLimit30CleanNo.30",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\speed30_clean_30.png"
+  },
+  {
+    "order": 33,
+    "image_name": "SpeedLimit30CleanNo.140",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\speed30_clean_140.png"
+  },
+  {
+    "order": 34,
+    "image_name": "SpeedLimit30CleanNo.146",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\speed30_clean_146.png"
+  },
+  {
+    "order": 35,
+    "image_name": "SpeedLimit30CleanNo.149",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\speed30_clean_149.png"
+  },
+  {
+    "order": 36,
+    "image_name": "SpeedLimit30ImpurityNo.25",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\speed30_impurity_25.png"
+  },
+  {
+    "order": 37,
+    "image_name": "SpeedLimit30ImpurityNo.31",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\speed30_impurity_31.png"
+  },
+  {
+    "order": 38,
+    "image_name": "SpeedLimit30ImpurityNo.35",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\speed30_impurity_35.png"
+  },
+  {
+    "order": 39,
+    "image_name": "SpeedLimit30ImpurityNo.174",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\speed30_impurity_174.png"
+  },
+  {
+    "order": 40,
+    "image_name": "SpeedLimit30ImpurityNo.197",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\speed30_impurity_197.png"
+  },
+  {
+    "order": 41,
+    "image_name": "StopCleanNo.1",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\stop_clean_1.png"
+  },
+  {
+    "order": 42,
+    "image_name": "StopCleanNo.90",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\stop_clean_90.png"
+  },
+  {
+    "order": 43,
+    "image_name": "StopCleanNo.106",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\stop_clean_106.png"
+  },
+  {
+    "order": 44,
+    "image_name": "StopCleanNo.308",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\stop_clean_308.png"
+  },
+  {
+    "order": 45,
+    "image_name": "StopCleanNo.326",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\stop_clean_326.png"
+  },
+  {
+    "order": 46,
+    "image_name": "StopImpurityNo.0",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\stop_impurity_0.png"
+  },
+  {
+    "order": 47,
+    "image_name": "StopImpurityNo.25",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\stop_impurity_25.png"
+  },
+  {
+    "order": 48,
+    "image_name": "StopImpurityNo.68",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\stop_impurity_68.png"
+  },
+  {
+    "order": 49,
+    "image_name": "StopImpurityNo.116",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\stop_impurity_116.png"
+  },
+  {
+    "order": 50,
+    "image_name": "StopImpurityNo.458",
+    "source_image": "D:\\Automotive Systems课件\\1.Semester\\DACAITI\\codex\\DCAITI\\data\\dataset\\stop_impurity_458.png"
+  }
+]

@@ -1,0 +1,14 @@
+You are analyzing a traffic-sign image for condition and readability/recognizability.
+
+Assess whether the sign is readable, partly readable, unreadable or when uncertain return unclear.
+A Sign might be less readable if occluded by e.g. sticker or drawings, if the color is faded or if the sign is damaged.
+
+Return only valid JSON that matches this structure:
+{
+  "readability": "readable | partly_readable | unreadable | unclear",
+  "explanation": "string"
+}
+
+Rules:
+- Keep the explanation short and practical.
+- Do not add any extra text outside the JSON.
