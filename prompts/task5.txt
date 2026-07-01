@@ -1,0 +1,59 @@
+You are analyzing a street-view road scene image.
+Your task is to extract general scene parameters that may be useful as background context for other modules.
+
+Use schema:
+{
+  "image_quality": {
+    "fixed": {
+      "is_clear": "yes | no | uncertain",
+      "brightness": "normal | too_dark | overexposed | uncertain"
+    },
+    "open_observations": []
+  },
+  "weather_time": {
+    "fixed": {
+      "weather": "clear | rain | snow | fog | unclear",
+      "time_of_day": "day | night | twilight | unclear"
+    },
+    "open_observations": []
+  },
+  "road_visibility": {
+    "fixed": {
+      "road_visible": "yes | no | uncertain",
+      "oncoming_lane_present": "yes | no | uncertain",
+      "intersection_visible": "yes | no | uncertain",
+      "visible_lane_marking_count": "none | one | multiple | unclear",
+      "road_surface_type": "paved_road | dirt_road | cobblestone_road | unclear"
+    },
+    "open_observations": []
+  }
+  "surroundings": {
+  "fixed": {
+    "front_visible_range": "within_50m | around_100m | 200m_or_more | unclear",
+    "left_side_visible_range": "within_25m | around_50m | 100m_or_more | unclear",
+    "right_side_visible_range": "within_25m | around_50m | 100m_or_more | unclear",
+    "buildings_present": "yes | no | uncertain",
+    "buildings_close_to_road": "yes | no | uncertain",
+    "building_floor_level": "none | one_floor | two_floors | three_floors | four_or_more_floors | unclear",
+    "environment_type": "urban | suburban | open_area | unclear"
+  },
+  "open_observations": []
+  }
+"traffic_context": {
+  "fixed": {
+    "traffic_density": "low | medium | high | uncertain",
+    "traffic_sign_visible": "yes | no | uncertain"
+  },
+  "open_observations": []
+  }
+}
+
+Rules:
+Only describe visible information from the image.
+Return only valid JSON.
+Use only the allowed values from the schema.
+Open observations rules:
+Each observation must be one short sentence.
+Use it only for special visible conditions that are not fully captured by the fixed fields.
+Do not repeat fixed-field information.
+If there is no special observation, output [].

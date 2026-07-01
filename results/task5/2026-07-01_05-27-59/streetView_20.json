@@ -1,0 +1,50 @@
+{
+  "image": "streetView_20.jpg",
+  "time_s": 10.89,
+  "result": {
+    "image_quality": {
+      "fixed": {
+        "is_clear": "yes",
+        "brightness": "normal"
+      },
+      "open_observations": []
+    },
+    "weather_time": {
+      "fixed": {
+        "weather": "clear",
+        "time_of_day": "day"
+      },
+      "open_observations": []
+    },
+    "road_visibility": {
+      "fixed": {
+        "road_visible": "yes",
+        "oncoming_lane_present": "no",
+        "intersection_visible": "no",
+        "visible_lane_marking_count": "multiple",
+        "road_surface_type": "paved_road"
+      },
+      "open_observations": []
+    },
+    "surroundings": {
+      "fixed": {
+        "front_visible_range": "around_100m",
+        "left_side_visible_range": "within_50m",
+        "right_side_visible_range": "around_100m",
+        "buildings_present": "yes",
+        "buildings_close_to_road": "yes",
+        "building_floor_level": "one_floor",
+        "environment_type": "urban"
+      },
+      "open_observations": []
+    },
+    "traffic_context": {
+      "fixed": {
+        "traffic_density": "low",
+        "traffic_sign_visible": "yes"
+      },
+      "open_observations": []
+    }
+  },
+  "error": null
+}
